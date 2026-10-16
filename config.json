@@ -34,13 +34,6 @@
       "verified": true
     },
     {
-      "name": "Awwwards",
-      "url": "https://www.awwwards.com/websites/sites_of_the_day/",
-      "want": "Site of the Day と Honorable Mention",
-      "verified": false,
-      "also": "https://www.awwwards.com/websites/honorable_mention/"
-    },
-    {
       "name": "CSS Design Awards",
       "url": "https://www.cssdesignawards.com/",
       "want": "Site of the Day(Website of the Day)のみ",
@@ -57,12 +50,6 @@
       "url": "https://www.siteinspire.com/websites",
       "want": "今日の更新をすべて",
       "verified": true
-    },
-    {
-      "name": "MaxiBestOf",
-      "url": "https://www.maxibestof.one/",
-      "want": "今日の更新をすべて",
-      "verified": false
     },
     {
       "name": "Minimal Gallery",

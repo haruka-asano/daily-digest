@@ -1,8 +1,8 @@
 {
   "date": "2026-10-16",
   "edition": "morning",
-  "updated": "情報は10月16日の夕方(16時ごろ)まで",
-  "footnote": "Awwwardsはこの環境から接続できず、今日は取得できませんでした。MaxiBestOfもサイト側の確認画面に止められて取得できませんでした。MUUUUU.ORG(毎日18時ごろ更新)とMinimal Gallery(毎日16時ごろ更新)は、16時すぎの時点で今日の分が出ていなかったため、前日分を載せています。Storefront.Designは2025年6月以降の更新が見当たりません。AIでは、NTT(tsuzumi)とSakana AIの今週の新しい発表は私の検索では見つけられませんでした。書体・フォント(モリサワ、Adobe Fonts)とFigmaの新しい発表、Webのアクセシビリティや規制の話題は拾えていません。16日の日経平均の終値は確認できていません。トレンドの新商品・話題の店は十分に拾えていません。お笑いナタリー・ステージナタリーはこの環境から直接読めず、ほかの媒体や公式サイトで確かめました。THE Wの今年の日程は確認できていません。ファッションは拾えていません。Xの話題は、Yahoo!リアルタイム検索(9ページ、16日15時台)から拾ったもので、投稿の数字や中身はニュースで確かめたものではありません。",
+  "asof": "16:10",
+  "footnote": "Awwwards(この環境から接続できない)とMaxiBestOf(サイト側の確認画面に止められる)は取得できず、ギャラリーの対象から外しました。MUUUUU.ORG(毎日18時ごろ更新)とMinimal Gallery(毎日16時ごろ更新)は、16時すぎの時点で今日の分が出ていなかったため、前日分を載せています。Storefront.Designは2025年6月以降の更新が見当たりません。AIでは、NTT(tsuzumi)とSakana AIの今週の新しい発表は私の検索では見つけられませんでした。書体・フォント(モリサワ、Adobe Fonts)とFigmaの新しい発表、Webのアクセシビリティや規制の話題は拾えていません。16日の日経平均の終値は確認できていません。トレンドの新商品・話題の店は十分に拾えていません。お笑いナタリー・ステージナタリーはこの環境から直接読めず、ほかの媒体や公式サイトで確かめました。THE Wの今年の日程は確認できていません。ファッションは拾えていません。Xの話題は、Yahoo!リアルタイム検索(9ページ、16日15時台)から拾ったもので、投稿の数字や中身はニュースで確かめたものではありません。ひとことの詳しい説明は、NHKの記事が冒頭しか読めないため、Yahoo!ニュースに載った共同・時事などの報道で確かめました。ギャラリーの制作者名は、載っているギャラリー(SANKOU!、CSS Design Awards、The FWA)だけ入れています。Siteinspireは詳細ページが確認画面に止められて見られませんでした。",
   "ai": {
     "lead": {
       "s": 3,
@@ -118,7 +118,12 @@
             "t": "9to5Google(英語)",
             "u": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
           }
-        ]
+        ],
+        "img": {
+          "u": "https://www.itmedia.co.jp/aiplus/article/image/2610/14/2000002241/10009262/728",
+          "a": "Geminiアプリのモデル選択画面。「4 Argon(複雑なタスク)」が選ばれている",
+          "c": "画像: ITmedia AI+"
+        }
       },
       {
         "g": "ai",
@@ -327,32 +332,38 @@
           {
             "title": "UNION TEC | 人類に意義ある空間を",
             "url": "https://www.union-tec.jp/",
-            "img": "https://sankoudesign.com/wp-content/uploads/uniontec_t-400x350.jpg"
+            "img": "https://sankoudesign.com/wp-content/uploads/uniontec_t-400x350.jpg",
+            "credit": "制作: SHIFTBRAIN Inc.、CHO-P inc.(企画・コピー)、Sunny Inc.・夜.(アートディレクション・デザイン)"
           },
           {
             "title": "株式会社サンヴィレッジ",
             "url": "https://sunvillage-co-ltd.com/",
-            "img": "https://sankoudesign.com/wp-content/uploads/sunvillage_t-400x350.jpg"
+            "img": "https://sankoudesign.com/wp-content/uploads/sunvillage_t-400x350.jpg",
+            "credit": "制作: 飛企画(映像: GUPON motion design)"
           },
           {
             "title": "株式会社極東電視台",
             "url": "https://www.far-eastern.co.jp/",
-            "img": "https://sankoudesign.com/wp-content/uploads/thefareasterntventertainment_t-400x350.jpg"
+            "img": "https://sankoudesign.com/wp-content/uploads/thefareasterntventertainment_t-400x350.jpg",
+            "credit": "制作: 株式会社GIG(デザイン: 向田嵩、実装: Koyumi Takaishi、Kai Ohmori)"
           },
           {
             "title": "馬路村森林組合 | 馬路の森で、 自然とはたらく。",
             "url": "https://umaji-shinrin.com/",
-            "img": "https://sankoudesign.com/wp-content/uploads/umajishinrin_t-400x350.jpg"
+            "img": "https://sankoudesign.com/wp-content/uploads/umajishinrin_t-400x350.jpg",
+            "credit": "制作: 安岡奈央(アートディレクション・デザイン)、濵﨑正太郎(写真)"
           },
           {
             "title": "Asobica",
             "url": "https://asobica.co.jp/",
-            "img": "https://sankoudesign.com/wp-content/uploads/asobica_t-400x350.jpg"
+            "img": "https://sankoudesign.com/wp-content/uploads/asobica_t-400x350.jpg",
+            "credit": "制作: SHIFTBRAIN Inc.、夜.(アートディレクション・デザイン・実装)"
           },
           {
             "title": "GTN採用サイト | 境界線を越える挑戦へ",
             "url": "https://www.gtn.co.jp/recruit",
-            "img": "https://sankoudesign.com/wp-content/uploads/gtnrecruit_t-400x350.jpg"
+            "img": "https://sankoudesign.com/wp-content/uploads/gtnrecruit_t-400x350.jpg",
+            "credit": "制作: 株式会社GIG(デザイン: 向田嵩、実装: Koyumi Takaishi、Kai Ohmori)"
           },
           {
             "title": "あの貞子の髪もスルッと | 瞬感ヘアスムージング SURUtto 公式",
@@ -431,12 +442,6 @@
         ]
       },
       {
-        "name": "Awwwards(SOTD・HM)",
-        "url": "https://www.awwwards.com/websites/sites_of_the_day/",
-        "today": [],
-        "note": "この環境からサイトに接続できず(接続が途中で切られる)、今日は取得できませんでした。"
-      },
-      {
         "name": "CSS Design Awards(WOTD)",
         "url": "https://www.cssdesignawards.com/",
         "today": [
@@ -444,7 +449,8 @@
             "title": "NOTHIN'",
             "url": "https://www.noth.in/",
             "img": "https://www.cssdesignawards.com/cdasites/2026/202609/20260925164217.jpg",
-            "tag": "WOTD"
+            "tag": "WOTD",
+            "credit": "制作: NOTHIN'、Thomas Carré(協力)"
           }
         ],
         "note": "トップの最新WOTDは「AWARDED 2026 OCT 15」(英国日付)。日本時間10/16 16時の時点で10/16付はまだ出ていないため、これを今朝の最新として扱いました(公開時刻はページに書かれていません)。"
@@ -457,7 +463,8 @@
             "title": "JUNKYARD KING | Chapter 3: The Other Side",
             "url": "https://youtu.be/oa0UO-L07mw",
             "img": "https://thefwa.com/dyn/resources/Case_Model_Case/thumbnail/8/19278/1791832114/6acd2fdb157e9t.png",
-            "tag": "FOTD"
+            "tag": "FOTD",
+            "credit": "制作: Odd Kid(原作: Henry Daubrez)"
           }
         ],
         "note": "FOTDは毎日0時(GMT)=日本時間9時に決まる仕組み。10/16付の受賞作を今日分としました。作品本体はYouTubeのアニメ動画です。"
@@ -473,12 +480,6 @@
           }
         ],
         "note": "掲載ページの公開日が2026-10-16(サムネイルの更新は日本時間10/16 14:56)。この前の更新は10/7。サイト本体(dmcg.co)はこちらの環境から接続を確かめられませんでした。"
-      },
-      {
-        "name": "MaxiBestOf",
-        "url": "https://www.maxibestof.one/",
-        "today": [],
-        "note": "Cloudflareの確認画面(403)で中身を取得できませんでした。"
       },
       {
         "name": "Minimal Gallery",
@@ -843,7 +844,12 @@
             "t": "野村證券 ウェルスタイル",
             "u": "https://www.nomura.co.jp/wealthstyle/article/0886/"
           }
-        ]
+        ],
+        "img": {
+          "u": "https://imgu.web.nhk/news/u/news/nd/kiji/20261015de59540/20261015de59540_E0000074077_1_l.jpg",
+          "a": "ドル円相場を表示する画面。1ドル158.946円と表示されている",
+          "c": "写真: NHK"
+        }
       },
       {
         "g": "econ",
@@ -940,7 +946,12 @@
             "t": "NHK(日韓通貨スワップ)",
             "u": "https://news.web.nhk/newsweb/na/nd-20261015de60139"
           }
-        ]
+        ],
+        "img": {
+          "u": "https://imgu.web.nhk/news/u/news/nd/kiji/20261016de60163/20261016de60163_E0000078234_1_l.jpg",
+          "a": "タイで開かれたIMF・世界銀行年次総会の会場。各国の旗をあしらった丸い飾りと看板が立っている",
+          "c": "写真: NHK"
+        }
       }
     ],
     "trend": [
@@ -1060,7 +1071,12 @@
             "t": "ぴあ",
             "u": "https://lp.p.pia.jp/article/news/513084/index.html"
           }
-        ]
+        ],
+        "img": {
+          "u": "https://lp.p.pia.jp/shared/materials/e08e6237-3857-4b4b-8a1d-f8cedbbc1033/origin.jpg",
+          "a": "第39回東京国際映画祭のポスター。夕暮れの東京タワーを背に、大きなスーツ姿の子どもが花束を持って歩いている",
+          "c": "写真: ぴあ(東京国際映画祭ポスター)"
+        }
       },
       {
         "g": "film",
@@ -1516,7 +1532,8 @@
       "src": {
         "t": "NHK",
         "u": "https://news.web.nhk/newsweb/na/nd-20261016de60199"
-      }
+      },
+      "m": "現場は西部の町ベンドにあるシルバー・レール小学校で、亡くなったのは5歳・8歳・11歳の子どもと教師1人です。容疑者は鍵のかかったドアを撃って校内に入り、あとを追った地元の住民に撃たれたと警察は説明しています。ほかに7歳の子どもと54歳の教師が重いけがをし、ベンド市内の学校は翌日すべて休校になりました。"
     },
     {
       "c": "国際",
@@ -1524,7 +1541,8 @@
       "src": {
         "t": "NHK",
         "u": "https://news.web.nhk/newsweb/na/nd-20261016de60305"
-      }
+      },
+      "m": "サウジアラビアでは10月10日、首都リヤドの国際空港が攻撃され、13人が亡くなり300人あまりがけがをしました(ロイター)。安保理の声明は、こうした空港や国営石油会社アラムコの施設への攻撃を非難し、サウジへの連帯を示しました。あわせて、フーシ派に武器が渡らないよう各国に協力を求め、紅海での船への攻撃も非難しています。"
     },
     {
       "c": "社会",
@@ -1532,7 +1550,8 @@
       "src": {
         "t": "NHK",
         "u": "https://news.web.nhk/newsweb/na/nd-20261016de60303"
-      }
+      },
+      "m": "ロシアの治安機関は13日、北海道新聞の男性記者をスパイの疑いで拘束したと発表しましたが、日本への知らせはすぐにはありませんでした。「領事通報」は、外国人を拘束したときに相手の国へ伝えるきまりで、今回は現地時間の15日に届きました。日本政府はまだ記者と会えておらず、早く面会して健康状態などを確かめたいとしています。"
     },
     {
       "c": "社会",
@@ -1540,7 +1559,8 @@
       "src": {
         "t": "NHK",
         "u": "https://news.web.nhk/newsweb/na/nd-20261015de60144"
-      }
+      },
+      "m": "2013年12月、京都市山科区の本社前で、王将フードサービスの社長だった大東隆行さんが拳銃で撃たれて亡くなりました。目撃者も凶器もなく、検察は現場近くのたばこの吸い殻から被告のDNA型が出たことなどを積み重ねて無期懲役を求めていました。判決は、吸い殻が下見のときに落ちたものや、別の人が持ち込んだものである可能性を否定できないとしました。"
     },
     {
       "c": "社会",
@@ -1548,7 +1568,8 @@
       "src": {
         "t": "NHK",
         "u": "https://news.web.nhk/newsweb/na/nd-20261016de60350"
-      }
+      },
+      "m": "大声で謝罪や金品を求めたり、長時間つきまとったりする特に悪い行為を「特定カスハラ」とし、被害を受けた事業者は県に申し出ることができます。専門家の審査会の意見をふまえて知事がやめるよう命令し、それにも従わないときに警察などへ告発するしくみです。会社だけでなく、個人事業主や学校なども対象で、来年4月1日から始まります。"
     },
     {
       "c": "科学",
@@ -1556,15 +1577,17 @@
       "src": {
         "t": "NHK",
         "u": "https://news.web.nhk/newsweb/na/nd-20261016de60174"
-      }
+      },
+      "m": "うるう秒は1972年に始まり、これまでに27回、時計に1秒を足してきました。この1秒がコンピューターや通信のトラブルのもとになるため、2027年5月20日からは、ずれを1時間まで待ってから直す方式に変わります。これで少なくとも数百年は調整がいらない見込みです。"
     },
     {
       "c": "健康",
-      "text": "インフルエンザの患者数が1医療機関あたり12.81人と注意報の基準を超え、前年の同じ時期の約5.4倍になりました。",
+      "text": "インフルエンザの患者数が1医療機関あたり12.81人と注意報の基準を超えていて、前年の同じ時期の約5.4倍になりました。",
       "src": {
         "t": "TBS NEWS DIG(ライブドアニュース)",
         "u": "https://news.livedoor.com/article/detail/32581996/"
-      }
+      },
+      "m": "10月11日までの1週間に、全国約3000の医療機関から報告された患者の平均です。都道府県別では沖縄県が31.34人と警報の基準(30人)を超え、神奈川県、埼玉県が続きます。28の都道府県で注意報の基準(10人)を超え、全国で1703の学校などが休校や学級閉鎖になっています。"
     },
     {
       "c": "暮らし",
@@ -1572,7 +1595,8 @@
       "src": {
         "t": "NHK",
         "u": "https://news.web.nhk/newsweb/na/nd-20261016de60405"
-      }
+      },
+      "m": "いまは、株の配当などを確定申告した人だけが保険料などに反映され、源泉徴収で済ませた人は反映されないため、不公平だと言われてきました。2029年1月から金融機関が自治体へ情報をオンラインで出すことが義務になり、8月から2028年分の所得が使われます。NISA(少額投資の非課税制度)で得た利益は対象外です。"
     }
   ],
   "term": {
