@@ -64,5 +64,31 @@
       "verified": true,
       "memo": "URLは正しいが、2025年6月8日以降の掲載が見当たらない(更新停止の可能性)"
     }
+  ],
+  "fashionSites": [
+    {
+      "name": "FASHIONSNAP",
+      "url": "https://www.fashionsnap.com/"
+    },
+    {
+      "name": "WWD JAPAN",
+      "url": "https://www.wwdjapan.com/"
+    },
+    {
+      "name": "SPUR",
+      "url": "https://spur.hpplus.jp/"
+    },
+    {
+      "name": "WIRED",
+      "url": "https://wired.jp/"
+    },
+    {
+      "name": "GINZA",
+      "url": "https://ginzamag.com/"
+    },
+    {
+      "name": "FUDGE",
+      "url": "https://fudge.jp/"
+    }
   ]
 }
