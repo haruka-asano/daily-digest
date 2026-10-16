@@ -23,9 +23,11 @@ const G = {
   film: { n: '映画', v: '--c-film' },
   comedy: { n: 'お笑い', v: '--c-comedy' },
   culture: { n: '文化', v: '--c-culture' },
+  fashion: { n: 'ファッション・ビューティー', v: '--c-fashion' },
+  finds: { n: '心躍る新作', v: '--c-finds' },
 };
 const STUDY = ['design', 'web', 'econ', 'trend'];
-const HOBBY = ['film', 'comedy', 'culture'];
+const HOBBY = ['film', 'comedy', 'culture', 'fashion', 'finds'];
 const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 const WEEK = '日月火水木金土';
 
@@ -84,7 +86,7 @@ function card(c) {
     : '';
   const save = { id: idOf(c.h), date: CUR_DATE, gl: g.n, h: c.h, a: c.a, r: c.r, img: c.img ? c.img.u : '' };
   return `<article class="card" data-g="${c.g}" data-min="${c.t}" style="--g:var(${g.v})"><div class="tab">${ckBtn(save)}${esc(c.c || g.n)}</div>${img}<div class="body">
-<div class="pills"><span class="pill"><i></i>重要度 ${stars(c.s)}</span><span class="pill">${c.t}分</span>${c.n ? `<span class="pill note">${esc(c.n)}</span>` : ''}</div>
+<div class="pills"><span class="pill"><i></i>重要度 ${stars(c.s)}</span><span class="pill">${c.t}分</span>${c.p ? `<span class="pill price">${esc(c.p)}</span>` : ''}${c.n ? `<span class="pill note">${esc(c.n)}</span>` : ''}</div>
 <h3>${esc(c.h)}</h3><p class="lead-s">${esc(c.a)}</p>
 <dl class="rows"><div class="r"><dt>なぜ今</dt><dd>${esc(c.b)}</dd></div><div class="r"><dt>自分ごと</dt><dd>${esc(c.u)}</dd></div></dl>
 <details><summary>もっと詳しく</summary><p>${esc(c.m)}</p></details>${srcs(c.r)}</div></article>`;
@@ -209,6 +211,8 @@ function page(d) {
     film: subSec('film', 'film', (d.hobby || {}).film),
     comedy: subSec('comedy', 'comedy', (d.hobby || {}).comedy),
     culture: subSec('culture', 'culture', (d.hobby || {}).culture),
+    fashion: subSec('fashion', 'fashion', (d.hobby || {}).fashion),
+    finds: subSec('finds', 'finds', (d.hobby || {}).finds),
     alerts: alertsSection(d.alerts, d.alertsSrc),
     calendar: calendarSection(d.calendar, d.calendarSrc),
     term: termSection(d.term),
@@ -218,12 +222,12 @@ function page(d) {
     ['quick'],
     ['ai', 'econ', 'trend', 'buzz'],
     ['design', 'web', 'gallery'],
-    ['film', 'comedy', 'culture', 'alerts', 'calendar', 'term', 'weekly'],
+    ['film', 'comedy', 'culture', 'fashion', 'finds', 'alerts', 'calendar', 'term', 'weekly'],
   ];
   const NAV = {
     quick: ['ひとこと', '--c-econ'], ai: ['AI', '--c-ai'], econ: ['経済・国際', '--c-econ'], trend: ['トレンド', '--c-trend'], buzz: ['Xの話題', '--c-x'],
     design: ['デザイン', '--c-design'], web: ['Web', '--c-web'], gallery: ['Webギャラリー', '--c-web'],
-    film: ['映画', '--c-film'], comedy: ['お笑い', '--c-comedy'], culture: ['文化', '--c-culture'],
+    film: ['映画', '--c-film'], comedy: ['お笑い', '--c-comedy'], culture: ['文化', '--c-culture'], fashion: ['ファッション', '--c-fashion'], finds: ['心躍る新作', '--c-finds'],
     alerts: ['会期終了間近', '--c-culture'], calendar: ['カレンダー', '--c-x'], term: ['今日の用語', '--c-econ'], weekly: [`${wd}曜号`, '--c-trend'],
   };
   const navGroups = groups
@@ -262,7 +266,7 @@ ${kit}
 ${blocks}
 </main></div>
 <aside class="saved" id="saved" hidden><div class="sv-h"><b>チェックした記事</b><button type="button" id="savedClose" aria-label="閉じる">×</button></div><p class="sv-n">このブラウザにだけ保存されます(パソコンとスマホでは共有されません)。</p><div id="savedList"></div><button type="button" class="sv-clear" id="savedClear">すべて外す</button></aside>
-<footer class="wrap"><p class="foot-note">${esc(d.footnote || '')}</p></footer>
+<footer class="wrap"></footer>
 <script src="app.js"></script>
 </body>
 </html>
