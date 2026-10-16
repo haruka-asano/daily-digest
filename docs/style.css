@@ -157,3 +157,22 @@ html{-webkit-text-size-adjust:100%}
 .foot-note{margin:0 0 14px;line-height:1.9}
 .co .d{line-height:1.8}
 @media(max-width:640px){.tr2{grid-template-columns:1fr;gap:0}}
+
+/* v0.7 gallery */
+.gal{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+@media(max-width:1200px){.gal{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:900px){.gal{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.gal{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+.gi{display:block;color:inherit;text-decoration:none}
+.gi figure{margin:0;border:1px solid var(--ink);border-radius:10px;overflow:hidden;background:var(--card);height:100%}
+.gi img{display:block;width:100%;aspect-ratio:8/7;object-fit:cover;background:var(--band)}
+.gi figcaption{padding:6px 9px 8px;font-size:12px;line-height:1.5}
+.gi figcaption b{font-weight:500}
+.gi figure.noimg img{display:none}
+.gi:hover figure{border-color:var(--c-web)}
+.grp-h .cnt{margin-left:auto;font-size:12px;color:var(--sub);font-weight:400}
+.grp-h a{color:inherit;text-decoration:none}
+.grp-h a:hover{text-decoration:underline;text-underline-offset:4px}
+.gl{margin-top:4px;border-top:1px solid var(--hair);padding-top:8px}
+.gl summary{margin-bottom:10px}
+.ph img{max-height:340px}

@@ -1185,5 +1185,93 @@
         "text": "ノーベル賞(化学・文学)。森山大道展は18日まで。"
       }
     ]
+  },
+  "gallery": {
+    "sites": [
+      {
+        "name": "SANKOU!",
+        "url": "https://sankoudesign.com/",
+        "today": [],
+        "latest": {
+          "date": "10/12",
+          "items": [
+            {
+              "title": "スタイレム株式会社",
+              "url": "https://stylem.co.jp/",
+              "img": "https://sankoudesign.com/wp-content/uploads/stylem_t-400x350.jpg"
+            },
+            {
+              "title": "新卒採用情報 | KDDI Biz Edge株式会社",
+              "url": "https://recruit.kddi-bizedge.com/newgrads/",
+              "img": "https://sankoudesign.com/wp-content/uploads/kddibizedgenewgrads_t-400x350.jpg"
+            },
+            {
+              "title": "山龢【公式】",
+              "url": "https://atami-sanga.jp/",
+              "img": "https://sankoudesign.com/wp-content/uploads/sanga_t-400x350.jpg"
+            },
+            {
+              "title": "ふくしま LiNK NAVi",
+              "url": "https://linknavi.fukushima.jp/",
+              "img": "https://sankoudesign.com/wp-content/uploads/fukushimalinknavi_t-400x350.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "name": "MUUUUU.ORG",
+        "url": "https://muuuuu.org/",
+        "today": [],
+        "note": "未取得(最初の自動実行で取得します)"
+      },
+      {
+        "name": "S5-Style",
+        "url": "https://s5-style.com/",
+        "today": [],
+        "note": "未取得(最初の自動実行で取得します)"
+      },
+      {
+        "name": "Awwwards(SOTD・HM)",
+        "url": "https://www.awwwards.com/websites/sites_of_the_day/",
+        "today": [],
+        "note": "未取得(最初の自動実行で取得します)"
+      },
+      {
+        "name": "CSS Design Awards(SOTD)",
+        "url": "https://www.cssdesignawards.com/",
+        "today": [],
+        "note": "未取得(最初の自動実行で取得します)"
+      },
+      {
+        "name": "The FWA(SOTD)",
+        "url": "https://thefwa.com/",
+        "today": [],
+        "note": "未取得(最初の自動実行で取得します)"
+      },
+      {
+        "name": "Siteinspire",
+        "url": "https://www.siteinspire.com/websites",
+        "today": [],
+        "note": "未取得(最初の自動実行で取得します)"
+      },
+      {
+        "name": "MaxiBestOf",
+        "url": "https://www.maxibestof.one/",
+        "today": [],
+        "note": "未取得(最初の自動実行で取得します)"
+      },
+      {
+        "name": "Minimal Gallery",
+        "url": "https://minimal.gallery/",
+        "today": [],
+        "note": "未取得(最初の自動実行で取得します)"
+      }
+    ],
+    "src": [
+      {
+        "t": "SANKOU!",
+        "u": "https://sankoudesign.com/"
+      }
+    ]
   }
 }

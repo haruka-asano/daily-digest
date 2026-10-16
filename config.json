@@ -1,4 +1,82 @@
 {
   "siteTitle": "Daily Digest",
-  "adobeFontsKitId": "isb1pti"
+  "adobeFontsKitId": "isb1pti",
+  "gallerySites": [
+    {
+      "name": "SANKOU!",
+      "url": "https://sankoudesign.com/",
+      "want": "今日の更新をすべて",
+      "verified": true
+    },
+    {
+      "name": "MUUUUU.ORG",
+      "url": "https://muuuuu.org/",
+      "want": "今日の更新をすべて",
+      "verified": false
+    },
+    {
+      "name": "S5-Style",
+      "url": "https://s5-style.com/",
+      "want": "今日の更新をすべて",
+      "verified": false
+    },
+    {
+      "name": "Brilliant Design Collect",
+      "url": null,
+      "want": "今日の更新をすべて",
+      "verified": false,
+      "find": "検索してURLを確かめる"
+    },
+    {
+      "name": "me ki ki ki",
+      "url": null,
+      "want": "今日の更新をすべて",
+      "verified": false,
+      "find": "検索してURLを確かめる"
+    },
+    {
+      "name": "Awwwards",
+      "url": "https://www.awwwards.com/websites/sites_of_the_day/",
+      "want": "Site of the Day と Honorable Mention",
+      "verified": false,
+      "also": "https://www.awwwards.com/websites/honorable_mention/"
+    },
+    {
+      "name": "CSS Design Awards",
+      "url": "https://www.cssdesignawards.com/",
+      "want": "Site of the Day(Website of the Day)のみ",
+      "verified": false
+    },
+    {
+      "name": "The FWA",
+      "url": "https://thefwa.com/",
+      "want": "Site of the Dayのみ",
+      "verified": false
+    },
+    {
+      "name": "Siteinspire",
+      "url": "https://www.siteinspire.com/websites",
+      "want": "今日の更新をすべて",
+      "verified": false
+    },
+    {
+      "name": "MaxiBestOf",
+      "url": "https://www.maxibestof.one/",
+      "want": "今日の更新をすべて",
+      "verified": false
+    },
+    {
+      "name": "Minimal Gallery",
+      "url": "https://minimal.gallery/",
+      "want": "今日の更新をすべて",
+      "verified": false
+    },
+    {
+      "name": "Storefront.Design",
+      "url": null,
+      "want": "今日の更新をすべて",
+      "verified": false,
+      "find": "検索してURLを確かめる"
+    }
+  ]
 }

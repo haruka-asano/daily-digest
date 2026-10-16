@@ -12,6 +12,15 @@
     "cards": [ 記事, ... ]           // g は "ai"
   },
   "buzz":   [ { "g": "ai", "kw": "キーワード", "text": "何が話題か", "url": "https://search.yahoo.co.jp/realtime/search?p=..." } ],
+  "gallery": {
+    "sites": [
+      { "name": "SANKOU!", "url": "https://sankoudesign.com/",
+        "today": [ { "title": "サイト名", "url": "https://掲載サイト/", "img": "https://サムネイル.jpg", "tag": "SOTD" } ],
+        "latest": { "date": "10/12", "items": [ 同じ形 ] },     // 今日の更新がないときだけ
+        "note": "取得できなかった理由など(省略可)" }
+    ],
+    "src": [ { "t": "出典名", "u": "https://..." } ]
+  },
   "study":  { "design": [記事], "web": [記事], "econ": [記事], "trend": [記事] },
   "hobby":  { "film": [記事], "comedy": [記事], "culture": [記事] },
   "alerts": [ { "g": "culture", "kind": "写真展", "days": "あと2日", "title": "...", "place": "会場 / 期間 / 料金" } ],

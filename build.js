@@ -53,6 +53,15 @@ function validate(d, file) {
   }
   for (const k of STUDY) ((d.study || {})[k] || []).forEach((c, i) => { need(c.g === k, `study.${k}[${i}]: g は ${k}`); checkCard(c, `study.${k}[${i}]`); });
   for (const k of HOBBY) ((d.hobby || {})[k] || []).forEach((c, i) => { need(c.g === k, `hobby.${k}[${i}]: g は ${k}`); checkCard(c, `hobby.${k}[${i}]`); });
+  if (d.gallery) {
+    (d.gallery.sites || []).forEach((st, i) => {
+      need(st.name, `gallery.sites[${i}]: name が空`);
+      need(isUrl(st.url), `gallery.sites[${i}]: url が必要`);
+      [...(st.today || []), ...((st.latest && st.latest.items) || [])].forEach((it, j) => {
+        need(it.title && isUrl(it.url) && isUrl(it.img), `gallery.sites[${i}] の ${j} 番目: title・url・img(https) が必要`);
+      });
+    });
+  }
   return errs;
 }
 
@@ -108,6 +117,28 @@ function buzzSection(buzz) {
   return `<section class="sec" id="buzz" data-sec="buzz"><div class="sh"><div><span class="en">On X</span><h2>Xの話題</h2></div><p>Yahoo!リアルタイム検索で見えた、いま話題の投稿</p></div><div class="box">${rows}</div></section>`;
 }
 
+function galItem(it) {
+  return `<a class="gi" href="${esc(it.url)}" target="_blank" rel="noopener"><figure><img src="${esc(it.img)}" alt="${esc(it.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg')"><figcaption>${it.tag ? `<span class="pill">${esc(it.tag)}</span> ` : ''}<b>${esc(it.title)}</b></figcaption></figure></a>`;
+}
+
+function gallerySection(g) {
+  if (!g || !g.sites || !g.sites.length) return '';
+  const blocks = g.sites
+    .map((st) => {
+      const today = st.today || [];
+      const latest = st.latest && st.latest.items && st.latest.items.length ? st.latest : null;
+      const cnt = st.note ? esc(st.note) : today.length ? `本日 ${today.length}件` : '本日の更新なし';
+      const body = today.length
+        ? `<div class="gal">${today.map(galItem).join('')}</div>`
+        : latest
+        ? `<details class="gl"><summary>直近の更新(${esc(latest.date)})を見る</summary><div class="gal">${latest.items.map(galItem).join('')}</div></details>`
+        : '';
+      return `<div class="grp" data-grp="gal-${esc(st.name)}" data-g="web" style="--g:var(--c-web)"><h3 class="grp-h"><i></i><a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.name)}</a><span class="cnt">${cnt}</span></h3>${body}</div>`;
+    })
+    .join('\n');
+  return `<section class="sec" id="gallery" data-sec="list"><div class="sh"><div><span class="en">Web Design Gallery</span><h2>Webデザインギャラリー</h2></div><p>各ギャラリーの本日の更新(アワードはSite of the Dayのみ。AwwwardsはHMも)</p></div>${blocks}${srcs(g.src).replace('<p class="src">', '<p class="src" style="margin-top:12px">')}</section>`;
+}
+
 const sectionList = (id, label, groups, keys) => {
   const inner = keys.map((k) => group(k, groups && groups[k])).join('');
   return inner
@@ -160,6 +191,7 @@ function page(d, isLatest) {
     ['ai', 'AI', aiSection(d.ai)],
     ['buzz', 'Xの話題', buzzSection(d.buzz)],
     ['study', '勉強', sectionList('study', { en: 'Study', ja: '勉強', sub: 'デザイン・Web・経済・トレンド' }, d.study, STUDY)],
+    ['gallery', 'Webギャラリー', gallerySection(d.gallery)],
     ['hobby', '趣味', sectionList('hobby', { en: 'Hobby', ja: '趣味', sub: '映画・お笑い・文化' }, d.hobby, HOBBY)],
     ['alerts', '会期終了間近', alertsSection(d.alerts, d.alertsSrc)],
     ['calendar', 'カレンダー', calendarSection(d.calendar, d.calendarSrc)],
