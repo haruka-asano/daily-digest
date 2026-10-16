@@ -66,27 +66,36 @@ function validate(d, file) {
 }
 
 /* ---------- 部品 ---------- */
+const crypto = require('crypto');
 const stars = (n) => '★★★'.slice(0, n) + '☆☆☆'.slice(0, 3 - n);
 const srcs = (r) =>
   r && r.length
-    ? `<p class="src">出典: ${r.map((x) => `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t)}</a>`).join('')}</p>`
+    ? `<p class="src">出典: ${r.map((x) => `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t)}</a>`).join(' ')}</p>`
     : '';
+let CUR_DATE = '';
+const ckBtn = (obj) =>
+  `<button type="button" class="ck" aria-pressed="false" aria-label="気になる記事に入れる" title="気になる" data-ck="${esc(JSON.stringify(obj))}">☆</button>`;
+const idOf = (t) => CUR_DATE + '-' + crypto.createHash('md5').update(String(t)).digest('hex').slice(0, 8);
 
 function card(c) {
   const g = G[c.g];
   const img = c.img
     ? `<figure class="ph"><img src="${esc(c.img.u)}" alt="${esc(c.img.a)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"><figcaption>${esc(c.img.c)}</figcaption></figure>`
     : '';
-  return `<article class="card" data-g="${c.g}" data-min="${c.t}" style="--g:var(${g.v})"><div class="tab">${esc(c.c || g.n)}</div>${img}<div class="body">
+  const save = { id: idOf(c.h), date: CUR_DATE, gl: g.n, h: c.h, a: c.a, r: c.r, img: c.img ? c.img.u : '' };
+  return `<article class="card" data-g="${c.g}" data-min="${c.t}" style="--g:var(${g.v})"><div class="tab">${ckBtn(save)}${esc(c.c || g.n)}</div>${img}<div class="body">
 <div class="pills"><span class="pill"><i></i>重要度 ${stars(c.s)}</span><span class="pill">${c.t}分</span>${c.n ? `<span class="pill note">${esc(c.n)}</span>` : ''}</div>
 <h3>${esc(c.h)}</h3><p class="lead-s">${esc(c.a)}</p>
 <dl class="rows"><div class="r"><dt>なぜ今</dt><dd>${esc(c.b)}</dd></div><div class="r"><dt>自分ごと</dt><dd>${esc(c.u)}</dd></div></dl>
 <details><summary>もっと詳しく</summary><p>${esc(c.m)}</p></details>${srcs(c.r)}</div></article>`;
 }
 
-const group = (k, arr) =>
+const grid = (arr) => `<div class="grid">${arr.map(card).join('\n')}</div>`;
+
+/* 小見出し + カード(経済・トレンド・デザインなど) */
+const subSec = (id, key, arr) =>
   arr && arr.length
-    ? `<div class="grp" data-grp="${k}" style="--g:var(${G[k].v})"><h3 class="grp-h"><i></i>${G[k].n}</h3><div class="grid">${arr.map(card).join('\n')}</div></div>`
+    ? `<section class="sub" id="${id}" data-sec="list" style="--g:var(${G[key].v})"><h3 class="grp-h"><i></i>${G[key].n}</h3>${grid(arr)}</section>`
     : '';
 
 function aiSection(ai) {
@@ -100,58 +109,51 @@ function aiSection(ai) {
   const rows = (ai.rows || [])
     .map((r) => `<div class="co"><b>${esc(r.co)}</b><span class="pill"><i></i>${esc(r.tag)}</span><span class="d">${esc(r.text)}</span></div>`)
     .join('\n');
-  const cards = (ai.cards || []).map(card).join('\n');
-  return `<section class="sec" id="ai" style="padding-top:40px" data-sec="ai">
-<div class="sh"><div><span class="en">Today's AI</span><h2>AI 忖度なしレポート</h2></div><p>どの会社も同じ基準で</p></div>
-<article class="card aibox" data-g="ai" data-min="${l ? l.t : 0}" style="--g:var(--c-ai)"><div class="tab">AI</div><div class="body">${lead}
-<p class="honest">Claudeを作っているAnthropic社の話題も、他社と同じ基準で書きます。良い点だけでなく、弱い点や問題も入れます。</p>
+  const save = l ? { id: idOf(l.h), date: CUR_DATE, gl: 'AI', h: l.h, a: l.a, r: l.r, img: l.img ? l.img.u : '' } : null;
+  return `<section class="sub" id="ai" data-sec="ai" style="--g:var(--c-ai)"><h3 class="grp-h"><i></i>AI</h3>
+<article class="card aibox" data-g="ai" data-min="${l ? l.t : 0}" style="--g:var(--c-ai)"><div class="tab">${save ? ckBtn(save) : ''}AI</div><div class="body">${lead}
 ${rows}</div></article>
-<div class="grid" style="margin-top:18px">${cards}</div></section>`;
+${ai.cards && ai.cards.length ? `<div class="grid" style="margin-top:18px">${ai.cards.map(card).join('\n')}</div>` : ''}</section>`;
 }
 
 function buzzSection(buzz) {
   if (!buzz || !buzz.length) return '';
   const rows = buzz
-    .map((b) => `<div class="tr2" data-g="${esc(b.g)}"><b>${esc(b.kw)}</b><span>${esc(b.text)}${b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">Yahoo!リアルタイム検索</a>` : ''}</span></div>`)
+    .map((b) => `<div class="tr2"><b>${esc(b.kw)}</b><span>${esc(b.text)}${b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">Yahoo!リアルタイム検索</a>` : ''}</span></div>`)
     .join('\n');
-  return `<section class="sec" id="buzz" data-sec="buzz"><div class="sh"><div><span class="en">On X</span><h2>Xの話題</h2></div><p>Yahoo!リアルタイム検索で見えた、いま話題の投稿</p></div><div class="box">${rows}</div></section>`;
+  return `<section class="sub" id="buzz" style="--g:var(--c-x)"><h3 class="grp-h"><i></i>Xの話題<span class="cnt">Yahoo!リアルタイム検索で見えた、いま話題の投稿</span></h3><div class="box">${rows}</div></section>`;
 }
 
-function galItem(it) {
-  return `<a class="gi" href="${esc(it.url)}" target="_blank" rel="noopener"><figure><img src="${esc(it.img)}" alt="${esc(it.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg')"><figcaption>${it.tag ? `<span class="pill">${esc(it.tag)}</span> ` : ''}<b>${esc(it.title)}</b></figcaption></figure></a>`;
+function galItem(it, site) {
+  const save = { id: idOf(site + it.url), date: CUR_DATE, gl: 'Webギャラリー', h: it.title, a: (site ? site + ' / ' : '') + (it.credit || ''), r: [{ t: site || 'サイト', u: it.url }], img: it.img };
+  return `<div class="gi"><a href="${esc(it.url)}" target="_blank" rel="noopener"><figure><img src="${esc(it.img)}" alt="${esc(it.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('noimg')"></figure></a>
+<div class="gc">${ckBtn(save)}${it.tag ? `<span class="pill">${esc(it.tag)}</span> ` : ''}<a class="gt" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>${it.credit ? `<span class="cr">${esc(it.credit)}</span>` : ''}</div></div>`;
 }
 
 function gallerySection(g) {
-  if (!g || !g.sites || !g.sites.length) return '';
+  if (!g || !g.sites) return '';
   const blocks = g.sites
     .map((st) => {
       const today = st.today || [];
       const latest = st.latest && st.latest.items && st.latest.items.length ? st.latest : null;
-      const cnt = st.note ? esc(st.note) : today.length ? `本日 ${today.length}件` : '本日の更新なし';
+      if (!today.length && !latest) return ''; // 取得できなかったサイトは画面に出さない
+      const cnt = today.length ? `本日 ${today.length}件` : `本日の更新なし(直近 ${esc(latest.date)})`;
       const body = today.length
-        ? `<div class="gal">${today.map(galItem).join('')}</div>`
-        : latest
-        ? `<details class="gl"><summary>直近の更新(${esc(latest.date)})を見る</summary><div class="gal">${latest.items.map(galItem).join('')}</div></details>`
-        : '';
-      return `<div class="grp" data-grp="gal-${esc(st.name)}" data-g="web" style="--g:var(--c-web)"><h3 class="grp-h"><i></i><a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.name)}</a><span class="cnt">${cnt}</span></h3>${body}</div>`;
+        ? `<div class="gal">${today.map((it) => galItem(it, st.name)).join('')}</div>`
+        : `<details class="gl"><summary>直近の更新を見る</summary><div class="gal">${latest.items.map((it) => galItem(it, st.name)).join('')}</div></details>`;
+      return `<div class="gsite"><h4 class="gh"><a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.name)}</a><span class="cnt">${cnt}${st.note ? ' / ' + esc(st.note) : ''}</span></h4>${body}</div>`;
     })
     .join('\n');
-  return `<section class="sec" id="gallery" data-sec="list"><div class="sh"><div><span class="en">Web Design Gallery</span><h2>Webデザインギャラリー</h2></div><p>各ギャラリーの本日の更新(アワードはSite of the Dayのみ。AwwwardsはHMも)</p></div>${blocks}${srcs(g.src).replace('<p class="src">', '<p class="src" style="margin-top:12px">')}</section>`;
+  if (!blocks.trim()) return '';
+  return `<section class="sub" id="gallery" style="--g:var(--c-web)"><h3 class="grp-h"><i></i>Webデザインギャラリー<span class="cnt">各ギャラリーの本日の更新(アワードはSite of the Dayのみ)</span></h3>${blocks}${srcs(g.src)}</section>`;
 }
-
-const sectionList = (id, label, groups, keys) => {
-  const inner = keys.map((k) => group(k, groups && groups[k])).join('');
-  return inner
-    ? `<section class="sec" id="${id}" data-sec="list"><div class="sh"><div><span class="en">${label.en}</span><h2>${label.ja}</h2></div><p>${label.sub}</p></div>${inner}</section>`
-    : '';
-};
 
 function alertsSection(a, srcList) {
   if (!a || !a.length) return '';
   const items = a
     .map((x) => `<article class="card" style="--g:var(${G[x.g].v})"><div class="tab"><span>${esc(x.kind)}</span><b>${esc(x.days)}</b></div><div class="body"><h3>${esc(x.title)}</h3><p>${esc(x.place)}</p></div></article>`)
     .join('\n');
-  return `<section class="sec" id="alerts"><div class="sh"><div><span class="en">Last Days</span><h2>会期終了間近</h2></div><p>今週末までに行けるもの</p></div><div class="al">${items}</div>${srcs(srcList).replace('<p class="src">', '<p class="src" style="margin-top:12px">')}</section>`;
+  return `<section class="sub" id="alerts" style="--g:var(--c-culture)"><h3 class="grp-h"><i></i>会期終了間近<span class="cnt">今週末までに行けるもの</span></h3><div class="al">${items}</div>${srcs(srcList)}</section>`;
 }
 
 function calendarSection(rows, srcList) {
@@ -159,61 +161,92 @@ function calendarSection(rows, srcList) {
   const items = rows
     .map((r) => `<div class="tr"><span class="k">${esc(r.k)}</span><span class="t">${esc(r.t)}${r.d ? `<span class="d">${esc(r.d)}</span>` : ''}</span><span class="s">${esc(r.s)}</span></div>`)
     .join('\n');
-  return `<section class="sec" id="calendar"><div class="sh"><div><span class="en">Calendar</span><h2>賞レース・映画祭カレンダー</h2></div><p>これからの予定を日付順に</p></div><div class="box">${items}</div>${srcs(srcList).replace('<p class="src">', '<p class="src" style="margin-top:12px">')}</section>`;
+  return `<section class="sub" id="calendar" style="--g:var(--c-x)"><h3 class="grp-h"><i></i>賞レース・映画祭カレンダー<span class="cnt">これからの予定を日付順に</span></h3><div class="box">${items}</div>${srcs(srcList)}</section>`;
 }
 
 function quickSection(q) {
   if (!q || !q.length) return '';
   const items = q
-    .map((x) => `<div class="tr2"><b>${esc(x.c)}</b><span>${esc(x.text)}${x.src ? `<a href="${esc(x.src.u)}" target="_blank" rel="noopener">${esc(x.src.t)}</a>` : ''}</span></div>`)
+    .map((x) => {
+      const src = x.src ? `<a href="${esc(x.src.u)}" target="_blank" rel="noopener">${esc(x.src.t)}</a>` : '';
+      return `<details class="qd"><summary><b>${esc(x.c)}</b><span>${esc(x.text)}</span></summary><div class="qb">${x.m ? `<p>${esc(x.m)}</p>` : ''}<p class="src">${src ? '出典: ' + src : ''}</p></div></details>`;
+    })
     .join('\n');
-  return `<section class="sec" id="quick"><div class="sh"><div><span class="en">In Brief</span><h2>ひとこと</h2></div><p>短く知っておくニュース</p></div><div class="box">${items}</div></section>`;
+  return `<section class="sub" id="quick" style="--g:var(--c-econ)"><div class="box qbox">${items}</div></section>`;
 }
 
 function termSection(t) {
   if (!t) return '';
-  return `<section class="sec" id="term"><article class="card term" style="--g:var(--c-econ)" data-min="1"><div class="tab">今日の用語</div><div class="body"><div><span class="en">Today's word</span></div><div><p class="w">${esc(t.w)}</p><p>${esc(t.text)}</p><p class="src">${t.note ? esc(t.note) + ' ' : ''}${t.src ? `出典: <a href="${esc(t.src.u)}" target="_blank" rel="noopener">${esc(t.src.t)}</a>` : ''}</p></div></div></article></section>`;
+  return `<section class="sub" id="term" style="--g:var(--c-econ)"><article class="card term" style="--g:var(--c-econ)" data-min="1"><div class="tab">今日の用語</div><div class="body"><div><span class="en">Today's word</span></div><div><p class="w">${esc(t.w)}</p><p>${esc(t.text)}</p><p class="src">${t.note ? esc(t.note) + ' ' : ''}${t.src ? `出典: <a href="${esc(t.src.u)}" target="_blank" rel="noopener">${esc(t.src.t)}</a>` : ''}</p></div></div></article></section>`;
 }
 
-function weeklySection(w) {
+function weeklySection(w, wd) {
   if (!w || !w.items || !w.items.length) return '';
   const cells = w.items.map((i) => `<div><b>${esc(i.h)}</b>${esc(i.text)}</div>`).join('');
-  return `<section class="sec" id="weekly"><article class="card" style="--g:var(--c-trend)"><div class="tab">${esc(w.title || '今週ここまで')}</div><div class="wk">${cells}</div></article></section>`;
+  return `<section class="sub" id="weekly" style="--g:var(--c-trend)"><article class="card" style="--g:var(--c-trend)"><div class="tab">${wd}曜号 / 今週ここまで</div><div class="wk">${cells}</div></article></section>`;
 }
 
 /* ---------- ページ ---------- */
-function page(d, isLatest) {
+const block = (n, en, ja, inner) =>
+  inner.trim() ? `<div class="blk blk${n}"><div class="bh"><span class="en">${en}</span><h2>${ja}</h2></div>${inner}</div>` : '';
+
+function page(d) {
+  CUR_DATE = d.date;
   const [y, m, day] = d.date.split('-').map(Number);
   const wd = WEEK[new Date(Date.UTC(y, m - 1, day)).getUTCDay()];
-  const dateLabel = `TODAY ${y}.${MONTHS[m - 1]} ${m}/${day} ${wd}`;
-  const edLabel = d.edition === 'evening' ? '夕刊' : '朝刊';
-  const sections = [
-    ['ai', 'AI', aiSection(d.ai)],
-    ['buzz', 'Xの話題', buzzSection(d.buzz)],
-    ['study', '勉強', sectionList('study', { en: 'Study', ja: '勉強', sub: 'デザイン・Web・経済・トレンド' }, d.study, STUDY)],
-    ['gallery', 'Webギャラリー', gallerySection(d.gallery)],
-    ['hobby', '趣味', sectionList('hobby', { en: 'Hobby', ja: '趣味', sub: '映画・お笑い・文化' }, d.hobby, HOBBY)],
-    ['alerts', '会期終了間近', alertsSection(d.alerts, d.alertsSrc)],
-    ['calendar', 'カレンダー', calendarSection(d.calendar, d.calendarSrc)],
-    ['quick', 'ひとこと', quickSection(d.quick)],
-    ['term', '今日の用語', termSection(d.term)],
-    ['weekly', 'ふりかえり', weeklySection(d.weekly)],
-  ].filter((s) => s[2]);
-  const toc = sections.map((s) => `<a href="#${s[0]}">${s[1]}</a>`).join('');
-  const chips =
-    '<button type="button" class="chip" data-f="all" aria-pressed="true">すべて</button>' +
-    Object.keys(G).map((k) => `<button type="button" class="chip" data-f="${k}" style="--g:var(${G[k].v})" aria-pressed="false"><i></i>${G[k].n}</button>`).join('');
+  const asof = d.asof ? ` ${esc(d.asof)}現在` : '';
+  const dateHtml = `<div class="date">${y}.<b>${m}.${day} ${wd}</b>${asof}</div>`;
+
+  const parts = {
+    quick: quickSection(d.quick),
+    ai: aiSection(d.ai),
+    econ: subSec('econ', 'econ', (d.study || {}).econ),
+    trend: subSec('trend', 'trend', (d.study || {}).trend),
+    buzz: buzzSection(d.buzz),
+    design: subSec('design', 'design', (d.study || {}).design),
+    web: subSec('web', 'web', (d.study || {}).web),
+    gallery: gallerySection(d.gallery),
+    film: subSec('film', 'film', (d.hobby || {}).film),
+    comedy: subSec('comedy', 'comedy', (d.hobby || {}).comedy),
+    culture: subSec('culture', 'culture', (d.hobby || {}).culture),
+    alerts: alertsSection(d.alerts, d.alertsSrc),
+    calendar: calendarSection(d.calendar, d.calendarSrc),
+    term: termSection(d.term),
+    weekly: weeklySection(d.weekly, wd),
+  };
+  const groups = [
+    ['quick'],
+    ['ai', 'econ', 'trend', 'buzz'],
+    ['design', 'web', 'gallery'],
+    ['film', 'comedy', 'culture', 'alerts', 'calendar', 'term', 'weekly'],
+  ];
+  const NAV = {
+    quick: ['ひとこと', '--c-econ'], ai: ['AI', '--c-ai'], econ: ['経済・国際', '--c-econ'], trend: ['トレンド', '--c-trend'], buzz: ['Xの話題', '--c-x'],
+    design: ['デザイン', '--c-design'], web: ['Web', '--c-web'], gallery: ['Webギャラリー', '--c-web'],
+    film: ['映画', '--c-film'], comedy: ['お笑い', '--c-comedy'], culture: ['文化', '--c-culture'],
+    alerts: ['会期終了間近', '--c-culture'], calendar: ['カレンダー', '--c-x'], term: ['今日の用語', '--c-econ'], weekly: [`${wd}曜号`, '--c-trend'],
+  };
+  const navGroups = groups
+    .map((g) => g.filter((k) => parts[k]).map((k) => `<a href="#${k}" style="--g:var(${NAV[k][1]})"><i></i>${NAV[k][0]}</a>`).join(''))
+    .filter(Boolean);
+  const toc = navGroups.join('<span class="sep"></span>');
+  const inner = (g) => g.map((k) => parts[k]).join('\n');
+  const blocks = [
+    block(1, 'Brief', 'ひとこと', inner(groups[0])),
+    block(2, 'News', 'ニュース', inner(groups[1])),
+    block(3, 'Design', 'デザイン', inner(groups[2])),
+    block(4, 'Hobby &amp; Culture', '趣味と文化', inner(groups[3])),
+  ].join('\n');
   const bar = Object.keys(G).map((k) => `<i style="background:var(${G[k].v})"></i>`).join('');
   const kit = cfg.adobeFontsKitId
     ? `<script>(function(d){var config={kitId:'${cfg.adobeFontsKitId}',scriptTimeout:3000,async:true},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\\bwf-loading\\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);</script>`
     : '';
-  const notice = d.notice || '日本語の出典を優先し、各記事の下に出典を付けています。英語の出典には「英語」と表示しています。';
   return `<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>${esc(cfg.siteTitle)} ${d.date} ${edLabel}</title>
+<title>${esc(cfg.siteTitle)} ${d.date}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700&display=swap" rel="stylesheet">
@@ -221,15 +254,15 @@ function page(d, isLatest) {
 ${kit}
 </head>
 <body>
-<div class="notice">${esc(notice)}</div>
-<header class="wrap"><div class="hdr"><div class="logo"><b>${esc(cfg.siteTitle)}</b></div><div class="date">${dateLabel}(${edLabel})</div></div></header>
+<header class="wrap"><div class="hdr"><div class="logo"><b>${esc(cfg.siteTitle)}</b></div>${dateHtml}</div></header>
 <div class="bar" aria-hidden="true">${bar}</div>
-<div class="wrap"><div class="issue" id="issue" data-prefix="${esc(d.updated ? d.updated + ' / ' : '')}"></div><div class="filter"><span class="q">今日はどれを読む?</span><div class="chips" id="chips">${chips}</div></div></div>
-<div class="wrap layout"><nav class="toc" id="toc" aria-label="ページ内移動"><span class="lbl">いま読んでいる場所</span>${toc}</nav>
+<div class="wrap"><div class="issuebar"><div class="issue" id="issue"></div><button type="button" class="sv" id="savedBtn">☆ チェックした記事 <b id="savedN">0</b></button></div></div>
+<div class="wrap layout"><nav class="toc" id="toc" aria-label="ページ内移動">${toc}</nav>
 <main>
-${sections.map((s) => s[2]).join('\n')}
+${blocks}
 </main></div>
-<footer class="wrap"><p class="foot-note">${esc(d.footnote || '')}</p><span><a href="archive.html">バックナンバー</a></span></footer>
+<aside class="saved" id="saved" hidden><div class="sv-h"><b>チェックした記事</b><button type="button" id="savedClose" aria-label="閉じる">×</button></div><p class="sv-n">このブラウザにだけ保存されます(パソコンとスマホでは共有されません)。</p><div id="savedList"></div><button type="button" class="sv-clear" id="savedClear">すべて外す</button></aside>
+<footer class="wrap"><p class="foot-note">${esc(d.footnote || '')}</p></footer>
 <script src="app.js"></script>
 </body>
 </html>
@@ -256,18 +289,10 @@ fs.mkdirSync(OUT_DIR, { recursive: true });
 fs.copyFileSync(path.join(ROOT, 'template', 'style.css'), path.join(OUT_DIR, 'style.css'));
 fs.copyFileSync(path.join(ROOT, 'template', 'app.js'), path.join(OUT_DIR, 'app.js'));
 
-issues.forEach(({ f, d }) => fs.writeFileSync(path.join(OUT_DIR, f.replace(/\.json$/, '.html')), page(d), 'utf8'));
+// 公開するのは最新の号だけ。古いページは残さない。
 const latest = issues[issues.length - 1];
-fs.writeFileSync(path.join(OUT_DIR, 'index.html'), page(latest.d, true), 'utf8');
-
-const list = issues
-  .slice()
-  .reverse()
-  .map(({ f, d }) => `<li><a href="${f.replace(/\.json$/, '.html')}">${d.date}${d.edition === 'evening' ? '(夕刊)' : ''}</a></li>`)
-  .join('\n');
-fs.writeFileSync(
-  path.join(OUT_DIR, 'archive.html'),
-  `<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>バックナンバー</title><link rel="stylesheet" href="style.css"></head><body><main class="wrap" style="padding-top:40px"><h2>バックナンバー</h2><ul>${list}</ul><p><a href="index.html">最新号へ</a></p></main></body></html>\n`,
-  'utf8'
-);
-console.log(`書き出しました: ${files.length}件 → docs/ (最新: ${latest.d.date})`);
+fs.writeFileSync(path.join(OUT_DIR, 'index.html'), page(latest.d), 'utf8');
+for (const f of fs.readdirSync(OUT_DIR)) {
+  if (f.endsWith('.html') && f !== 'index.html') fs.unlinkSync(path.join(OUT_DIR, f));
+}
+console.log(`書き出しました: docs/index.html (${latest.d.date}${latest.d.edition === 'evening' ? ' 夕刊' : ''})`);

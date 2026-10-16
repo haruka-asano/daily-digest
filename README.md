@@ -1,6 +1,6 @@
 # daily-digest
 
-毎日のニュースサイト。Claude Codeが毎朝(と、必要なら夕方)に `data/` へ内容を書き、`node build.js` で `docs/` にサイトを作ります。
+毎日のニュースサイト。Claude Codeが毎朝1回(日本時間8時ごろ) `data/` へ内容を書き、`node build.js` で `docs/` にサイトを作ります。
 
 - `CLAUDE.md` … Claudeへの指示(文章・出典・画像・Xの扱いのルール)
 - `SCHEMA.md` … `data/*.json` の形
