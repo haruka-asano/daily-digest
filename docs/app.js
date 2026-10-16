@@ -1,33 +1,21 @@
 (function(){
-  var chips=document.getElementById('chips');
   var toc=document.getElementById('toc');
   var n=0,min=3;
   document.querySelectorAll('[data-min]').forEach(function(c){n++;min+=parseInt(c.getAttribute('data-min'),10)||1;});
   var issue=document.getElementById('issue');
-  if(issue){issue.innerHTML=issue.getAttribute('data-prefix')+'記事 <b>'+n+'本</b> / 読了目安 <b>約'+min+'分</b>';}
+  if(issue){issue.innerHTML='記事 <b>'+n+'本</b> / 読了目安 <b>約'+min+'分</b>';}
 
-  chips.addEventListener('click',function(e){
-    var b=e.target.closest('.chip');if(!b)return;
-    var f=b.getAttribute('data-f');
-    chips.querySelectorAll('.chip').forEach(function(c){c.setAttribute('aria-pressed',c===b?'true':'false');});
-    document.querySelectorAll('[data-g]').forEach(function(c){c.hidden=(f!=='all'&&c.getAttribute('data-g')!==f);});
-    document.querySelectorAll('[data-grp]').forEach(function(s){s.hidden=!s.querySelector('[data-g]:not([hidden])');});
-    document.querySelectorAll('[data-sec]').forEach(function(s){s.hidden=!s.querySelector('[data-g]:not([hidden])');});
-    setTimeout(spy,0);
-  });
-
+  /* ---- いま読んでいる場所 ---- */
   var links=[].slice.call(toc.querySelectorAll('a[href^="#"]'));
   var last=null;
   function spy(){
     var cur=null,y=window.innerHeight*0.35;
     links.forEach(function(a){
       var t=document.querySelector(a.getAttribute('href'));
-      a.hidden=!!(t&&t.hidden);
-      if(t&&!t.hidden&&t.getBoundingClientRect().top<=y)cur=a;
+      if(t&&t.getBoundingClientRect().top<=y)cur=a;
     });
-    var vis=links.filter(function(a){return !a.hidden;});
-    if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-4)cur=vis[vis.length-1]||cur;
-    if(!cur)cur=vis[0]||null;
+    if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-4)cur=links[links.length-1]||cur;
+    if(!cur)cur=links[0]||null;
     links.forEach(function(a){a.setAttribute('aria-current',a===cur?'true':'false');});
     if(cur&&cur!==last){
       last=cur;
@@ -37,4 +25,47 @@
   window.addEventListener('scroll',spy,{passive:true});
   window.addEventListener('resize',spy);
   spy();
+
+  /* ---- 気になる記事のチェック(このブラウザに保存) ---- */
+  var KEY='dd.saved';
+  function load(){try{return JSON.parse(localStorage.getItem(KEY)||'[]');}catch(e){return [];}}
+  function store(a){try{localStorage.setItem(KEY,JSON.stringify(a));}catch(e){}}
+  var saved=load();
+  var nEl=document.getElementById('savedN'),panel=document.getElementById('saved'),list=document.getElementById('savedList');
+  function has(id){return saved.some(function(x){return x.id===id;});}
+  function paint(){
+    document.querySelectorAll('.ck').forEach(function(b){
+      var o;try{o=JSON.parse(b.getAttribute('data-ck'));}catch(e){return;}
+      var on=has(o.id);b.setAttribute('aria-pressed',on?'true':'false');b.textContent=on?'★':'☆';
+    });
+    nEl.textContent=saved.length;
+  }
+  function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e;}
+  function render(){
+    list.innerHTML='';
+    if(!saved.length){list.appendChild(el('p','sv-n','まだありません。気になる記事の左上の☆を押してください。'));return;}
+    saved.slice().reverse().forEach(function(x){
+      var d=el('div','sv-i');
+      d.appendChild(el('div','m',x.date+' / '+x.gl));
+      var t=el('div');var a=el('a',null,x.h);if(x.r&&x.r[0]){a.href=x.r[0].u;a.target='_blank';a.rel='noopener';}t.appendChild(a);d.appendChild(t);
+      if(x.img){var im=document.createElement('img');im.src=x.img;im.alt='';im.loading='lazy';im.referrerPolicy='no-referrer';im.onerror=function(){im.remove();};d.appendChild(im);}
+      if(x.a)d.appendChild(el('div',null,x.a));
+      var s=el('div','m','出典: ');
+      (x.r||[]).forEach(function(r){var l=el('a',null,r.t);l.href=r.u;l.target='_blank';l.rel='noopener';s.appendChild(l);s.appendChild(document.createTextNode(' '));});
+      d.appendChild(s);
+      var rm=el('button',null,'外す');rm.addEventListener('click',function(){saved=saved.filter(function(y){return y.id!==x.id;});store(saved);paint();render();});
+      d.appendChild(rm);list.appendChild(d);
+    });
+  }
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('.ck');if(!b)return;
+    e.preventDefault();
+    var o;try{o=JSON.parse(b.getAttribute('data-ck'));}catch(x){return;}
+    if(has(o.id)){saved=saved.filter(function(y){return y.id!==o.id;});}else{saved.push(o);}
+    store(saved);paint();if(!panel.hidden)render();
+  });
+  document.getElementById('savedBtn').addEventListener('click',function(){panel.hidden=!panel.hidden;if(!panel.hidden)render();});
+  document.getElementById('savedClose').addEventListener('click',function(){panel.hidden=true;});
+  document.getElementById('savedClear').addEventListener('click',function(){if(!saved.length||confirm('チェックをすべて外しますか?')){saved=[];store(saved);paint();render();}});
+  paint();
 })();
