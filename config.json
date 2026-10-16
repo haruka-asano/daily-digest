@@ -12,27 +12,26 @@
       "name": "MUUUUU.ORG",
       "url": "https://muuuuu.org/",
       "want": "今日の更新をすべて",
-      "verified": false
+      "verified": true
     },
     {
       "name": "S5-Style",
-      "url": "https://s5-style.com/",
+      "url": "https://www.s5-style.com/",
       "want": "今日の更新をすべて",
-      "verified": false
+      "verified": true,
+      "memo": "https://s5-style.com/ (wwwなし)はこの環境から接続できず、www付きで確認"
     },
     {
       "name": "Brilliant Design Collect",
-      "url": null,
+      "url": "https://brilliantdesign.work/",
       "want": "今日の更新をすべて",
-      "verified": false,
-      "find": "検索してURLを確かめる"
+      "verified": true
     },
     {
       "name": "me ki ki ki",
-      "url": null,
+      "url": "https://mekikiki.com/",
       "want": "今日の更新をすべて",
-      "verified": false,
-      "find": "検索してURLを確かめる"
+      "verified": true
     },
     {
       "name": "Awwwards",
@@ -45,19 +44,19 @@
       "name": "CSS Design Awards",
       "url": "https://www.cssdesignawards.com/",
       "want": "Site of the Day(Website of the Day)のみ",
-      "verified": false
+      "verified": true
     },
     {
       "name": "The FWA",
       "url": "https://thefwa.com/",
       "want": "Site of the Dayのみ",
-      "verified": false
+      "verified": true
     },
     {
       "name": "Siteinspire",
       "url": "https://www.siteinspire.com/websites",
       "want": "今日の更新をすべて",
-      "verified": false
+      "verified": true
     },
     {
       "name": "MaxiBestOf",
@@ -69,14 +68,14 @@
       "name": "Minimal Gallery",
       "url": "https://minimal.gallery/",
       "want": "今日の更新をすべて",
-      "verified": false
+      "verified": true
     },
     {
       "name": "Storefront.Design",
-      "url": null,
+      "url": "https://www.storefront.design/",
       "want": "今日の更新をすべて",
-      "verified": false,
-      "find": "検索してURLを確かめる"
+      "verified": true,
+      "memo": "URLは正しいが、2025年6月8日以降の掲載が見当たらない(更新停止の可能性)"
     }
   ]
 }
