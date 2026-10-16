@@ -5,7 +5,7 @@
   --bg:#F3F0E8; --card:#FFFFFF; --pad:32px; --ink:#1C1C1C; --sub:#6C6C6C; --hair:#D9D9D9; --band:#ECE8DE;
   --accent:#D8402A;
   --c-ai:#4BBFE0; --c-design:#A98BDB; --c-web:#69C46B; --c-econ:#F5C21B; --c-trend:#F384B6;
-  --c-film:#F26F5E; --c-x:#9AA0A6; --c-comedy:#FF9B2E; --c-culture:#3DB5A4;
+  --c-film:#F26F5E; --c-x:#9AA0A6; --c-fashion:#C78BE0; --c-finds:#F59BB0; --c-comedy:#FF9B2E; --c-culture:#3DB5A4;
   --font:"fot-cezanne-pron","FOT-セザンヌ ProN","FOT-Cezanne ProN","FOT-セザンヌ ProN M","FOT-Cezanne ProN M","FOT-CezannePro-M","FOT-セザンヌ Pro","FOT-Cezanne Pro","Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",serif;
 }
 @media (prefers-color-scheme:dark){
@@ -254,3 +254,8 @@ html{-webkit-text-size-adjust:100%}
 .sv-i button{font:inherit;font-size:12px;color:var(--sub);background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
 .sv-clear{font:inherit;font-size:12px;margin-top:10px;background:none;border:1px solid var(--hair);border-radius:999px;padding:2px 12px;color:var(--sub);cursor:pointer}
 footer{margin-top:56px}
+
+/* v0.9 */
+.qd summary::before,.qd[open] summary::before{display:none!important;content:none!important}
+.pill.price{font-weight:700;background:var(--band)}
+footer{min-height:40px}
