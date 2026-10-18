@@ -107,7 +107,9 @@ function aiSection(ai) {
 <div><p class="lead-s">${esc(l.a)}</p><dl class="rows"><div class="r"><dt>なぜ今</dt><dd>${esc(l.b)}</dd></div><div class="r"><dt>自分ごと</dt><dd>${esc(l.u)}</dd></div></dl>
 <details><summary>もっと詳しく</summary><p>${esc(l.m)}</p></details>${srcs(l.r)}</div></div>`
     : '';
+  const EMPTY = ['確認できず', 'なし', '確認中'];
   const rows = (ai.rows || [])
+    .filter((r) => !EMPTY.includes(r.tag))
     .map((r) => `<div class="co"><b>${esc(r.co)}</b><span class="pill"><i></i>${esc(r.tag)}</span><span class="d">${esc(r.text)}</span></div>`)
     .join('\n');
   const save = l ? { id: idOf(l.h), date: CUR_DATE, gl: 'AI', h: l.h, a: l.a, r: l.r, img: l.img ? l.img.u : '' } : null;
@@ -133,20 +135,29 @@ function galItem(it, site) {
 
 function gallerySection(g) {
   if (!g || !g.sites) return '';
-  const blocks = g.sites
-    .map((st) => {
-      const today = st.today || [];
-      const latest = st.latest && st.latest.items && st.latest.items.length ? st.latest : null;
-      if (!today.length && !latest) return ''; // 取得できなかったサイトは画面に出さない
-      const cnt = today.length ? `本日 ${today.length}件` : `本日の更新なし(直近 ${esc(latest.date)})`;
-      const body = today.length
-        ? `<div class="gal">${today.map((it) => galItem(it, st.name)).join('')}</div>`
-        : `<details class="gl"><summary>直近の更新を見る</summary><div class="gal">${latest.items.map((it) => galItem(it, st.name)).join('')}</div></details>`;
-      return `<div class="gsite"><h4 class="gh"><a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.name)}</a><span class="cnt">${cnt}${st.note ? ' / ' + esc(st.note) : ''}</span></h4>${body}</div>`;
+  const sites = g.sites
+    .map((st) => ({ st, today: st.today || [], latest: st.latest && st.latest.items && st.latest.items.length ? st.latest : null }))
+    .filter((x) => x.today.length || x.latest) // 取得できなかったサイトは出さない
+    .sort((p, q) => (q.today.length > 0) - (p.today.length > 0)); // 今日の更新があるサイトを先に
+  if (!sites.length) return '';
+  const blocks = sites
+    .map(({ st, today, latest }) => {
+      const head = (cnt) => `<h4 class="gh"><a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.name)}</a>${cnt}</h4>`;
+      if (today.length) {
+        return `<div class="gsite today">${head(`<span class="gbadge">本日更新 ${today.length}件</span>`)}<div class="gal">${today.map((it) => galItem(it, st.name)).join('')}</div></div>`;
+      }
+      return `<div class="gsite past">${head(`<span class="cnt">本日の更新なし / 直近の更新 ${esc(latest.date)}</span>`)}<div class="gal">${latest.items.map((it) => galItem(it, st.name)).join('')}</div></div>`;
     })
     .join('\n');
-  if (!blocks.trim()) return '';
-  return `<section class="sub" id="gallery" style="--g:var(--c-web)"><h3 class="grp-h"><i></i>Webデザインギャラリー<span class="cnt">各ギャラリーの本日の更新(アワードはSite of the Dayのみ)</span></h3>${blocks}${srcs(g.src)}</section>`;
+  return `<section class="sub" id="gallery" style="--g:var(--c-web)"><h3 class="grp-h"><i></i>Webデザインギャラリー<span class="cnt">枠のあるサイトは本日の更新(アワードはSite of the Dayのみ)</span></h3>${blocks}${srcs(g.src)}</section>`;
+}
+
+function patrolSection(list) {
+  if (!list || !list.length) return '';
+  const items = list
+    .map((x) => `<div class="pt"><label><input type="checkbox" data-pt="${esc(x.name)}"><a class="ptl" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a></label>${x.note ? `<span class="ptn">${esc(x.note)}</span>` : ''}</div>`)
+    .join('');
+  return `<section class="sub" id="patrol" style="--g:var(--c-web)"><h3 class="grp-h"><i></i>巡回リンク<span class="cnt" id="patrolN"></span></h3><p class="ptd">自分で見に行くサイトです。リンクを開くと、今日の分にチェックが付きます(翌日に消えます)。</p><div class="ptg">${items}</div></section>`;
 }
 
 function alertsSection(a, srcList) {
@@ -207,6 +218,7 @@ function page(d) {
     design: subSec('design', 'design', (d.study || {}).design),
     web: subSec('web', 'web', (d.study || {}).web),
     gallery: gallerySection(d.gallery),
+    patrol: patrolSection(cfg.patrolSites),
     film: subSec('film', 'film', (d.hobby || {}).film),
     comedy: subSec('comedy', 'comedy', (d.hobby || {}).comedy),
     culture: subSec('culture', 'culture', (d.hobby || {}).culture),
@@ -220,12 +232,12 @@ function page(d) {
   const groups = [
     ['quick'],
     ['ai', 'econ', 'trend', 'buzz'],
-    ['design', 'web', 'gallery'],
+    ['design', 'web', 'gallery', 'patrol'],
     ['film', 'comedy', 'culture', 'fashion', 'alerts', 'calendar', 'term', 'weekly'],
   ];
   const NAV = {
     quick: ['ひとこと', '--c-econ'], ai: ['AI', '--c-ai'], econ: ['経済・国際', '--c-econ'], trend: ['トレンド', '--c-trend'], buzz: ['Xの話題', '--c-x'],
-    design: ['デザイン', '--c-design'], web: ['Web', '--c-web'], gallery: ['Webギャラリー', '--c-web'],
+    design: ['デザイン', '--c-design'], web: ['Web', '--c-web'], gallery: ['Webギャラリー', '--c-web'], patrol: ['巡回リンク', '--c-web'],
     film: ['映画', '--c-film'], comedy: ['お笑い', '--c-comedy'], culture: ['文化', '--c-culture'], fashion: ['ファッション', '--c-fashion'],
     alerts: ['会期終了間近', '--c-culture'], calendar: ['カレンダー', '--c-x'], term: ['今日の用語', '--c-econ'], weekly: [`${wd}曜号`, '--c-trend'],
   };

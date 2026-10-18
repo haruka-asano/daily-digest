@@ -259,3 +259,22 @@ footer{margin-top:56px}
 .qd summary::before,.qd[open] summary::before{display:none!important;content:none!important}
 .pill.price{font-weight:700;background:var(--band)}
 footer{min-height:40px}
+
+/* v1.0 ギャラリー: 本日更新は枠つき、直近は常に表示 */
+.gsite.today{border:2px solid var(--ink);border-radius:16px;padding:14px 16px 12px;background:var(--card);margin-top:18px}
+.gsite.today .gh{margin-bottom:12px}
+.gbadge{margin-left:auto;font-size:12px;font-weight:700;background:var(--c-web);color:#1C1C1C;border:1px solid var(--ink);border-radius:999px;padding:0 12px;line-height:1.8}
+.gsite.past{margin-top:22px;padding:0 2px}
+.gsite.past .gh a{font-weight:500}
+.gsite.past .gal{opacity:.92}
+/* 巡回リンク */
+.ptd{margin:0 0 12px;font-size:13px;color:var(--sub)}
+.ptg{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.pt{background:var(--card);border:1px solid var(--ink);border-radius:12px;padding:8px 12px;display:flex;flex-direction:column;gap:2px}
+.pt label{display:flex;align-items:center;gap:8px;cursor:pointer;font-size:14px}
+.pt input{width:16px;height:16px;accent-color:#2E7D32;flex:none}
+.pt a{color:inherit;text-decoration:none;font-weight:500}
+.pt a:hover{text-decoration:underline;text-underline-offset:3px}
+.pt.done{background:var(--band)}
+.pt.done a{color:var(--sub)}
+.ptn{font-size:11.5px;color:var(--sub);padding-left:24px;line-height:1.5}
