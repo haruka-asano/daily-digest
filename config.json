@@ -65,6 +65,60 @@
       "memo": "URLは正しいが、2025年6月8日以降の掲載が見当たらない(更新停止の可能性)"
     }
   ],
+  "patrolSites": [
+    {
+      "name": "Awwwards(SOTD)",
+      "url": "https://www.awwwards.com/websites/sites_of_the_day/"
+    },
+    {
+      "name": "Awwwards(HM)",
+      "url": "https://www.awwwards.com/websites/honorable/"
+    },
+    {
+      "name": "CSS Design Awards",
+      "url": "https://www.cssdesignawards.com/"
+    },
+    {
+      "name": "The FWA",
+      "url": "https://thefwa.com/"
+    },
+    {
+      "name": "Siteinspire",
+      "url": "https://www.siteinspire.com/websites"
+    },
+    {
+      "name": "MaxiBestOf",
+      "url": "https://www.maxibestof.one/"
+    },
+    {
+      "name": "Minimal Gallery",
+      "url": "https://minimal.gallery/"
+    },
+    {
+      "name": "SANKOU!",
+      "url": "https://sankoudesign.com/"
+    },
+    {
+      "name": "MUUUUU.ORG",
+      "url": "https://muuuuu.org/"
+    },
+    {
+      "name": "S5-Style",
+      "url": "https://www.s5-style.com/"
+    },
+    {
+      "name": "Brilliant Design Collect",
+      "url": "https://brilliantdesign.work/"
+    },
+    {
+      "name": "me ki ki ki",
+      "url": "https://mekikiki.com/"
+    },
+    {
+      "name": "Storefront.Design",
+      "url": "https://www.storefront.design/"
+    }
+  ],
   "fashionSites": [
     {
       "name": "FASHIONSNAP",
