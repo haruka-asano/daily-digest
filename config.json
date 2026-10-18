@@ -40,12 +40,6 @@
       "verified": true
     },
     {
-      "name": "The FWA",
-      "url": "https://thefwa.com/",
-      "want": "Site of the Dayのみ",
-      "verified": true
-    },
-    {
       "name": "Siteinspire",
       "url": "https://www.siteinspire.com/websites",
       "want": "今日の更新をすべて",
@@ -56,13 +50,6 @@
       "url": "https://minimal.gallery/",
       "want": "今日の更新をすべて",
       "verified": true
-    },
-    {
-      "name": "Storefront.Design",
-      "url": "https://www.storefront.design/",
-      "want": "今日の更新をすべて",
-      "verified": true,
-      "memo": "URLは正しいが、2025年6月8日以降の掲載が見当たらない(更新停止の可能性)"
     }
   ],
   "patrolSites": [
