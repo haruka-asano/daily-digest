@@ -24,10 +24,9 @@ const G = {
   comedy: { n: 'お笑い', v: '--c-comedy' },
   culture: { n: '文化', v: '--c-culture' },
   fashion: { n: 'ファッション・ビューティー', v: '--c-fashion' },
-  finds: { n: '心躍る新作', v: '--c-finds' },
 };
 const STUDY = ['design', 'web', 'econ', 'trend'];
-const HOBBY = ['film', 'comedy', 'culture', 'fashion', 'finds'];
+const HOBBY = ['film', 'comedy', 'culture', 'fashion'];
 const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 const WEEK = '日月火水木金土';
 
@@ -211,8 +210,8 @@ function page(d) {
     film: subSec('film', 'film', (d.hobby || {}).film),
     comedy: subSec('comedy', 'comedy', (d.hobby || {}).comedy),
     culture: subSec('culture', 'culture', (d.hobby || {}).culture),
-    fashion: subSec('fashion', 'fashion', (d.hobby || {}).fashion),
-    finds: subSec('finds', 'finds', (d.hobby || {}).finds),
+    // 以前の "finds"(心躍る新作)は、ファッション・ビューティーに統合して表示する
+    fashion: subSec('fashion', 'fashion', [...((d.hobby || {}).fashion || []), ...(((d.hobby || {}).finds || []).map((c) => ({ ...c, g: 'fashion' })))]),
     alerts: alertsSection(d.alerts, d.alertsSrc),
     calendar: calendarSection(d.calendar, d.calendarSrc),
     term: termSection(d.term),
@@ -222,12 +221,12 @@ function page(d) {
     ['quick'],
     ['ai', 'econ', 'trend', 'buzz'],
     ['design', 'web', 'gallery'],
-    ['film', 'comedy', 'culture', 'fashion', 'finds', 'alerts', 'calendar', 'term', 'weekly'],
+    ['film', 'comedy', 'culture', 'fashion', 'alerts', 'calendar', 'term', 'weekly'],
   ];
   const NAV = {
     quick: ['ひとこと', '--c-econ'], ai: ['AI', '--c-ai'], econ: ['経済・国際', '--c-econ'], trend: ['トレンド', '--c-trend'], buzz: ['Xの話題', '--c-x'],
     design: ['デザイン', '--c-design'], web: ['Web', '--c-web'], gallery: ['Webギャラリー', '--c-web'],
-    film: ['映画', '--c-film'], comedy: ['お笑い', '--c-comedy'], culture: ['文化', '--c-culture'], fashion: ['ファッション', '--c-fashion'], finds: ['心躍る新作', '--c-finds'],
+    film: ['映画', '--c-film'], comedy: ['お笑い', '--c-comedy'], culture: ['文化', '--c-culture'], fashion: ['ファッション', '--c-fashion'],
     alerts: ['会期終了間近', '--c-culture'], calendar: ['カレンダー', '--c-x'], term: ['今日の用語', '--c-econ'], weekly: [`${wd}曜号`, '--c-trend'],
   };
   const navGroups = groups
