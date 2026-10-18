@@ -152,12 +152,46 @@ function gallerySection(g) {
   return `<section class="sub" id="gallery" style="--g:var(--c-web)"><h3 class="grp-h"><i></i>Webデザインギャラリー<span class="cnt">枠のあるサイトは本日の更新(アワードはSite of the Dayのみ)</span></h3>${blocks}${srcs(g.src)}</section>`;
 }
 
-function patrolSection(list) {
-  if (!list || !list.length) return '';
-  const items = list
-    .map((x) => `<div class="pt"><label><input type="checkbox" data-pt="${esc(x.name)}"><a class="ptl" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a></label>${x.note ? `<span class="ptn">${esc(x.note)}</span>` : ''}</div>`)
-    .join('');
-  return `<section class="sub" id="patrol" style="--g:var(--c-web)"><h3 class="grp-h"><i></i>巡回リンク<span class="cnt" id="patrolN"></span></h3><p class="ptd">自分で見に行くサイトです。リンクを開くと、今日の分にチェックが付きます(翌日に消えます)。</p><div class="ptg">${items}</div></section>`;
+let PATROL = { perDay: 6, sites: [] };
+let PATROL_UPD = {};
+try { PATROL = JSON.parse(fs.readFileSync(path.join(ROOT, 'patrol.json'), 'utf8')); } catch (e) { /* なければ巡回リンクは出さない */ }
+try { PATROL_UPD = JSON.parse(fs.readFileSync(path.join(ROOT, 'patrol-updates.json'), 'utf8')).updates || {}; } catch (e) { /* なければ新着表示なし */ }
+
+function ptItem(x, withBox) {
+  const u = PATROL_UPD[x.name];
+  const upd = u
+    ? `<a class="ptu" href="${esc(u.url)}" target="_blank" rel="noopener">${u.fresh ? '<span class="new">NEW</span>' : ''}${esc(u.title)}${u.date ? `<span class="ptd2">${esc(u.date.slice(5).replace('-', '/'))}</span>` : ''}</a>`
+    : '';
+  const main = withBox
+    ? `<label><input type="checkbox" data-pt="${esc(x.name)}"><a class="ptl" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a></label>`
+    : `<a class="ptl" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a>`;
+  return `<div class="pt" data-cat="${esc(x.cat)}">${main}<span class="ptn">${esc(x.cat)}</span>${upd}</div>`;
+}
+
+/* カテゴリを交互に並べる(毎日のローテーションで、種類がばらけるように) */
+function interleave(sites) {
+  const byCat = {};
+  sites.forEach((s) => (byCat[s.cat] = byCat[s.cat] || []).push(s));
+  const cats = Object.keys(byCat);
+  const out = [];
+  for (let i = 0; out.length < sites.length; i++) cats.forEach((c) => { if (byCat[c][i]) out.push(byCat[c][i]); });
+  return out;
+}
+
+function patrolSection() {
+  const sites = PATROL.sites || [];
+  if (!sites.length) return '';
+  const daily = sites.filter((x) => x.tier === 'daily');
+  const rotate = interleave(sites.filter((x) => x.tier === 'rotate'));
+  const shelf = sites.filter((x) => x.tier === 'shelf');
+  const shelfCats = [...new Set(shelf.map((x) => x.cat))];
+  const rotAll = rotate.map((x, i) => `<div class="rotwrap" data-i="${i}">${ptItem(x, true)}</div>`).join('');
+  return `<section class="sub" id="patrol" style="--g:var(--c-web)" data-per-day="${PATROL.perDay || 6}"><h3 class="grp-h"><i></i>巡回リンク<span class="cnt" id="patrolN"></span></h3>
+<p class="ptd">自分で見に行くサイトです。リンクを開くと、今日の分にチェックが付きます(翌日に消えます)。ローテーションは日付で自動的に決まります。</p>
+<h4 class="pth">毎日のお気に入り</h4><div class="ptg" id="ptDaily">${daily.map((x) => ptItem(x, true)).join('')}</div>
+<h4 class="pth">今日のローテーション</h4><div class="ptg" id="ptToday"></div>
+<details class="pta"><summary>ローテーション全体を見る(${rotate.length}サイト)</summary><div class="ptg" id="ptRest">${rotAll}</div></details>
+<details class="pta"><summary>資料棚(アーカイブ・UIガイドなど ${shelf.length}サイト)</summary>${shelfCats.map((c) => `<h4 class="pth">${esc(c)}</h4><div class="ptg">${shelf.filter((x) => x.cat === c).map((x) => ptItem(x, false)).join('')}</div>`).join('')}</details></section>`;
 }
 
 function alertsSection(a, srcList) {
@@ -218,7 +252,7 @@ function page(d) {
     design: subSec('design', 'design', (d.study || {}).design),
     web: subSec('web', 'web', (d.study || {}).web),
     gallery: gallerySection(d.gallery),
-    patrol: patrolSection(cfg.patrolSites),
+    patrol: patrolSection(),
     film: subSec('film', 'film', (d.hobby || {}).film),
     comedy: subSec('comedy', 'comedy', (d.hobby || {}).comedy),
     culture: subSec('culture', 'culture', (d.hobby || {}).culture),

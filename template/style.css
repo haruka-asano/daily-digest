@@ -278,3 +278,15 @@ footer{min-height:40px}
 .pt.done{background:var(--band)}
 .pt.done a{color:var(--sub)}
 .ptn{font-size:11.5px;color:var(--sub);padding-left:24px;line-height:1.5}
+
+/* v1.1 巡回リンク(毎日・ローテーション・資料棚) */
+.pth{margin:18px 0 8px;font-size:14px;font-weight:700}
+.pta{margin-top:14px;border-top:1px solid var(--hair);padding-top:10px}
+.pta summary{margin-bottom:8px}
+.pt .ptn{padding-left:24px}
+.pt > .ptl{padding-left:0}
+.ptu{display:block;padding-left:24px;font-size:12px;line-height:1.5;color:var(--sub);text-decoration:none}
+.ptu:hover{text-decoration:underline;text-underline-offset:3px}
+.ptu .new{display:inline-block;background:#C4452D;color:#fff;font-size:10px;font-weight:700;border-radius:4px;padding:0 5px;margin-right:6px;line-height:1.5}
+.ptu .ptd2{margin-left:6px;opacity:.8}
+.rotwrap{display:contents}

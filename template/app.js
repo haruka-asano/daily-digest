@@ -69,19 +69,35 @@
   document.getElementById('savedClear').addEventListener('click',function(){if(!saved.length||confirm('チェックをすべて外しますか?')){saved=[];store(saved);paint();render();}});
   paint();
 
-  /* ---- 巡回リンク(その日のうちだけチェックが残る) ---- */
+  /* ---- 巡回リンク(日替わりのローテーション + その日のうちだけ残るチェック) ---- */
   (function(){
-    var boxes=[].slice.call(document.querySelectorAll('input[data-pt]'));
-    if(!boxes.length)return;
-    var d=new Date(Date.now()+9*3600*1000).toISOString().slice(0,10);
-    var K='dd.patrol.'+d;
+    var sec=document.getElementById('patrol');
+    if(!sec)return;
+    var jstDay=Math.floor((Date.now()+9*3600*1000)/86400000);
+    var date=new Date(Date.now()+9*3600*1000).toISOString().slice(0,10);
+    var per=parseInt(sec.getAttribute('data-per-day'),10)||6;
+    var rest=document.getElementById('ptRest'),today=document.getElementById('ptToday');
+    var wraps=[].slice.call(rest.querySelectorAll('.rotwrap'));
+    var N=wraps.length;
+    if(N){
+      var start=(jstDay*per)%N;
+      for(var k=0;k<Math.min(per,N);k++){
+        var w=wraps[(start+k)%N];
+        while(w.firstChild)today.appendChild(w.firstChild);
+        w.remove();
+      }
+    }
+    var boxes=[].slice.call(sec.querySelectorAll('#ptDaily input[data-pt], #ptToday input[data-pt], #ptRest input[data-pt]'));
+    var K='dd.patrol.'+date;
     var st;try{st=JSON.parse(localStorage.getItem(K)||'{}');}catch(e){st={};}
     try{Object.keys(localStorage).forEach(function(k){if(k.indexOf('dd.patrol.')===0&&k!==K)localStorage.removeItem(k);});}catch(e){}
     var nEl=document.getElementById('patrolN');
+    var todayBoxes=boxes.filter(function(b){return !b.closest('#ptRest');});
     function paintP(){
       var c=0;
-      boxes.forEach(function(b){var on=!!st[b.getAttribute('data-pt')];b.checked=on;b.closest('.pt').classList.toggle('done',on);if(on)c++;});
-      if(nEl)nEl.textContent='今日 '+c+' / '+boxes.length+' チェック済み';
+      boxes.forEach(function(b){var on=!!st[b.getAttribute('data-pt')];b.checked=on;b.closest('.pt').classList.toggle('done',on);});
+      todayBoxes.forEach(function(b){if(st[b.getAttribute('data-pt')])c++;});
+      if(nEl)nEl.textContent='今日 '+c+' / '+todayBoxes.length+' チェック済み';
     }
     function saveP(){try{localStorage.setItem(K,JSON.stringify(st));}catch(e){}}
     boxes.forEach(function(b){

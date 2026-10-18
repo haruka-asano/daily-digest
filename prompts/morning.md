@@ -10,6 +10,7 @@
 3-2. Yahoo!リアルタイム検索で、AI・Web・デザイン・お笑いなどの話題を確認して `buzz` に入れる。
 4. `data/YYYY-MM-DD.json` を書く(今日の日付、edition は "morning")。
    - 記事は全体で25〜35本。読むのに合計25〜30分ほど。
+4-2. `node scripts/feeds.js` を実行する(巡回サイトのRSSの新着チェック。失敗しても先へ進む)。
 5. `node build.js --check` を通し、直してから `node build.js` を実行する。
-6. `data/` と `docs/` をコミットして、指示されたブランチにプッシュする。
+6. `data/`、`docs/`、`patrol-feeds.json`、`patrol-updates.json` をコミットして、指示されたブランチにプッシュする。
    コミットメッセージ: `朝刊 YYYY-MM-DD`

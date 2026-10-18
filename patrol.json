@@ -1,0 +1,371 @@
+{
+  "perDay": 6,
+  "sites": [
+    {
+      "name": "Are.na",
+      "url": "https://www.are.na/",
+      "cat": "SNS",
+      "tier": "daily"
+    },
+    {
+      "name": "Savee",
+      "url": "https://savee.it/",
+      "cat": "SNS",
+      "tier": "daily"
+    },
+    {
+      "name": "Site of Sites",
+      "url": "https://www.siteofsites.co/",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "Hallointer",
+      "url": "https://hallointer.net/",
+      "cat": "ギャラリー",
+      "tier": "daily"
+    },
+    {
+      "name": "Gaetan Pautler – All Websites",
+      "url": "https://blog.gaetanpautler.com/all-websites",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "Klikkentheke",
+      "url": "https://klikkentheke.com/",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "Browsingmode",
+      "url": "https://browsingmode.com/",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "HTML Review – Archive",
+      "url": "https://thehtml.review/archive",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "Another Graphic",
+      "url": "https://anothergraphic.org/",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "It's Nice That",
+      "url": "https://www.itsnicethat.com/",
+      "cat": "ギャラリー",
+      "tier": "daily"
+    },
+    {
+      "name": "The Brand Identity",
+      "url": "https://the-brandidentity.com/",
+      "cat": "ギャラリー",
+      "tier": "daily"
+    },
+    {
+      "name": "Design Everywhere",
+      "url": "https://designeverywhere.co/",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "Visual Journal",
+      "url": "https://visualjournal.it/",
+      "cat": "ギャラリー",
+      "tier": "daily"
+    },
+    {
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com/",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "Brands in Motion",
+      "url": "https://www.brandsinmotion.xyz/",
+      "cat": "ギャラリー",
+      "tier": "rotate"
+    },
+    {
+      "name": "Design Reviewed Archive",
+      "url": "https://designreviewed.com/archive/",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "AGI",
+      "url": "https://a-g-i.org/",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "Stedelijk – Collection Online",
+      "url": "https://www.stedelijk.nl/en/dig-deeper/collection-online?",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "SDA Member Archives",
+      "url": "https://member.sign.or.jp/archives/",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "Bird Graphics",
+      "url": "https://www.bird-graphics.com/",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "Japan Book Publishers – Award Books",
+      "url": "https://www.jbpa.or.jp/zohon/zohon-winning.html",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "Award360 China",
+      "url": "https://www.award360.cn/",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "Sugiura Kohei Laboratory",
+      "url": "https://sugiurakohei.musabi.ac.jp/",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "Pentagram Archive",
+      "url": "https://www.pentagram.com/archive",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "eMuseum Switzerland",
+      "url": "https://www.emuseum.ch/en/start",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "Whitney Design",
+      "url": "https://design.whitney.org/",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "MoMA Collection",
+      "url": "https://www.moma.org/collection/",
+      "cat": "アーカイブ",
+      "tier": "shelf"
+    },
+    {
+      "name": "Apple HIG（日本語版）",
+      "url": "https://developer.apple.com/jp/design/human-interface-guidelines/",
+      "cat": "UI",
+      "tier": "shelf"
+    },
+    {
+      "name": "Material 3",
+      "url": "https://m3.material.io/components/",
+      "cat": "UI",
+      "tier": "shelf"
+    },
+    {
+      "name": "Actual Source",
+      "url": "https://actualsource.org/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "In Other Words",
+      "url": "https://in-other-words.co.uk/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "San Serriffe",
+      "url": "https://san-serriffe.com/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "Victionary",
+      "url": "https://victionary.com/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "Counter-Print",
+      "url": "https://www.counter-print.co.uk/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "Page Spread",
+      "url": "https://page-spread.com/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "Books Atelier",
+      "url": "https://www.books-atelier.com/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "Aohata Books",
+      "url": "https://aohatabooks.com/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "Twelve Books",
+      "url": "https://twelve-books.com/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "North East Shop",
+      "url": "https://www.northeastshop.jp/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "Nostos Books",
+      "url": "https://nostos.jp/",
+      "cat": "書店",
+      "tier": "rotate"
+    },
+    {
+      "name": "Graphic Research （by 北千住デザインさん）",
+      "url": "https://scrapbox.io/graphicresearch/",
+      "cat": "データベース",
+      "tier": "rotate"
+    },
+    {
+      "name": "Artpedia Asia",
+      "url": "https://www.artpedia.asia/",
+      "cat": "データベース",
+      "tier": "rotate"
+    },
+    {
+      "name": "IMA Pedia – Artist",
+      "url": "https://imaonline.jp/imapedia/?category=artist",
+      "cat": "データベース",
+      "tier": "rotate"
+    },
+    {
+      "name": "IMA Graphy",
+      "url": "https://imaonline.jp/imagraphy/",
+      "cat": "データベース",
+      "tier": "rotate"
+    },
+    {
+      "name": "Tokyo TDC YouTube",
+      "url": "https://www.youtube.com/@TOKYOTDC",
+      "cat": "フォーラム",
+      "tier": "rotate"
+    },
+    {
+      "name": "Dinamo",
+      "url": "https://abcdinamo.com/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Klim Type Foundry",
+      "url": "https://klim.co.nz/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Displaay Type",
+      "url": "https://displaay.net/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Commercial Type",
+      "url": "https://commercialtype.com/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Grilli Type",
+      "url": "https://www.grillitype.com/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Blaze Type",
+      "url": "https://blazetype.eu/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Forgotten Shapes",
+      "url": "https://forgotten-shapes.com/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Lineto",
+      "url": "https://lineto.com/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Weltkern",
+      "url": "https://weltkern.com/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Swiss Typefaces",
+      "url": "https://www.swisstypefaces.com/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Optimo",
+      "url": "https://optimo.ch/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Velvetyne",
+      "url": "https://velvetyne.fr/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "WiseType",
+      "url": "https://wisetype.nl/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "S-M",
+      "url": "https://s-m.nu/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "ECAL Typefaces",
+      "url": "https://ecal-typefaces.ch/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    },
+    {
+      "name": "Kometa Type",
+      "url": "https://kometatype.com/",
+      "cat": "書体会社",
+      "tier": "rotate"
+    }
+  ]
+}
