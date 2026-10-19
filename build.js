@@ -87,7 +87,7 @@ function card(c) {
   return `<article class="card" data-g="${c.g}" data-min="${c.t}" style="--g:var(${g.v})"><div class="tab">${ckBtn(save)}${esc(c.c || g.n)}</div>${img}<div class="body">
 <div class="pills"><span class="pill"><i></i>重要度 ${stars(c.s)}</span><span class="pill">${c.t}分</span>${c.p ? `<span class="pill price">${esc(c.p)}</span>` : ''}${c.n ? `<span class="pill note">${esc(c.n)}</span>` : ''}</div>
 <h3>${esc(c.h)}</h3><p class="lead-s">${esc(c.a)}</p>
-<dl class="rows"><div class="r"><dt>なぜ今</dt><dd>${esc(c.b)}</dd></div><div class="r"><dt>自分ごと</dt><dd>${esc(c.u)}</dd></div></dl>
+<dl class="rows"><div class="r"><dd>${esc(c.b)}</dd></div><div class="r"><dd>${esc(c.u)}</dd></div></dl>
 <details><summary>もっと詳しく</summary><p>${esc(c.m)}</p></details>${srcs(c.r)}</div></article>`;
 }
 
@@ -104,7 +104,7 @@ function aiSection(ai) {
   const l = ai.lead;
   const lead = l
     ? `<div class="lead"><div><div class="pills"><span class="pill"><i></i>重要度 ${stars(l.s)}</span><span class="pill">${l.t}分</span>${l.n ? `<span class="pill note">${esc(l.n)}</span>` : ''}</div><h3>${esc(l.h)}</h3></div>
-<div><p class="lead-s">${esc(l.a)}</p><dl class="rows"><div class="r"><dt>なぜ今</dt><dd>${esc(l.b)}</dd></div><div class="r"><dt>自分ごと</dt><dd>${esc(l.u)}</dd></div></dl>
+<div><p class="lead-s">${esc(l.a)}</p><dl class="rows"><div class="r"><dd>${esc(l.b)}</dd></div><div class="r"><dd>${esc(l.u)}</dd></div></dl>
 <details><summary>もっと詳しく</summary><p>${esc(l.m)}</p></details>${srcs(l.r)}</div></div>`
     : '';
   const EMPTY = ['確認できず', 'なし', '確認中'];
@@ -187,7 +187,7 @@ function patrolSection() {
   const shelfCats = [...new Set(shelf.map((x) => x.cat))];
   const rotAll = rotate.map((x, i) => `<div class="rotwrap" data-i="${i}">${ptItem(x, true)}</div>`).join('');
   return `<section class="sub" id="patrol" style="--g:var(--c-web)" data-per-day="${PATROL.perDay || 6}"><h3 class="grp-h"><i></i>巡回リンク<span class="cnt" id="patrolN"></span></h3>
-<p class="ptd">自分で見に行くサイトです。リンクを開くと、今日の分にチェックが付きます(翌日に消えます)。ローテーションは日付で自動的に決まります。</p>
+<p class="ptd">自分で見に行くサイト。リンクを開くと今日の分にチェックが付く(翌日に消える)。ローテーションは日付で自動で決まる。</p>
 <h4 class="pth">毎日のお気に入り</h4><div class="ptg" id="ptDaily">${daily.map((x) => ptItem(x, true)).join('')}</div>
 <h4 class="pth">今日のローテーション</h4><div class="ptg" id="ptToday"></div>
 <details class="pta"><summary>ローテーション全体を見る(${rotate.length}サイト)</summary><div class="ptg" id="ptRest">${rotAll}</div></details>
@@ -299,6 +299,8 @@ function page(d) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 ${kit}
 </head>
@@ -310,7 +312,7 @@ ${kit}
 <main>
 ${blocks}
 </main></div>
-<aside class="saved" id="saved" hidden><div class="sv-h"><b>チェックした記事</b><button type="button" id="savedClose" aria-label="閉じる">×</button></div><p class="sv-n">このブラウザにだけ保存されます(パソコンとスマホでは共有されません)。</p><div id="savedList"></div><button type="button" class="sv-clear" id="savedClear">すべて外す</button></aside>
+<aside class="saved" id="saved" hidden><div class="sv-h"><b>チェックした記事</b><button type="button" id="savedClose" aria-label="閉じる">×</button></div><p class="sv-n">このブラウザにだけ保存(パソコンとスマホでは共有されない)。</p><div id="savedList"></div><button type="button" class="sv-clear" id="savedClear">すべて外す</button></aside>
 <footer class="wrap"></footer>
 <script src="app.js"></script>
 </body>
@@ -337,6 +339,9 @@ if (CHECK_ONLY) { console.log(`チェックOK(${files.length}件)`); process.exi
 fs.mkdirSync(OUT_DIR, { recursive: true });
 fs.copyFileSync(path.join(ROOT, 'template', 'style.css'), path.join(OUT_DIR, 'style.css'));
 fs.copyFileSync(path.join(ROOT, 'template', 'app.js'), path.join(OUT_DIR, 'app.js'));
+for (const f of ['favicon.png', 'apple-touch-icon.png']) {
+  if (fs.existsSync(path.join(ROOT, 'template', f))) fs.copyFileSync(path.join(ROOT, 'template', f), path.join(OUT_DIR, f));
+}
 
 // 公開するのは最新の号だけ。古いページは残さない。
 const latest = issues[issues.length - 1];

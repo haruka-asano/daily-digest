@@ -2,12 +2,6 @@
   "perDay": 6,
   "sites": [
     {
-      "name": "Are.na",
-      "url": "https://www.are.na/",
-      "cat": "SNS",
-      "tier": "daily"
-    },
-    {
       "name": "Savee",
       "url": "https://savee.it/",
       "cat": "SNS",
