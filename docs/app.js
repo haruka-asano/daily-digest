@@ -43,7 +43,7 @@
   function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e;}
   function render(){
     list.innerHTML='';
-    if(!saved.length){list.appendChild(el('p','sv-n','まだありません。気になる記事の左上の☆を押してください。'));return;}
+    if(!saved.length){list.appendChild(el('p','sv-n','まだない。気になる記事の左上の☆を押す。'));return;}
     saved.slice().reverse().forEach(function(x){
       var d=el('div','sv-i');
       d.appendChild(el('div','m',x.date+' / '+x.gl));
@@ -66,7 +66,7 @@
   });
   document.getElementById('savedBtn').addEventListener('click',function(){panel.hidden=!panel.hidden;if(!panel.hidden)render();});
   document.getElementById('savedClose').addEventListener('click',function(){panel.hidden=true;});
-  document.getElementById('savedClear').addEventListener('click',function(){if(!saved.length||confirm('チェックをすべて外しますか?')){saved=[];store(saved);paint();render();}});
+  document.getElementById('savedClear').addEventListener('click',function(){if(!saved.length||confirm('チェックをすべて外す?')){saved=[];store(saved);paint();render();}});
   paint();
 
   /* ---- 巡回リンク(日替わりのローテーション + その日のうちだけ残るチェック) ---- */

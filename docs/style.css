@@ -290,3 +290,7 @@ footer{min-height:40px}
 .ptu .new{display:inline-block;background:#C4452D;color:#fff;font-size:10px;font-weight:700;border-radius:4px;padding:0 5px;margin-right:6px;line-height:1.5}
 .ptu .ptd2{margin-left:6px;opacity:.8}
 .rotwrap{display:contents}
+
+/* v1.2 小見出しなし */
+.rows .r{display:block;padding:7px 0}
+.rows .r dd{margin:0}
