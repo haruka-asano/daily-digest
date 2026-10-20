@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-19T23:11:53.286Z",
+  "generated": "2026-10-20T23:20:21.435Z",
   "updates": {
     "It's Nice That": {
-      "title": "Sex not Seggs – in a censored digital landscape, erotic commentary is freer on the printed page",
-      "url": "https://www.itsnicethat.com/articles/pov-sex-not-seggs-erotic-review-online-censorship-publication-191026",
-      "date": "2026-10-19",
+      "title": "Why self-publishing pays off: No Ideas studio on the journey behind building their own imprint",
+      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-no-ideas-201026",
+      "date": "2026-10-20",
       "fresh": true
     },
     "Site of Sites": {
@@ -13,16 +13,16 @@
       "date": "2026-08-18",
       "fresh": false
     },
-    "HTML Review – Archive": {
-      "title": "Issue 05",
-      "url": "https://thehtml.review/05/",
-      "date": "2026-03-20",
-      "fresh": false
-    },
     "Fonts In Use": {
-      "title": "Miniatures. Trésors cachés du disque pour enfants",
-      "url": "https://fontsinuse.com/uses/80305/miniatures-tresors-caches-du-disque-pour-enfa",
-      "date": "2026-10-19",
+      "title": "The Face magazine, issue 26",
+      "url": "https://fontsinuse.com/uses/78225/the-face-magazine-issue-26",
+      "date": "2026-10-20",
+      "fresh": true
+    },
+    "Another Graphic": {
+      "title": "Beka Bekaia",
+      "url": "https://anothergraphic.org/beka-bekaia/",
+      "date": "2026-10-20",
       "fresh": true
     },
     "Brands in Motion": {
@@ -31,11 +31,11 @@
       "date": "2026-10-19",
       "fresh": true
     },
-    "Another Graphic": {
-      "title": "Gonzalo Suazer",
-      "url": "https://anothergraphic.org/gonzalo-suazer/",
-      "date": "2026-10-19",
-      "fresh": true
+    "HTML Review – Archive": {
+      "title": "Issue 05",
+      "url": "https://thehtml.review/05/",
+      "date": "2026-03-20",
+      "fresh": false
     },
     "Whitney Design": {
       "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
@@ -44,32 +44,14 @@
       "fresh": false
     },
     "Visual Journal": {
-      "title": "Atlas Garden",
-      "url": "https://visualjournal.it/home/2026/atlasgarden",
-      "date": "2026-10-18",
-      "fresh": false
+      "title": "Bossenbrooks",
+      "url": "https://visualjournal.it/home/2026/bossenbrooks",
+      "date": "2026-10-20",
+      "fresh": true
     },
     "Page Spread": {
-      "title": "idea special edition: typography-ex [pt.2]",
-      "url": "https://page-spread.com/idea-special-edition-typography-ex-pt2/",
-      "date": "2026-10-19",
-      "fresh": true
-    },
-    "Books Atelier": {
-      "title": "Stasis: Trine S&#248;ndergaardトリーネ・ゾンダーガード",
-      "url": "https://www.books-atelier.com/?pid=194032219",
-      "date": "2026-10-18",
-      "fresh": true
-    },
-    "Graphic Research （by 北千住デザインさん）": {
-      "title": "Land ahoy studio",
-      "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
-      "date": "2026-10-07",
-      "fresh": false
-    },
-    "Nostos Books": {
-      "title": "能装束文様百佳撰",
-      "url": "https://nostos.jp/archives/569231",
+      "title": "Graphic art of a Swiss town",
+      "url": "https://page-spread.com/graphic-art-of-a-swiss-town/",
       "date": "2026-10-20",
       "fresh": true
     },
@@ -78,6 +60,24 @@
       "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
       "date": "2025-11-13",
       "fresh": false
+    },
+    "Graphic Research （by 北千住デザインさん）": {
+      "title": "Land ahoy studio",
+      "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
+      "date": "2026-10-07",
+      "fresh": false
+    },
+    "Books Atelier": {
+      "title": "Stasis: Trine S&#248;ndergaardトリーネ・ゾンダーガード",
+      "url": "https://www.books-atelier.com/?pid=194032219",
+      "date": "2026-10-18",
+      "fresh": false
+    },
+    "Nostos Books": {
+      "title": "La lampe Gras",
+      "url": "https://nostos.jp/archives/536805",
+      "date": "2026-10-21",
+      "fresh": true
     },
     "Bird Graphics": {
       "title": "しゅうまつのやわらかな、",
@@ -89,18 +89,18 @@
       "title": "【美術解説】会田誠「美少女・戦争画・サラリーマンで日本社会の矛盾を描く」",
       "url": "https://www.artpedia.asia/2019/09/10/artpedia-%E4%BC%9A%E7%94%B0%E8%AA%A0-%E6%AC%A7%E7%B1%B3%E7%BE%8E%E8%A1%93%E3%82%92%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%8B%E3%83%BC%E3%82%92%E4%BA%A4%E3%81%88%E3%81%A6%E8%A1%A8%E7%8F%BE%E3%81%99%E3%82%8B%E7%8F%BE%E4%BB%A3%E7%BE%8E%E8%A1%93%E5%AE%B6/",
       "date": "2026-10-19",
+      "fresh": false
+    },
+    "IMA Graphy": {
+      "title": "森山大道、川内倫子、野村佐紀子ら約50名が参加。『SWITCH』がRICOH GR誕生30周年を記念した写真特集を刊行",
+      "url": "https://imaonline.jp/news/photobook/20261020/",
+      "date": "2026-10-20",
       "fresh": true
     },
     "IMA Pedia – Artist": {
-      "title": "写真を「見る」こと。写真集を読むことや対話を通し深める全3回のワークショップが開催",
-      "url": "https://imaonline.jp/news/event/20261019/",
-      "date": "2026-10-19",
-      "fresh": true
-    },
-    "IMA Graphy": {
-      "title": "写真を「見る」こと。写真集を読むことや対話を通し深める全3回のワークショップが開催",
-      "url": "https://imaonline.jp/news/event/20261019/",
-      "date": "2026-10-19",
+      "title": "森山大道、川内倫子、野村佐紀子ら約50名が参加。『SWITCH』がRICOH GR誕生30周年を記念した写真特集を刊行",
+      "url": "https://imaonline.jp/news/photobook/20261020/",
+      "date": "2026-10-20",
       "fresh": true
     },
     "ECAL Typefaces": {
