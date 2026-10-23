@@ -25,6 +25,7 @@ const G = {
   culture: { n: '文化', v: '--c-culture' },
   fashion: { n: 'ファッション・ビューティー', v: '--c-fashion' },
 };
+const EX_FROM = '2026-10-20'; // この日付以降の号は、経済・国際の記事に ex(やさしい解説)が必須
 const STUDY = ['design', 'web', 'econ', 'trend'];
 const HOBBY = ['film', 'comedy', 'culture', 'fashion'];
 const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
@@ -52,7 +53,11 @@ function validate(d, file) {
     if (d.ai.lead) checkCard({ g: 'ai', ...d.ai.lead }, 'ai.lead');
     (d.ai.cards || []).forEach((c, i) => checkCard(c, `ai.cards[${i}]`));
   }
-  for (const k of STUDY) ((d.study || {})[k] || []).forEach((c, i) => { need(c.g === k, `study.${k}[${i}]: g は ${k}`); checkCard(c, `study.${k}[${i}]`); });
+  for (const k of STUDY) ((d.study || {})[k] || []).forEach((c, i) => {
+    need(c.g === k, `study.${k}[${i}]: g は ${k}`);
+    checkCard(c, `study.${k}[${i}]`);
+    if (k === 'econ' && d.date >= EX_FROM) need(typeof c.ex === 'string' && c.ex.length > 0, `study.econ[${i}]: ex(やさしい解説)が必要`);
+  });
   for (const k of HOBBY) ((d.hobby || {})[k] || []).forEach((c, i) => { need(c.g === k, `hobby.${k}[${i}]: g は ${k}`); checkCard(c, `hobby.${k}[${i}]`); });
   if (d.gallery) {
     (d.gallery.sites || []).forEach((st, i) => {
@@ -86,7 +91,7 @@ function card(c) {
   const save = { id: idOf(c.h), date: CUR_DATE, gl: g.n, h: c.h, a: c.a, r: c.r, img: c.img ? c.img.u : '' };
   return `<article class="card" data-g="${c.g}" data-min="${c.t}" style="--g:var(${g.v})"><div class="tab">${ckBtn(save)}${esc(c.c || g.n)}</div>${img}<div class="body">
 <div class="pills"><span class="pill"><i></i>重要度 ${stars(c.s)}</span><span class="pill">${c.t}分</span>${c.p ? `<span class="pill price">${esc(c.p)}</span>` : ''}${c.n ? `<span class="pill note">${esc(c.n)}</span>` : ''}</div>
-<h3>${esc(c.h)}</h3><p class="lead-s">${esc(c.a)}</p>
+<h3>${esc(c.h)}</h3><p class="lead-s">${esc(c.a)}</p>${c.ex ? `<div class="ex"><b>解説</b>${esc(c.ex)}</div>` : ''}
 <dl class="rows"><div class="r"><dd>${esc(c.b)}</dd></div><div class="r"><dd>${esc(c.u)}</dd></div></dl>
 <details><summary>もっと詳しく</summary><p>${esc(c.m)}</p></details>${srcs(c.r)}</div></article>`;
 }
@@ -104,7 +109,7 @@ function aiSection(ai) {
   const l = ai.lead;
   const lead = l
     ? `<div class="lead"><div><div class="pills"><span class="pill"><i></i>重要度 ${stars(l.s)}</span><span class="pill">${l.t}分</span>${l.n ? `<span class="pill note">${esc(l.n)}</span>` : ''}</div><h3>${esc(l.h)}</h3></div>
-<div><p class="lead-s">${esc(l.a)}</p><dl class="rows"><div class="r"><dd>${esc(l.b)}</dd></div><div class="r"><dd>${esc(l.u)}</dd></div></dl>
+<div><p class="lead-s">${esc(l.a)}</p>${l.ex ? `<div class="ex"><b>解説</b>${esc(l.ex)}</div>` : ''}<dl class="rows"><div class="r"><dd>${esc(l.b)}</dd></div><div class="r"><dd>${esc(l.u)}</dd></div></dl>
 <details><summary>もっと詳しく</summary><p>${esc(l.m)}</p></details>${srcs(l.r)}</div></div>`
     : '';
   const EMPTY = ['確認できず', 'なし', '確認中'];
@@ -236,12 +241,14 @@ function weeklySection(w, wd) {
 const block = (n, en, ja, inner) =>
   inner.trim() ? `<div class="blk blk${n}"><div class="bh"><span class="en">${en}</span><h2>${ja}</h2></div>${inner}</div>` : '';
 
-function page(d) {
+function page(d, opts = {}) {
   CUR_DATE = d.date;
   const [y, m, day] = d.date.split('-').map(Number);
   const wd = WEEK[new Date(Date.UTC(y, m - 1, day)).getUTCDay()];
   const asof = d.asof ? ` ${esc(d.asof)}現在` : '';
   const dateHtml = `<div class="date">${y}.<b>${m}.${day} ${wd}</b>${asof}</div>`;
+  const pastTag = opts.tag ? `<span class="tag-past">${esc(opts.tag)}</span>` : '';
+  const altLink = opts.other ? `<a class="alt" href="${esc(opts.other.href)}">${esc(opts.other.label)}</a>` : '';
 
   const parts = {
     quick: quickSection(d.quick),
@@ -305,7 +312,7 @@ function page(d) {
 ${kit}
 </head>
 <body>
-<header class="wrap"><div class="hdr"><div class="logo"><b>${esc(cfg.siteTitle)}</b></div>${dateHtml}</div></header>
+<header class="wrap"><div class="hdr"><div class="logo"><b>${esc(cfg.siteTitle)}</b></div><div class="hdr-r">${pastTag}${dateHtml}${altLink}</div></div></header>
 <div class="bar" aria-hidden="true">${bar}</div>
 <div class="wrap"><div class="issuebar"><div class="issue" id="issue"></div><button type="button" class="sv" id="savedBtn">☆ チェックした記事 <b id="savedN">0</b></button></div></div>
 <div class="wrap layout"><nav class="toc" id="toc" aria-label="ページ内移動">${toc}</nav>
@@ -345,8 +352,11 @@ for (const f of ['favicon.png', 'apple-touch-icon.png']) {
 
 // 公開するのは最新の号だけ。古いページは残さない。
 const latest = issues[issues.length - 1];
-fs.writeFileSync(path.join(OUT_DIR, 'index.html'), page(latest.d), 'utf8');
+const prev = issues.length > 1 ? issues[issues.length - 2] : null;
+fs.writeFileSync(path.join(OUT_DIR, 'index.html'), page(latest.d, prev ? { other: { href: 'yesterday.html', label: '前日の号 →' } } : {}), 'utf8');
+if (prev) fs.writeFileSync(path.join(OUT_DIR, 'yesterday.html'), page(prev.d, { tag: '前日の号', other: { href: 'index.html', label: '最新号 →' } }), 'utf8');
+// 公開するのは「最新号」と「前日の号」だけ。ほかのページは残さない。
 for (const f of fs.readdirSync(OUT_DIR)) {
-  if (f.endsWith('.html') && f !== 'index.html') fs.unlinkSync(path.join(OUT_DIR, f));
+  if (f.endsWith('.html') && f !== 'index.html' && !(prev && f === 'yesterday.html')) fs.unlinkSync(path.join(OUT_DIR, f));
 }
-console.log(`書き出しました: docs/index.html (${latest.d.date}${latest.d.edition === 'evening' ? ' 夕刊' : ''})`);
+console.log(`書き出しました: docs/index.html (${latest.d.date})${prev ? ` / docs/yesterday.html (${prev.d.date})` : ''}`);

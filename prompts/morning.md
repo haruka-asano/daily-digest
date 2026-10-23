@@ -9,7 +9,8 @@
 3. `config.json` の `gallerySites` のサイトをすべて見て、今日の更新を `gallery` に入れる(ルールは `CLAUDE.md`)。そこから「今日の注目サイト」の記事(デザイン・Web)も作る。
 3-2. Yahoo!リアルタイム検索で、AI・Web・デザイン・お笑いなどの話題を確認して `buzz` に入れる。
 4. `data/YYYY-MM-DD.json` を書く(今日の日付、edition は "morning")。
-   - 記事は全体で25〜35本。読むのに合計25〜30分ほど。
+   - 記事は全体で45〜55本(ジャンルごとの目安は CLAUDE.md)。経済・国際の記事には、必ず ex(やさしい解説)を付ける。
+   - 調べる作業は、ジャンルごとに分けて、並行して進めてよい。
 4-2. `node scripts/feeds.js` を実行する(巡回サイトのRSSの新着チェック。失敗しても先へ進む)。
 5. `node build.js --check` を通し、直してから `node build.js` を実行する。
 6. `data/`、`docs/`、`patrol-feeds.json`、`patrol-updates.json` をコミットして、指示されたブランチにプッシュする。
