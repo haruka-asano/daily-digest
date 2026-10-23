@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-23T07:07:00.503Z",
+  "generated": "2026-10-23T23:23:46.792Z",
   "updates": {
+    "It's Nice That": {
+      "title": "Design as a unifying language: Arsh Raziuddin on how her World Cup identity united NYC",
+      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-arsh-raziuddin-231026",
+      "date": "2026-10-23",
+      "fresh": true
+    },
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
       "url": "https://www.siteofsites.co/post/product-spotlight-with-yael-renous-brik",
       "date": "2026-08-18",
       "fresh": false
-    },
-    "It's Nice That": {
-      "title": "Foto Foto is the design-focused brand bringing back the physical photo album",
-      "url": "https://www.itsnicethat.com/articles/foto-foto-photography-publication-sponsored-content-221026",
-      "date": "2026-10-22",
-      "fresh": true
     },
     "HTML Review – Archive": {
       "title": "Issue 05",
@@ -20,16 +20,22 @@
       "fresh": false
     },
     "Fonts In Use": {
-      "title": "Encounters: Giacometti guidebook",
-      "url": "https://fontsinuse.com/uses/80379/encounters-giacometti-guidebook",
-      "date": "2026-10-22",
+      "title": "Usages du bambou japonais",
+      "url": "https://fontsinuse.com/uses/80434/usages-du-bambou-japonais",
+      "date": "2026-10-23",
       "fresh": true
     },
     "Another Graphic": {
-      "title": "Teresa Gimenez",
-      "url": "https://anothergraphic.org/teresa-gimenez/",
-      "date": "2026-10-22",
+      "title": "Steve Leard",
+      "url": "https://anothergraphic.org/steve-leard/",
+      "date": "2026-10-23",
       "fresh": true
+    },
+    "Whitney Design": {
+      "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
+      "url": "https://design.whitney.org/post/813893844258127872",
+      "date": "2020-12-02",
+      "fresh": false
     },
     "Brands in Motion": {
       "title": "Giving Intelligence Form: Motion Narrative for Huma",
@@ -38,21 +44,15 @@
       "fresh": false
     },
     "Visual Journal": {
-      "title": "Bossenbrooks",
-      "url": "https://visualjournal.it/home/2026/bossenbrooks",
-      "date": "2026-10-20",
-      "fresh": false
+      "title": "Goya",
+      "url": "https://visualjournal.it/home/2026/goya",
+      "date": "2026-10-23",
+      "fresh": true
     },
-    "Whitney Design": {
-      "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
-      "url": "https://design.whitney.org/post/813893844258127872",
-      "date": "2020-12-02",
-      "fresh": false
-    },
-    "SDA Member Archives": {
-      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
-      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
-      "date": "2025-11-13",
+    "Books Atelier": {
+      "title": "NAGAI & TAKEO永井一正デザインによる竹尾広告集 vol.2, 3",
+      "url": "https://www.books-atelier.com/?pid=194088735",
+      "date": "2026-10-21",
       "fresh": false
     },
     "Graphic Research （by 北千住デザインさん）": {
@@ -60,12 +60,6 @@
       "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
       "date": "2026-10-07",
       "fresh": false
-    },
-    "Books Atelier": {
-      "title": "NAGAI & TAKEO永井一正デザインによる竹尾広告集 vol.2, 3",
-      "url": "https://www.books-atelier.com/?pid=194088735",
-      "date": "2026-10-21",
-      "fresh": true
     },
     "Page Spread": {
       "title": "idea liquid 01 tomato/Mark Farrow",
@@ -84,6 +78,12 @@
       "url": "https://nostos.jp/archives/389425",
       "date": "2026-10-23",
       "fresh": true
+    },
+    "SDA Member Archives": {
+      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
+      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
+      "date": "2025-11-13",
+      "fresh": false
     },
     "Artpedia Asia": {
       "title": "【美術解説】会田誠「美少女・戦争画・サラリーマンで日本社会の矛盾を描く」",
