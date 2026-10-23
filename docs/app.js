@@ -1,9 +1,8 @@
 (function(){
   var toc=document.getElementById('toc');
-  var n=0,min=3;
-  document.querySelectorAll('[data-min]').forEach(function(c){n++;min+=parseInt(c.getAttribute('data-min'),10)||1;});
+  var n=document.querySelectorAll('[data-min]').length;
   var issue=document.getElementById('issue');
-  if(issue){issue.innerHTML='記事 <b>'+n+'本</b> / 読了目安 <b>約'+min+'分</b>';}
+  if(issue){issue.innerHTML='記事 <b>'+n+'本</b>';}
 
   /* ---- いま読んでいる場所 ---- */
   var links=[].slice.call(toc.querySelectorAll('a[href^="#"]'));
