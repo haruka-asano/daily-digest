@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T23:11:48.153Z",
+  "generated": "2026-10-31T23:11:53.737Z",
   "updates": {
     "It's Nice That": {
       "title": "“Photography allows me to remain available to life”: Arielle Bobb Willis on the power of image making",
@@ -20,22 +20,22 @@
       "fresh": false
     },
     "Fonts In Use": {
-      "title": "Michaela Barnett campaign website",
-      "url": "https://fontsinuse.com/uses/80660/michaela-barnett-campaign-website",
-      "date": "2026-10-31",
-      "fresh": true
-    },
-    "Brands in Motion": {
-      "title": "From Motion to Identity",
-      "url": "https://www.brandsinmotion.xyz/resource/motion-identity-course",
-      "date": "2026-10-30",
+      "title": "Haunted Stories and More Haunted Stories by A.L. Furman (ed.)",
+      "url": "https://fontsinuse.com/uses/67665/haunted-stories-and-more-haunted-stories-by-a",
+      "date": "2026-11-01",
       "fresh": true
     },
     "Another Graphic": {
       "title": "Chaehee Park",
       "url": "https://anothergraphic.org/chaehee-park/",
       "date": "2026-10-30",
-      "fresh": true
+      "fresh": false
+    },
+    "Brands in Motion": {
+      "title": "From Motion to Identity",
+      "url": "https://www.brandsinmotion.xyz/resource/motion-identity-course",
+      "date": "2026-10-30",
+      "fresh": false
     },
     "Whitney Design": {
       "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
@@ -47,6 +47,12 @@
       "title": "Palo",
       "url": "https://visualjournal.it/home/2026/palo",
       "date": "2026-10-28",
+      "fresh": false
+    },
+    "Page Spread": {
+      "title": "COMME des GARÇONS 2002-2003 Fall Winter Poster DM",
+      "url": "https://page-spread.com/comme-des-garcons-2002-fw-poster-dm/",
+      "date": "2026-10-29",
       "fresh": false
     },
     "Books Atelier": {
@@ -61,23 +67,11 @@
       "date": "2026-10-07",
       "fresh": false
     },
-    "Page Spread": {
-      "title": "COMME des GARÇONS 2002-2003 Fall Winter Poster DM",
-      "url": "https://page-spread.com/comme-des-garcons-2002-fw-poster-dm/",
-      "date": "2026-10-29",
-      "fresh": true
-    },
-    "SDA Member Archives": {
-      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
-      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
-      "date": "2025-11-13",
-      "fresh": false
-    },
     "Nostos Books": {
       "title": "Flowers &#124; Irving Penn",
       "url": "https://nostos.jp/archives/59496",
       "date": "2026-10-30",
-      "fresh": true
+      "fresh": false
     },
     "Bird Graphics": {
       "title": "しゅうまつのやわらかな、",
@@ -92,16 +86,22 @@
       "fresh": false
     },
     "IMA Graphy": {
-      "title": "IACK初作品集『2026.6.22 13:30‒15:21』刊行を記念したイベント&#038;IACKポップアップストア",
-      "url": "https://imaonline.jp/news//20261030/",
-      "date": "2026-10-30",
+      "title": "2011年から撮り続けた“ユルリ島の幻の馬”。儚く消え入りそうな命の燈を見つめる岡田敦写真展",
+      "url": "https://imaonline.jp/news/exhibition/20261031/",
+      "date": "2026-10-31",
       "fresh": true
     },
     "IMA Pedia – Artist": {
-      "title": "IACK初作品集『2026.6.22 13:30‒15:21』刊行を記念したイベント&#038;IACKポップアップストア",
-      "url": "https://imaonline.jp/news//20261030/",
-      "date": "2026-10-30",
+      "title": "2011年から撮り続けた“ユルリ島の幻の馬”。儚く消え入りそうな命の燈を見つめる岡田敦写真展",
+      "url": "https://imaonline.jp/news/exhibition/20261031/",
+      "date": "2026-10-31",
       "fresh": true
+    },
+    "SDA Member Archives": {
+      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
+      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
+      "date": "2025-11-13",
+      "fresh": false
     },
     "ECAL Typefaces": {
       "title": "A Typographic Atlas",
