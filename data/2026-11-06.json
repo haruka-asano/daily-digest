@@ -1,0 +1,795 @@
+{
+ "date": "2026-11-06",
+ "edition": "morning",
+ "asof": "08:30",
+ "footnote": "お笑い・トレンドは本文を読める記事が取れず載せなかった。デザイン・文化・Webは少なめ。ギャラリーは今日の更新を画像つきで拾えず、前日分を直近の更新として残した。",
+ "ai": {
+  "lead": {
+   "c": "OpenAI",
+   "s": 3,
+   "t": 2,
+   "h": "OpenAI、データセンターの「地域への約束」を発表。電力費は全額負担",
+   "a": "OpenAIが11月5日(米国時間)、データセンターを置く地域への約束と、政府への政策提言を発表した。今後つくる施設は「Compute Campus」と呼ぶ。",
+   "b": "約束には、電力と必要なインフラの費用を全額負担すること、公職者との秘密保持契約を原則結ばないこと、電力・水の使用量を公開することが入る。米国では、データセンターの増加で電気料金や水資源への不安が広がり、反発が強まっている。",
+   "u": "AI企業が、建設を受け入れてもらうために、地元への還元を示し始めた。日本でも、データセンター誘致の条件を見るときの物差しになる。",
+   "m": "ジョージア州エフィンガム郡では、480万ドルの助成で児童・生徒約1万4000人に無料の学校給食を出す。オハイオ州パイク郡では、保育支援に計600万ドルを出す。政策提言では、大口の電力利用者に送電網への追加負担を求め、税優遇を受けた企業が約束を守らなければ優遇分を回収する仕組みも挙げた。発表は、3日の中間選挙の結果には触れていない。",
+   "r": [
+    {
+     "t": "ITmedia NEWS",
+     "u": "https://www.itmedia.co.jp/news/article/2611/06/2000002928/"
+    }
+   ]
+  },
+  "rows": [
+   {
+    "co": "OpenAI",
+    "tag": "新モデル",
+    "text": "サイバーセキュリティ特化の「GPT-6 Cyber」を発表。審査を通った防御側のみ利用できる。"
+   },
+   {
+    "co": "OpenAI",
+    "tag": "新機能",
+    "text": "画像生成「Images 2.6」を無料プランも含めて公開。GIFアニメの生成に対応。"
+   },
+   {
+    "co": "OpenAI",
+    "tag": "方針",
+    "text": "データセンター周辺の地域への約束と政策提言を公開。"
+   }
+  ],
+  "cards": [
+   {
+    "g": "ai",
+    "s": 3,
+    "t": 1,
+    "h": "OpenAI、攻撃の手口に強いAI「GPT-6 Cyber」。Firefoxの未知の弱点81件を見つけた",
+    "a": "OpenAIが11月5日(米国時間)、サイバーセキュリティに特化したモデル「GPT-6 Cyber」を発表した。汎用モデル「GPT-6 Astra」が土台。",
+    "b": "防御側の組織向けプログラム「Daybreak Red」の承認ユーザーに限って提供する。本人確認が必要で、組織には多要素認証なども求める。",
+    "u": "一般のChatGPT向けの提供予定は出ていない。セキュリティ担当者は、審査の枠に申し込めるかを確認しておく価値がある。",
+    "m": "既知の弱点を突く力を測る試験で、前の世代の32.1%から48.5%に上がった。Firefoxでは、深刻度の高い未知の弱点を81件見つけ、Mozillaに修正案を渡した。多くは修正済みという。指示した範囲外のシステムを攻撃する割合は5.51%から0.07%に下がった一方、中止の警告に従う率は73.0%で、Astraの78.38%より低い。",
+    "r": [
+     {
+      "t": "ITmedia NEWS",
+      "u": "https://www.itmedia.co.jp/news/article/2611/06/2000002931/"
+     }
+    ]
+   },
+   {
+    "g": "ai",
+    "s": 2,
+    "t": 1,
+    "h": "OpenAI「Images 2.6」。速度50%向上、GIFアニメも作れる",
+    "a": "OpenAIが11月4日、画像生成モデルの新版を公開した。9月の2.5から、生成が50%速くなり、編集の精度も上がった。",
+    "b": "無料プランを含むChatGPTとCodexで使える。GIFアニメは順次提供で、手描きのスケッチから動く絵への変換もできる。",
+    "u": "バナーや小さな動きの案を、言葉だけで素早く作る下書きに向く。写真に名前をつけて保存し、別の会話でも使い回せる。",
+    "m": "API料金は100万トークンあたり、画像入力8ドル、出力30ドルで、2.5から据え置き。生成物には、出所を示す情報に加えて、GoogleのDeepMindの電子透かし「SynthID」を入れる。生成枚数は週に約40億枚という。",
+    "r": [
+     {
+      "t": "ITmedia NEWS",
+      "u": "https://www.itmedia.co.jp/news/article/2611/05/2000002894/"
+     }
+    ]
+   },
+   {
+    "g": "ai",
+    "s": 1,
+    "t": 1,
+    "h": "フジテレビ、2027年10月めどに全ドラマでAI活用へ",
+    "a": "フジテレビが、制作する全ドラマでAIを使える体制を、2027年10月ごろまでに整えると発表した。",
+    "b": "26年10月期から、毎クール1本以上を「AI強化枠」にする。「救命病棟24時」の第1話では、爆発事故の場面の空撮映像をAIで作り、煙を合成した。",
+    "u": "映像の現場で、AIが一部の工程に入り始めた。デザインや動画の仕事でも、どの工程を任せるかが問われる。",
+    "m": "一部の工程で、作業の手間が最大70〜80%減ったという。制作は、湾岸スタジオで9月から動く「AI Sandbox」が担当する。2029年度には、グループ全体で国内トップ級のAI活用機能を持つことを目指す。",
+    "r": [
+     {
+      "t": "ITmedia AI+",
+      "u": "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002903/"
+     }
+    ]
+   }
+  ]
+ },
+ "buzz": [
+  {
+   "g": "ai",
+   "kw": "株価が暴落",
+   "text": "「株価が暴落」がトレンド入りした。NYダウの急落との関連は未確認。",
+   "url": "https://search.yahoo.co.jp/realtime/search?p=株価が暴落"
+  },
+  {
+   "g": "film",
+   "kw": "リバイアサン",
+   "text": "映画「リバイアサン」の追加キャスト発表で、トレンド入りした。",
+   "url": "https://search.yahoo.co.jp/realtime/search?p=リバイアサン"
+  }
+ ],
+ "gallery": {
+  "sites": [
+   {
+    "name": "SANKOU!",
+    "url": "https://sankoudesign.com/",
+    "today": [],
+    "latest": {
+     "date": "最新",
+     "items": [
+      {
+       "title": "Tonami & Ayano | Wedding Invitation",
+       "url": "https://wedding.tonami-komuro.com/",
+       "img": "https://sankoudesign.com/wp-content/uploads/komurowedding_t-400x350.jpg"
+      },
+      {
+       "title": "ウォンテッドリー株式会社",
+       "url": "https://wantedlyinc.com/",
+       "img": "https://sankoudesign.com/wp-content/uploads/wantedly_t-400x350.jpg"
+      },
+      {
+       "title": "桜井歯科医院",
+       "url": "https://www.dental-sakurai.com/",
+       "img": "https://sankoudesign.com/wp-content/uploads/sakuraidental_t-400x350.jpg"
+      },
+      {
+       "title": "LANDIC 採用サイト",
+       "url": "https://www.landic.com/recruit/",
+       "img": "https://sankoudesign.com/wp-content/uploads/landicrecruit_t-400x350.jpg"
+      }
+     ]
+    },
+    "note": "今日の更新を画像つきで確認できず、前日の掲載を残した"
+   },
+   {
+    "name": "MUUUUU.ORG",
+    "url": "https://muuuuu.org/",
+    "today": [],
+    "latest": {
+     "date": "最新",
+     "items": [
+      {
+       "title": "株式会社エムステージグループ",
+       "url": "https://mstage-group.jp/",
+       "img": "https://muuuuu.org/wp-content/uploads/2026/10/32.png"
+      },
+      {
+       "title": "Awake",
+       "url": "https://www.awakeagency.dev/",
+       "img": "https://muuuuu.org/wp-content/uploads/2026/10/28-768x576.png",
+       "tag": "SOTD"
+      },
+      {
+       "title": "Neutomni",
+       "url": "https://neutomni.com/",
+       "img": "https://muuuuu.org/wp-content/uploads/2026/10/25-1-768x576.png"
+      },
+      {
+       "title": "Lenval Properties",
+       "url": "https://lenvalproperties.com/",
+       "img": "https://muuuuu.org/wp-content/uploads/2026/10/27-1-768x576.png"
+      },
+      {
+       "title": "合同会社アンド",
+       "url": "https://and-dsgn.com/",
+       "img": "https://muuuuu.org/wp-content/uploads/2026/10/30-768x576.png"
+      }
+     ]
+    },
+    "note": "今日の更新を画像つきで確認できず、前日の掲載を残した"
+   },
+   {
+    "name": "S5-Style",
+    "url": "https://www.s5-style.com/",
+    "today": [],
+    "latest": {
+     "date": "最新",
+     "items": [
+      {
+       "title": "日東紅茶100周年特設サイト | NITTOH 100 PICNIC",
+       "url": "https://100th.nittoh-tea.com/",
+       "img": "https://api.s5-style.com/media/post-images/q3rjlwepsd4g-500x375.webp"
+      },
+      {
+       "title": "原宿サン・アド 50th",
+       "url": "https://h-sunad.co.jp/50th/",
+       "img": "https://api.s5-style.com/media/post-images/xs4u6qa1rjce-500x375.webp"
+      },
+      {
+       "title": "MAISON TAKUYA ONLINE STORE",
+       "url": "https://maisontakuya.jp/",
+       "img": "https://api.s5-style.com/media/post-images/5ishoftzv3de-500x375.webp"
+      },
+      {
+       "title": "株式会社SQUIZ",
+       "url": "https://squiz.co.jp/",
+       "img": "https://api.s5-style.com/media/post-images/hqru8yxzjoew-500x375.webp"
+      }
+     ]
+    },
+    "note": "今日の更新を画像つきで確認できず、前日の掲載を残した"
+   },
+   {
+    "name": "Brilliant Design Collect",
+    "url": "https://brilliantdesign.work/",
+    "today": [],
+    "latest": {
+     "date": "最新",
+     "items": [
+      {
+       "title": "LANDIC 採用サイト",
+       "url": "https://www.landic.com/recruit/",
+       "img": "https://i0.wp.com/brilliantdesign.work/wp-content/uploads/2026/10/de1cca32-84ee-40ab-80af-d66da4e2a7d2.png?resize=720%2C450&ssl=1"
+      },
+      {
+       "title": "アフラック 新卒採用サイト",
+       "url": "https://www.aflac-recruit.jp/newgraduate/",
+       "img": "https://i0.wp.com/brilliantdesign.work/wp-content/uploads/2026/10/アフラック-新卒採用サイト.png?resize=720%2C450&ssl=1"
+      },
+      {
+       "title": "日本デザインセンター オンスクリーン制作室",
+       "url": "https://ndcosd.jp/",
+       "img": "https://i0.wp.com/brilliantdesign.work/wp-content/uploads/2026/10/ndcosd.png?resize=720%2C450&ssl=1"
+      },
+      {
+       "title": "Running with words|New Balance",
+       "url": "https://nbgcp.com/",
+       "img": "https://i0.wp.com/brilliantdesign.work/wp-content/uploads/2026/11/nbgcp.png?resize=720%2C450&ssl=1"
+      }
+     ]
+    },
+    "note": "今日の更新を画像つきで確認できず、前日の掲載を残した"
+   },
+   {
+    "name": "me ki ki ki",
+    "url": "https://mekikiki.com/",
+    "today": [],
+    "latest": {
+     "date": "最新",
+     "items": [
+      {
+       "title": "【公式】Amprem(アンプレム)|濃縮浸透シャンプー",
+       "url": "https://amprem.jp/",
+       "img": "https://mekikiki.com/wp/wp-content/themes/mekikiki-theme/assets/img/archive/thumb_12770_pc.jpg"
+      },
+      {
+       "title": "iDID Day 2026",
+       "url": "https://day2026.idid.team/",
+       "img": "https://mekikiki.com/wp/wp-content/themes/mekikiki-theme/assets/img/archive/thumb_12769_pc.jpg"
+      },
+      {
+       "title": "コジコジ × studio CLIP",
+       "url": "https://www.dot-st.com/studioclip/cp/sc2026awcojicoji/",
+       "img": "https://mekikiki.com/wp/wp-content/themes/mekikiki-theme/assets/img/archive/thumb_12768_pc.jpg"
+      },
+      {
+       "title": "フードニア株式会社",
+       "url": "https://foodnia.co.jp/",
+       "img": "https://mekikiki.com/wp/wp-content/themes/mekikiki-theme/assets/img/archive/thumb_12767_pc.jpg"
+      },
+      {
+       "title": "Creative City Yamagata",
+       "url": "https://ccymgt.jp/",
+       "img": "https://mekikiki.com/wp/wp-content/themes/mekikiki-theme/assets/img/archive/thumb_12766_pc.jpg"
+      }
+     ]
+    },
+    "note": "今日の更新を画像つきで確認できず、前日の掲載を残した"
+   },
+   {
+    "name": "Minimal Gallery",
+    "url": "https://minimal.gallery/",
+    "today": [],
+    "latest": {
+     "date": "最新",
+     "items": [
+      {
+       "title": "Ardor Retro Computer",
+       "url": "https://ardor.cloud/retro-computer/",
+       "img": "https://21ef0880.delivery.rocketcdn.me/wp-content/uploads/2026/10/ardor.cloud-retro-computer-900x500.jpg"
+      }
+     ]
+    },
+    "note": "今日の更新を画像つきで確認できず、前日の掲載を残した"
+   }
+  ],
+  "src": [
+   {
+    "t": "SANKOU!",
+    "u": "https://sankoudesign.com/"
+   },
+   {
+    "t": "MUUUUU.ORG",
+    "u": "https://muuuuu.org/"
+   },
+   {
+    "t": "S5-Style",
+    "u": "https://www.s5-style.com/"
+   },
+   {
+    "t": "Brilliant Design Collect",
+    "u": "https://brilliantdesign.work/"
+   },
+   {
+    "t": "me ki ki ki",
+    "u": "https://mekikiki.com/"
+   },
+   {
+    "t": "Minimal Gallery",
+    "u": "https://minimal.gallery/"
+   }
+  ]
+ },
+ "study": {
+  "design": [
+   {
+    "g": "design",
+    "s": 1,
+    "t": 1,
+    "h": "西沢立衛、埋立地にターコイズの地面と鮮やかなオレンジの山",
+    "a": "建築家の西沢立衛が、日本の海辺の埋立地に、ターコイズ色の地面とオレンジ色の山を置くインスタレーションをつくった。",
+    "b": "日本の埋立地を舞台にした作品として紹介された。",
+    "u": "色の対比だけで場所の見え方を変える手法は、Webの配色にも通じる。補色を大きな面で使うと、少ない要素でも強い印象になる。",
+    "m": "海外デザイン誌designboomが、西沢氏とSANAAの妹島和世氏の名前とともに紹介した。",
+    "r": [
+     {
+      "t": "designboom(英語)",
+      "u": "https://www.designboom.com/architecture/ryue-nishizawa-vivid-orange-peak-turquoise-landfill-japan-setouchi-art-industry-2026-sanaa-kazuyo-sejima/"
+     }
+    ]
+   },
+   {
+    "g": "design",
+    "s": 1,
+    "t": 1,
+    "h": "スノヘッタの上海グランドオペラハウスが完成。らせん階段で屋上へ上がれる",
+    "a": "建築事務所スノヘッタ(Snøhetta)が設計した、上海グランドオペラハウスが完成した。",
+    "b": "建物の外側にらせん状の階段があり、そのまま公共の屋上へ上がれる。",
+    "u": "劇場の外を、誰でも歩ける場所にした設計。入口から出口までの動線を、体験として見せる考え方は、画面設計の参考になる。",
+    "m": "designboomが紹介した。",
+    "r": [
+     {
+      "t": "designboom(英語)",
+      "u": "https://www.designboom.com/architecture/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop/"
+     }
+    ]
+   }
+  ],
+  "web": [
+   {
+    "g": "web",
+    "s": 2,
+    "t": 1,
+    "h": "ドコモの「My docomo」とオンラインショップが停止。外部からの不正アクセスの可能性が高い",
+    "a": "NTTドコモが11月5日、「My docomo」と「ドコモオンラインショップ」を緊急メンテナンスで止めた。自社サーバへの外部からの不正アクセスがあった可能性が高いと判断している。",
+    "b": "停止は5日午前1時5分ごろから。両サービスで各種手続きができず、午前9時時点で再開の時期は示されていない。",
+    "u": "急ぎの手続きは、ドコモショップや家電量販店の店頭で対応できる場合がある。再開は、ドコモの公式「緊急メンテナンスのお知らせ」で確認する。",
+    "m": "10月22日には予防的な緊急メンテナンスを終えて再開していた。その時点では、不正アクセスは確認していないとしていた。",
+    "r": [
+     {
+      "t": "ITmedia NEWS",
+      "u": "https://www.itmedia.co.jp/news/article/2611/05/2000002902/"
+     }
+    ]
+   },
+   {
+    "g": "web",
+    "s": 2,
+    "t": 1,
+    "h": "Studioの不正アクセス、自治体の公表が続く。デジタル庁は最大8,833件",
+    "a": "制作サービス「Studio」への不正アクセスで、個人情報が漏れた可能性があるとの公表が、官公庁や自治体で続いている。",
+    "b": "同社が不正アクセスに気づいたのは10月13日で、10月16日に公表した。発生は9月30日〜10月1日とされる。デジタル庁は、2021年5月〜2023年3月の問い合わせフォームの内容が最大8,833件対象になりうると公表した。",
+    "u": "Studioでフォームを置いている制作者・管理者は、案件ごとに、いつからどの情報を集めていたかを洗い出して、発注元に伝える準備をしておく。",
+    "m": "江戸川区は、同社が弱点を直し、侵入に使われた経路をふさぐ対応を終えたと説明した。第三者が情報を取得した事実は確認されていないという。埼玉県は162件、兵庫県は最大82件が対象の可能性があるとした。個人情報保護委員会の続報は、今回は見つからなかった。",
+    "r": [
+     {
+      "t": "デジタル庁",
+      "u": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22"
+     },
+     {
+      "t": "兵庫県",
+      "u": "https://web.pref.hyogo.lg.jp/sr10/press/20261023.html"
+     },
+     {
+      "t": "江戸川区",
+      "u": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/10/1021.html"
+     }
+    ]
+   }
+  ],
+  "econ": [
+   {
+    "g": "econ",
+    "s": 3,
+    "t": 1,
+    "h": "NYダウが一時1800ドル超の急落。「AIの先行き」への不安が広がる",
+    "a": "5日のニューヨーク株式市場で、ダウ平均が前日の終値から、一時1800ドルを超えて下がった。前日の上昇分(1569ドル)を消す勢いだった。",
+    "b": "米中間選挙で民主党が大勝し、AI規制が強まるとの見方が出て、AI・半導体関連を中心に売りが広がったと伝えられた。",
+    "u": "AIの株を持つ投資信託や、NISAで米国株の指数に積み立てている人は、評価額が動く。慌てて売らず、積み立ての方針を見直す日にするとよい。",
+    "m": "毎日新聞などが伝えた。前日はAmazonなど大手が上がっていたため、1日で逆の動きになった。",
+    "r": [
+     {
+      "t": "毎日新聞(Yahoo!ニュース)",
+      "u": "https://news.yahoo.co.jp/articles/a64c3170a5231173a6597290f9d78f3046d48fd8"
+     }
+    ],
+    "ex": "ダウ平均は、米国の大手30社の株価をまとめた数字。天気予報でいえば、市場全体の気分を表す温度計にあたる。AI企業は将来の成長を見込んで高く買われているので、規制の話が出ると、期待が下がって値下がりしやすい。つまり、AI関連の株を持つ人の資産が、短い間に大きくぶれやすい日だった。"
+   },
+   {
+    "g": "econ",
+    "s": 2,
+    "t": 1,
+    "h": "ルビオ米国務長官、辞任を検討と報道",
+    "a": "米中間選挙で共和党が大敗したことを受け、ルビオ国務長官が辞任を検討していると、ブルームバーグ通信が報じた。",
+    "b": "報道ベースの話で、本人や政権の確認は、ここでは確かめられていない。",
+    "u": "国務長官は、米国の外交を実際に動かす閣僚。交代すれば、日本を含む各国との交渉の窓口が変わる可能性がある。",
+    "m": "共和党内では、大敗の責任を押しつけ合う動きも伝えられている。バンス副大統領が大統領と距離を置く姿勢を見せたとの報道もある。",
+    "r": [
+     {
+      "t": "TBS NEWS DIG(Yahoo!ニュース)",
+      "u": "https://news.yahoo.co.jp/articles/29d421066d9246127bf65f5e8255adc3a4396e76"
+     }
+    ],
+    "n": "報道ベース",
+    "ex": "国務長官は、日本でいう外務大臣にあたる役職。外国との話し合いの先頭に立つ人が替わると、約束や進め方が変わることがある。つまり、報道が事実なら、米国との外交や貿易の交渉の相手が替わる可能性がある、という話だ。"
+   },
+   {
+    "g": "econ",
+    "s": 2,
+    "t": 1,
+    "h": "トヨタの中間決算、営業利益は2兆1911億円。3年ぶりの増益",
+    "a": "トヨタ自動車の2026年9月中間決算(国際会計基準)で、営業利益は2兆1911億円。前年の同じ時期より9.2%増えた。",
+    "b": "営業増益は3年ぶり。中国での販売不振や資材高は重荷になったが、円安が利益を押し上げた。",
+    "u": "円安は、輸出企業の利益を増やす一方、輸入品の値段を上げる。給料と物価の両方を見るときの材料になる。",
+    "m": "朝日新聞が伝えた。",
+    "r": [
+     {
+      "t": "朝日新聞(Yahoo!ニュース)",
+      "u": "https://news.yahoo.co.jp/articles/c3e12fe0da69247325db8deb40ac67c75ece428b"
+     }
+    ],
+    "ex": "営業利益は、本業でどれだけもうかったかを示す数字。輸出する会社は、ドルで売ったお金を円に直すとき、円安だと円の金額が増える。つまり、円安は車の会社には追い風で、ガソリンや輸入食品を買う私たちには値上がりの要因になる。"
+   },
+   {
+    "g": "econ",
+    "s": 1,
+    "t": 1,
+    "h": "日本製紙、熊本の八代工場の紙の生産を断念へ",
+    "a": "日本製紙は、7月の熊本の地震で被災した八代工場(熊本県八代市)で、紙・パルプの生産を再開しない方針を固めた。",
+    "b": "工場の拠点自体は維持する方向。地震では煙突が倒れるなど、大きな被害が出ていた。",
+    "u": "製紙工場が1つ止まると、紙の供給が細り、地域の雇用にも響く。印刷物や包装の値上げにつながるか、見ておく。",
+    "m": "時事通信が伝えた(朝日新聞の報道も紹介されている)。",
+    "r": [
+     {
+      "t": "時事通信(Yahoo!ニュース)",
+      "u": "https://news.yahoo.co.jp/articles/7cc06351dc2f3c2929217dbd42bc72b401895199"
+     }
+    ],
+    "ex": "パルプは、木材から取り出した繊維で、紙の原料になる。工場は設備が大きいため、一度壊れると直すのに時間もお金もかかる。つまり、この工場の紙は今後つくられず、地域の仕事や、紙の供給に影響が出うる。"
+   }
+  ],
+  "trend": []
+ },
+ "hobby": {
+  "film": [
+   {
+    "g": "film",
+    "s": 2,
+    "t": 1,
+    "h": "東京・高円寺に、20席の小さな映画館「ハコブネ館」。12月5日オープン",
+    "a": "東京・高円寺に、定員20席(最大24席)の小さなシアター兼喫茶バー「ハコブネ館」が、12月5日に開く。",
+    "b": "下北沢の「シモキタ地下室」が、6月の活動休止を経て、常設館として再出発する形。館主は久保田雅美氏。",
+    "u": "大きな映画館にない、トークや、活弁、落語などの演芸、音楽ライブも組む。イベントがない時は喫茶バーとして営業する。",
+    "m": "開館日の12月5日は「青春日活撮影所 ロマンポルノを駆け抜けて」、6日は「発狂する唇」「血を吸う宇宙」の特別上映、12日は「天上の花」の上映会が予定されている。場所は、高円寺駅北口から徒歩3分。",
+    "r": [
+     {
+      "t": "映画.com",
+      "u": "https://eiga.com/news/20261105/16/"
+     }
+    ]
+   },
+   {
+    "g": "film",
+    "s": 1,
+    "t": 1,
+    "h": "「極道の妻たち」4Kリマスター、11月17日に特別上映。記念ワインも",
+    "a": "1986年公開の「極道の妻たち」が公開40周年を迎え、4Kリマスター版が11月17日の午後7時から、新宿バルト9とT・ジョイ京都で上映される。",
+    "b": "原作は家田荘子のルポで、五社英雄が監督、岩下志麻が主演した。裏社会を生きる女性たちを主役にした作品。",
+    "u": "映画の背中の刺青「天女」をラベルにした記念ワインが、限定100本、33,000円(税込)で出る。11月13日から、東映ジョイ系列の7劇場で販売する。",
+    "m": "赤ワインで、山形の高畠ワイナリーが醸造した。メルロー88%、カベルネ・ソーヴィニョン12%。完売次第、終了となる。",
+    "r": [
+     {
+      "t": "映画.com",
+      "u": "https://eiga.com/news/20261106/2/"
+     }
+    ],
+    "img": {
+     "u": "https://media.eiga.com/images/buzz/130330/bc21dfd0ff56f711/640.jpg",
+     "a": "「極道の妻たち」の記念ワインにも使われる「天女」の刺青",
+     "c": "映画.com / 毛利清二・東映・TOEI JOY"
+    }
+   },
+   {
+    "g": "film",
+    "s": 1,
+    "t": 1,
+    "h": "道枝駿佑×出口夏希「リバイアサン」、2027年2月11日公開。追加キャスト36人を発表",
+    "a": "映画「リバイアサン」が、2027年2月11日から全国公開される。追加キャスト36人が発表された。",
+    "b": "難破した宇宙船に残された38人の生徒が、生還できるのは1人だけと知り、仲間を疑い、殺し合う話。酸素は残り41時間で、生存率は1/38。原作は黒井白の漫画。",
+    "u": "監督は藤井道人と新宮良平。道枝駿佑が主演し、出口夏希、櫻井海音、莉子、田中美久らが出る。",
+    "m": "櫻井海音は、Yahoo!リアルタイム検索のトレンドにも入っていた。",
+    "r": [
+     {
+      "t": "映画.com",
+      "u": "https://eiga.com/news/20261106/4/"
+     }
+    ],
+    "img": {
+     "u": "https://media.eiga.com/images/buzz/130377/3d604fede4e78c5e/640.jpg",
+     "a": "映画「リバイアサン」のメインビジュアル",
+     "c": "映画.com"
+    }
+   }
+  ],
+  "comedy": [],
+  "culture": [],
+  "fashion": [
+   {
+    "g": "fashion",
+    "s": 2,
+    "t": 1,
+    "h": "ステラ マッカートニー×奈良美智。全63型、11月11日から順次発売",
+    "a": "ステラ マッカートニーが、画家の奈良美智とのコラボ63型を出す。服、バッグ、靴、アクセサリーが並ぶ。",
+    "b": "11月11日は青山店と伊勢丹新宿店の催事、11月25日は全国の店舗と公式オンラインストア、阪急うめだ本店の催事で発売する。",
+    "u": "価格は1万5400円〜116万3800円と幅が広い。個別の価格は記事に出ていない。",
+    "m": "アディダスとのスニーカー「adidas by Stella McCartney × 奈良美智 SPW64」もある。キャンペーンの顔は俳優の竜星涼。受注生産や数量限定の品もある。",
+    "r": [
+     {
+      "t": "FASHIONSNAP",
+      "u": "https://www.fashionsnap.com/article/2026-11-05/stella-maccartney-yoshitomo-nara-3/"
+     }
+    ],
+    "p": "¥15,400〜",
+    "img": {
+     "u": "https://fashionsnap-assets.com/asset/format=auto,width=1200/article/images/2026/11/bbfe3faa-4fca-42c8-a71f-563a0872b170.jpg",
+     "a": "ステラ マッカートニー×奈良美智のコラボ",
+     "c": "FASHIONSNAP"
+    }
+   },
+   {
+    "g": "fashion",
+    "s": 2,
+    "t": 1,
+    "h": "ユニクロ×セシリー バンセン。花の刺しゅうのフリースなど、590円から",
+    "a": "ユニクロが、デンマークのデザイナー、セシリー バンセンとの2026年秋冬コレクションを、11月20日から出す。",
+    "b": "ウィメンズ8型は590〜4990円、ガールズ6型は790〜2990円。野の花から着想した刺しゅうが入る。",
+    "u": "フリースのジャケットやベスト、異素材のフリルスカート、ニットグローブなど。色は、黒、濃紺、杢グレー、淡いピンクが中心。",
+    "m": "11月20日から、一部の商品を国内の全店舗で売る。全ラインナップは106店舗と公式オンラインストアで扱う。",
+    "r": [
+     {
+      "t": "FASHIONSNAP",
+      "u": "https://www.fashionsnap.com/article/2026-11-04/uniqlo-cecilie-bahnsen-26aw/"
+     }
+    ],
+    "p": "¥590〜",
+    "img": {
+     "u": "https://fashionsnap-assets.com/asset/format=auto,width=1200/article/images/2026/11/8e7db103-ff6f-45c2-ad0f-f8b74718f9b4.jpg",
+     "a": "ユニクロ×セシリー バンセンのコレクション",
+     "c": "FASHIONSNAP"
+    }
+   },
+   {
+    "g": "fashion",
+    "s": 1,
+    "t": 1,
+    "h": "韓国で人気の「Dr.Rejuall」、日本の店頭へ。PDRNクリームは3,960円",
+    "a": "韓国の薬局で人気のスキンケア「Dr.Rejuall」が、日本の店頭に出る。日本では1月にオンライン販売を始めていた。",
+    "b": "主力は、PDRN配合の「アドバンスド PDRN リジュビネイティング クリーム」(20mL)。医師と薬剤師が共同で開発したと紹介されている。",
+    "u": "リップセラム(10mL)は1,980円。販売先は、@cosme STORE、ロフト、バラエティショップ、一部のドラッグストア。",
+    "m": "店頭の発売日は、記事には書かれていない。",
+    "r": [
+     {
+      "t": "FASHIONSNAP",
+      "u": "https://www.fashionsnap.com/article/2026-11-05/dr-rejuall-launch/"
+     }
+    ],
+    "p": "¥3,960",
+    "img": {
+     "u": "https://fashionsnap-assets.com/asset/format=auto,width=1200/article/images/2026/11/af08634c-fd10-4b8d-bf9e-0bf4019b90df.jpg",
+     "a": "Dr.Rejuallの商品",
+     "c": "FASHIONSNAP"
+    }
+   },
+   {
+    "g": "fashion",
+    "s": 1,
+    "t": 1,
+    "h": "ルルレモン初のゴアテックスの服。ビームスで11月13日に先行発売",
+    "a": "ルルレモンが、初めてのゴアテックス製コレクション「サイレント タイプ」を出す。ビームスだけの限定販売。",
+    "b": "先行発売は11月13日で、ビームス 渋谷、原宿、スポーツ。一般発売は12月3日で、新宿など6店舗に広がる。",
+    "u": "レインジャケット6万8800円、レインコート9万2800円、防水ダウン12万8800円。かわいい系の価格帯からは高めで、本格的な防水の服。",
+    "m": "生地の膜には有機フッ素化合物を使わない。表地は動いたときの擦れる音を抑える。11月12日の夜に、ビームス メン 渋谷でローンチパーティー(入場無料)がある。",
+    "r": [
+     {
+      "t": "FASHIONSNAP",
+      "u": "https://www.fashionsnap.com/article/2026-11-05/lululemon-silent-type/"
+     }
+    ],
+    "p": "¥68,800〜",
+    "img": {
+     "u": "https://fashionsnap-assets.com/asset/format=auto,width=1200/article/images/2026/11/8d6f0aa2-a5fa-441c-836a-b4079aae8eb9.jpg",
+     "a": "ルルレモン「サイレント タイプ」",
+     "c": "FASHIONSNAP"
+    }
+   }
+  ]
+ },
+ "alerts": [
+  {
+   "g": "culture",
+   "kind": "展示",
+   "days": "あと9日",
+   "title": "メゾン マルジェラ 恵比寿店20周年 鈴木美緒のインスタレーション",
+   "place": "メゾン マルジェラ トウキョウ(恵比寿) / 11/5〜11/15"
+  },
+  {
+   "g": "culture",
+   "kind": "展覧会",
+   "days": "11/14開幕",
+   "title": "オルセー美術館所蔵 いまを生きる歓び",
+   "place": "東京都美術館 / 11/14〜2027/3/28"
+  },
+  {
+   "g": "culture",
+   "kind": "美術展",
+   "days": "11/28開幕",
+   "title": "岡本太郎『謎のいきもの』",
+   "place": "岡本太郎記念館(東京) / 11/28〜"
+  }
+ ],
+ "alertsSrc": [
+  {
+   "t": "FASHIONSNAP",
+   "u": "https://www.fashionsnap.com/article/2026-11-04/maisonmargiela-ebisu-20th/"
+  },
+  {
+   "t": "CINRA",
+   "u": "https://www.cinra.net/article/202611-whn-tarookamoto_edteam"
+  }
+ ],
+ "calendar": [
+  {
+   "k": "11/11(水)",
+   "t": "ステラ マッカートニー×奈良美智、青山店と伊勢丹新宿店で発売",
+   "s": "ファッション"
+  },
+  {
+   "k": "11/13(金)",
+   "t": "ルルレモン×ビームス「サイレント タイプ」先行発売。ファミマで「ジュディードール」ミニコスメ第2弾",
+   "s": "ファッション"
+  },
+  {
+   "k": "11/14(土)",
+   "t": "東京都美術館で「オルセー美術館所蔵 いまを生きる歓び」開幕",
+   "s": "文化"
+  },
+  {
+   "k": "11/17(火)",
+   "t": "「極道の妻たち」4Kリマスター特別上映(新宿バルト9ほか)",
+   "s": "映画"
+  },
+  {
+   "k": "11/20(金)",
+   "t": "SK-IIのハンドクリーム発売",
+   "s": "ビューティー"
+  },
+  {
+   "k": "11/28(土)",
+   "t": "岡本太郎記念館『謎のいきもの』開幕",
+   "s": "文化"
+  },
+  {
+   "k": "12/5(土)",
+   "t": "高円寺に「ハコブネ館」オープン",
+   "s": "映画"
+  }
+ ],
+ "calendarSrc": [
+  {
+   "t": "NHK",
+   "u": "https://news.web.nhk/newsweb/na/nd-20261105de70693"
+  },
+  {
+   "t": "WWDJAPAN",
+   "u": "https://www.wwdjapan.com/articles/2542255"
+  },
+  {
+   "t": "CINRA",
+   "u": "https://www.cinra.net/article/202611-whn-tarookamoto_edteam"
+  },
+  {
+   "t": "FASHIONSNAP",
+   "u": "https://www.fashionsnap.com/article/2026-11-05/stella-maccartney-yoshitomo-nara-3/"
+  },
+  {
+   "t": "映画.com",
+   "u": "https://eiga.com/news/20261106/2/"
+  }
+ ],
+ "quick": [
+  {
+   "c": "AI",
+   "text": "OpenAIが、データセンター周辺の地域への約束を発表した。",
+   "m": "電力費の全額負担や、公職者との秘密保持契約を原則結ばないことなどを挙げた。米国で建設への反発が強まる中の発表。",
+   "src": {
+    "t": "ITmedia NEWS",
+    "u": "https://www.itmedia.co.jp/news/article/2611/06/2000002928/"
+   }
+  },
+  {
+   "c": "AI",
+   "text": "OpenAIの「GPT-6 Cyber」が、Firefoxの未知の弱点を81件見つけた。",
+   "m": "審査を通った防御側だけが使える。多くの弱点はMozillaが修正済みという。",
+   "src": {
+    "t": "ITmedia NEWS",
+    "u": "https://www.itmedia.co.jp/news/article/2611/06/2000002931/"
+   }
+  },
+  {
+   "c": "経済",
+   "text": "NYダウが一時1800ドル超下がった。",
+   "m": "AI・半導体関連を中心に売りが広がった。前日の上昇分を消す勢いだった。",
+   "src": {
+    "t": "毎日新聞(Yahoo!ニュース)",
+    "u": "https://news.yahoo.co.jp/articles/a64c3170a5231173a6597290f9d78f3046d48fd8"
+   }
+  },
+  {
+   "c": "国際",
+   "text": "ルビオ米国務長官が辞任を検討と、ブルームバーグが報じた。",
+   "m": "中間選挙で共和党が大敗したことを受けた報道。確認はこれからだ。",
+   "src": {
+    "t": "TBS NEWS DIG(Yahoo!ニュース)",
+    "u": "https://news.yahoo.co.jp/articles/29d421066d9246127bf65f5e8255adc3a4396e76"
+   }
+  },
+  {
+   "c": "経済",
+   "text": "トヨタの中間決算は、営業利益2兆1911億円で3年ぶりの増益。",
+   "m": "円安が利益を押し上げた。中国での販売不振や資材高は重荷になった。",
+   "src": {
+    "t": "朝日新聞(Yahoo!ニュース)",
+    "u": "https://news.yahoo.co.jp/articles/c3e12fe0da69247325db8deb40ac67c75ece428b"
+   }
+  },
+  {
+   "c": "セキュリティ",
+   "text": "ビックカメラGが、最大約1490万件のメールアドレスなどの漏えいの可能性を公表した。",
+   "m": "委託先への不正アクセスが原因とされる。",
+   "src": {
+    "t": "ITmedia NEWS",
+    "u": "https://www.itmedia.co.jp/news/article/2611/04/2000002866/"
+   }
+  },
+  {
+   "c": "セキュリティ",
+   "text": "フランスの銀行に、委託先経由のサイバー攻撃。不正送金は約1億ユーロの可能性。",
+   "m": "Credit Mutuel Arkeaが被害にあった。委託先から侵入された。",
+   "src": {
+    "t": "ITmedia NEWS",
+    "u": "https://www.itmedia.co.jp/news/article/2611/05/2000002891/"
+   }
+  },
+  {
+   "c": "映画",
+   "text": "高円寺に20席の映画館「ハコブネ館」が12月5日に開く。",
+   "m": "下北沢の「シモキタ地下室」が、常設館として再出発する。喫茶バーも兼ねる。",
+   "src": {
+    "t": "映画.com",
+    "u": "https://eiga.com/news/20261105/16/"
+   }
+  }
+ ],
+ "term": {
+  "w": "PDRN",
+  "text": "化粧品の成分名のひとつ。ここでは、スキンケアのクリームなどに入る成分として紹介されている。",
+  "src": {
+   "t": "FASHIONSNAP",
+   "u": "https://www.fashionsnap.com/article/2026-11-05/dr-rejuall-launch/"
+  }
+ }
+}

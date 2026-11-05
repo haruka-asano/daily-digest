@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-04T23:16:40.698Z",
+  "generated": "2026-11-05T23:14:32.619Z",
   "updates": {
     "It's Nice That": {
-      "title": "Polar’s logo for bakery P.A.C. is just typed out, and all the better for it",
-      "url": "https://www.itsnicethat.com/articles/polar-pac-graphic-design-project-041126",
-      "date": "2026-11-04",
+      "title": "Starting a creative career has never felt harder – 27 industry voices on what comes next",
+      "url": "https://www.itsnicethat.com/features/starting-a-creative-career-has-never-felt-harder-27-industry-voices-on-what-comes-next",
+      "date": "2026-11-09",
       "fresh": true
     },
     "Site of Sites": {
@@ -13,29 +13,29 @@
       "date": "2026-08-18",
       "fresh": false
     },
+    "Fonts In Use": {
+      "title": "Die neue Polis book series",
+      "url": "https://fontsinuse.com/uses/80842/die-neue-polis-book-series",
+      "date": "2026-11-05",
+      "fresh": true
+    },
     "HTML Review – Archive": {
       "title": "Submissions are open",
       "url": "https://thehtml.review/submit.html",
       "date": "2026-11-01",
       "fresh": false
     },
-    "Fonts In Use": {
-      "title": "Carla Köllner Big Band – Not Obsessed But Kinda Into It album art",
-      "url": "https://fontsinuse.com/uses/80729/carla-koellner-big-band-not-obsessed-but-kind",
-      "date": "2026-11-04",
-      "fresh": true
-    },
     "Another Graphic": {
-      "title": "Harry Escott",
-      "url": "https://anothergraphic.org/harry-escott-2/",
-      "date": "2026-11-05",
+      "title": "(NO-NAME)PRESS",
+      "url": "https://anothergraphic.org/no-namepress/",
+      "date": "2026-11-06",
       "fresh": true
     },
     "Brands in Motion": {
       "title": "Lilla Hajnal",
       "url": "https://www.brandsinmotion.xyz/resource/interview-lilla-hajnal",
       "date": "2026-11-03",
-      "fresh": true
+      "fresh": false
     },
     "Whitney Design": {
       "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
@@ -49,10 +49,16 @@
       "date": "2026-11-03",
       "fresh": false
     },
-    "SDA Member Archives": {
-      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
-      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
-      "date": "2025-11-13",
+    "Page Spread": {
+      "title": "idea 298 : GTF / Three Dimensional Projects",
+      "url": "https://page-spread.com/idea-298-gtf/",
+      "date": "2026-11-06",
+      "fresh": true
+    },
+    "Graphic Research （by 北千住デザインさん）": {
+      "title": "Land ahoy studio",
+      "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
+      "date": "2026-10-07",
       "fresh": false
     },
     "Books Atelier": {
@@ -61,16 +67,10 @@
       "date": "2026-10-21",
       "fresh": false
     },
-    "Graphic Research （by 北千住デザインさん）": {
-      "title": "Land ahoy studio",
-      "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
-      "date": "2026-10-07",
-      "fresh": false
-    },
-    "Page Spread": {
-      "title": "Otto Treumann Graphic Design in the Netherlands",
-      "url": "https://page-spread.com/otto-treumann-graphic-design-in-the-netherlands/",
-      "date": "2026-11-04",
+    "Nostos Books": {
+      "title": "Spectrum &#124; John Pawson",
+      "url": "https://nostos.jp/archives/436529",
+      "date": "2026-11-06",
       "fresh": true
     },
     "Bird Graphics": {
@@ -79,11 +79,11 @@
       "date": "2025-10-23",
       "fresh": false
     },
-    "Nostos Books": {
-      "title": "Contact is Content &#124; Olafur Eliasson",
-      "url": "https://nostos.jp/archives/573529",
-      "date": "2026-11-05",
-      "fresh": true
+    "SDA Member Archives": {
+      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
+      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
+      "date": "2025-11-13",
+      "fresh": false
     },
     "Artpedia Asia": {
       "title": "【美術解説】会田誠「美少女・戦争画・サラリーマンで日本社会の矛盾を描く」",
@@ -92,15 +92,15 @@
       "fresh": false
     },
     "IMA Graphy": {
-      "title": "沖縄の風景と人々から「境界線」を考える。伊波リンダが香川で講演会を開催",
-      "url": "https://imaonline.jp/news/event/20261104/",
-      "date": "2026-11-04",
+      "title": "アジアの現代写真から、英国のアイコンを捉えたポートレートまで。アートウィーク東京で写真展を巡る",
+      "url": "https://imaonline.jp/news/exhibition/20261105/",
+      "date": "2026-11-05",
       "fresh": true
     },
     "IMA Pedia – Artist": {
-      "title": "沖縄の風景と人々から「境界線」を考える。伊波リンダが香川で講演会を開催",
-      "url": "https://imaonline.jp/news/event/20261104/",
-      "date": "2026-11-04",
+      "title": "アジアの現代写真から、英国のアイコンを捉えたポートレートまで。アートウィーク東京で写真展を巡る",
+      "url": "https://imaonline.jp/news/exhibition/20261105/",
+      "date": "2026-11-05",
       "fresh": true
     },
     "ECAL Typefaces": {
