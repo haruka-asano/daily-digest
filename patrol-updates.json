@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-05T23:14:32.619Z",
+  "generated": "2026-11-06T23:19:52.420Z",
   "updates": {
     "It's Nice That": {
-      "title": "Starting a creative career has never felt harder – 27 industry voices on what comes next",
-      "url": "https://www.itsnicethat.com/features/starting-a-creative-career-has-never-felt-harder-27-industry-voices-on-what-comes-next",
+      "title": "Starting a creative career has never felt harder – 28 industry voices on what comes next",
+      "url": "https://www.itsnicethat.com/features/starting-a-creative-career-has-never-felt-harder",
       "date": "2026-11-09",
       "fresh": true
     },
@@ -13,28 +13,28 @@
       "date": "2026-08-18",
       "fresh": false
     },
-    "Fonts In Use": {
-      "title": "Die neue Polis book series",
-      "url": "https://fontsinuse.com/uses/80842/die-neue-polis-book-series",
-      "date": "2026-11-05",
-      "fresh": true
-    },
     "HTML Review – Archive": {
       "title": "Submissions are open",
       "url": "https://thehtml.review/submit.html",
       "date": "2026-11-01",
       "fresh": false
     },
-    "Another Graphic": {
-      "title": "(NO-NAME)PRESS",
-      "url": "https://anothergraphic.org/no-namepress/",
+    "Fonts In Use": {
+      "title": "Scapino Ballet Rotterdam",
+      "url": "https://fontsinuse.com/uses/80439/scapino-ballet-rotterdam",
       "date": "2026-11-06",
       "fresh": true
     },
+    "Another Graphic": {
+      "title": "Marco Chiaramonti",
+      "url": "https://anothergraphic.org/marco-chiaramonti/",
+      "date": "2026-11-07",
+      "fresh": true
+    },
     "Brands in Motion": {
-      "title": "Lilla Hajnal",
-      "url": "https://www.brandsinmotion.xyz/resource/interview-lilla-hajnal",
-      "date": "2026-11-03",
+      "title": "From Motion to Identity",
+      "url": "https://www.brandsinmotion.xyz/resource/motion-identity-course",
+      "date": "2026-10-30",
       "fresh": false
     },
     "Whitney Design": {
@@ -44,14 +44,20 @@
       "fresh": false
     },
     "Visual Journal": {
-      "title": "Shoal",
-      "url": "https://visualjournal.it/home/2026/shoal",
-      "date": "2026-11-03",
+      "title": "SMK",
+      "url": "https://visualjournal.it/home/2026/smk",
+      "date": "2026-11-05",
+      "fresh": false
+    },
+    "SDA Member Archives": {
+      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
+      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
+      "date": "2025-11-13",
       "fresh": false
     },
     "Page Spread": {
-      "title": "idea 298 : GTF / Three Dimensional Projects",
-      "url": "https://page-spread.com/idea-298-gtf/",
+      "title": "Design of a Lifetime Ben Bos + idea 131",
+      "url": "https://page-spread.com/design-of-a-lifetime-ben-bos-idea-131/",
       "date": "2026-11-06",
       "fresh": true
     },
@@ -79,12 +85,6 @@
       "date": "2025-10-23",
       "fresh": false
     },
-    "SDA Member Archives": {
-      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
-      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
-      "date": "2025-11-13",
-      "fresh": false
-    },
     "Artpedia Asia": {
       "title": "【美術解説】会田誠「美少女・戦争画・サラリーマンで日本社会の矛盾を描く」",
       "url": "https://www.artpedia.asia/2019/09/10/artpedia-%E4%BC%9A%E7%94%B0%E8%AA%A0-%E6%AC%A7%E7%B1%B3%E7%BE%8E%E8%A1%93%E3%82%92%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%8B%E3%83%BC%E3%82%92%E4%BA%A4%E3%81%88%E3%81%A6%E8%A1%A8%E7%8F%BE%E3%81%99%E3%82%8B%E7%8F%BE%E4%BB%A3%E7%BE%8E%E8%A1%93%E5%AE%B6/",
@@ -92,15 +92,15 @@
       "fresh": false
     },
     "IMA Graphy": {
-      "title": "アジアの現代写真から、英国のアイコンを捉えたポートレートまで。アートウィーク東京で写真展を巡る",
-      "url": "https://imaonline.jp/news/exhibition/20261105/",
-      "date": "2026-11-05",
+      "title": "中里唯馬が自然を撮る。写真展「INFERNO」が新宿で開催",
+      "url": "https://imaonline.jp/news/exhibition/20261106/",
+      "date": "2026-11-06",
       "fresh": true
     },
     "IMA Pedia – Artist": {
-      "title": "アジアの現代写真から、英国のアイコンを捉えたポートレートまで。アートウィーク東京で写真展を巡る",
-      "url": "https://imaonline.jp/news/exhibition/20261105/",
-      "date": "2026-11-05",
+      "title": "中里唯馬が自然を撮る。写真展「INFERNO」が新宿で開催",
+      "url": "https://imaonline.jp/news/exhibition/20261106/",
+      "date": "2026-11-06",
       "fresh": true
     },
     "ECAL Typefaces": {
