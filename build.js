@@ -25,7 +25,7 @@ const G = {
   culture: { n: '文化', v: '--c-culture' },
   fashion: { n: 'ファッション・ビューティー', v: '--c-fashion' },
 };
-const EX_FROM = '2026-10-20'; // この日付以降の号は、経済・国際の記事に ex(やさしい解説)が必須
+const EX_FROM = '2026-10-23'; // この日付以降の「最新号」は、AI・経済・国際の記事に ex(やさしい解説)が必須
 const STUDY = ['design', 'web', 'econ', 'trend'];
 const HOBBY = ['film', 'comedy', 'culture', 'fashion'];
 const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
@@ -36,7 +36,7 @@ const esc = (s) =>
 const isUrl = (u) => typeof u === 'string' && /^https?:\/\//.test(u);
 
 /* ---------- チェック ---------- */
-function validate(d, file) {
+function validate(d, file, isLatest) {
   const errs = [];
   const need = (cond, msg) => { if (!cond) errs.push(`${file}: ${msg}`); };
   need(/^\d{4}-\d{2}-\d{2}$/.test(d.date || ''), 'date は YYYY-MM-DD 形式');
@@ -49,14 +49,17 @@ function validate(d, file) {
     need(Array.isArray(c.r) && c.r.length >= 1 && c.r.every((x) => x.t && isUrl(x.u)), `${where}: r(出典)にhttp(s)のURLが必要`);
     if (c.img) need(isUrl(c.img.u) && c.img.a && c.img.c, `${where}: img は u(http/https)・a(代替文)・c(出典表記)が必要`);
   };
+  const exNeeded = isLatest && d.date >= EX_FROM;
+  const needEx = (c, where) => need(typeof c.ex === 'string' && c.ex.length > 0, `${where}: ex(やさしい解説)が必要`);
   if (d.ai) {
-    if (d.ai.lead) checkCard({ g: 'ai', ...d.ai.lead }, 'ai.lead');
-    (d.ai.cards || []).forEach((c, i) => checkCard(c, `ai.cards[${i}]`));
+    if (d.ai.lead) { checkCard({ g: 'ai', ...d.ai.lead }, 'ai.lead'); if (exNeeded) needEx(d.ai.lead, 'ai.lead'); }
+    (d.ai.cards || []).forEach((c, i) => { checkCard(c, `ai.cards[${i}]`); if (exNeeded) needEx(c, `ai.cards[${i}]`); });
+    if (isLatest && d.date >= EX_FROM) (d.ai.rows || []).forEach((r, i) => need(typeof r.tag === 'string' && [...r.tag].length <= 6, `ai.rows[${i}]: tag は6文字以内(いまは「${r.tag}」)`));
   }
   for (const k of STUDY) ((d.study || {})[k] || []).forEach((c, i) => {
     need(c.g === k, `study.${k}[${i}]: g は ${k}`);
     checkCard(c, `study.${k}[${i}]`);
-    if (k === 'econ' && d.date >= EX_FROM) need(typeof c.ex === 'string' && c.ex.length > 0, `study.econ[${i}]: ex(やさしい解説)が必要`);
+    if (k === 'econ' && exNeeded) needEx(c, `study.econ[${i}]`);
   });
   for (const k of HOBBY) ((d.hobby || {})[k] || []).forEach((c, i) => { need(c.g === k, `hobby.${k}[${i}]: g は ${k}`); checkCard(c, `hobby.${k}[${i}]`); });
   if (d.gallery) {
@@ -334,7 +337,7 @@ if (!files.length) { console.error('data/ に YYYY-MM-DD.json がありません
 let allErrs = [];
 const issues = files.map((f) => {
   const d = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), 'utf8'));
-  allErrs = allErrs.concat(validate(d, f));
+  allErrs = allErrs.concat(validate(d, f, f === files[files.length - 1]));
   return { f, d };
 });
 if (allErrs.length) {
