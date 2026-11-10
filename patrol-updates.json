@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T23:12:31.320Z",
+  "generated": "2026-11-10T23:12:14.571Z",
   "updates": {
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
@@ -7,35 +7,29 @@
       "date": "2026-08-18",
       "fresh": false
     },
+    "It's Nice That": {
+      "title": "Adobe Max Miami 2026 goes live online",
+      "url": "https://www.itsnicethat.com/articles/adobe-max-miami-2026-creative-industry-sponsored-content-101126",
+      "date": "2026-11-11",
+      "fresh": true
+    },
     "HTML Review – Archive": {
       "title": "Submissions are open",
       "url": "https://thehtml.review/submit.html",
       "date": "2026-11-01",
       "fresh": false
     },
-    "It's Nice That": {
-      "title": "“You will always be a designer, whether that’s full time or not”",
-      "url": "https://www.itsnicethat.com/articles/creative-career-condundrums-if-you-could-jobs-advice-091126",
-      "date": "2026-11-09",
+    "Another Graphic": {
+      "title": "Edgar Bak Studio",
+      "url": "https://anothergraphic.org/edgar-bak-studio/",
+      "date": "2026-11-11",
       "fresh": true
     },
     "Fonts In Use": {
-      "title": "Otriea skincare",
-      "url": "https://fontsinuse.com/uses/80544/otriea-skincare",
-      "date": "2026-11-09",
-      "fresh": true
-    },
-    "Another Graphic": {
-      "title": "Jérémy Glâtre",
-      "url": "https://anothergraphic.org/jeremy-glatre-3/",
+      "title": "Harper’s Bazaar Italia, issue 25: “Da Capo”",
+      "url": "https://fontsinuse.com/uses/77847/harper-s-bazaar-italia-issue-25-da-capo",
       "date": "2026-11-10",
       "fresh": true
-    },
-    "Whitney Design": {
-      "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
-      "url": "https://design.whitney.org/post/813893844258127872",
-      "date": "2020-12-02",
-      "fresh": false
     },
     "Brands in Motion": {
       "title": "Lilla Hajnal",
@@ -44,9 +38,9 @@
       "fresh": true
     },
     "Visual Journal": {
-      "title": "Midi",
-      "url": "https://visualjournal.it/home/2026/midi",
-      "date": "2026-11-06",
+      "title": "Stori",
+      "url": "https://visualjournal.it/home/2026/stori",
+      "date": "2026-11-09",
       "fresh": false
     },
     "Books Atelier": {
@@ -61,16 +55,16 @@
       "date": "2026-10-07",
       "fresh": false
     },
-    "Nostos Books": {
-      "title": "David Hockney: A Bigger Picture",
-      "url": "https://nostos.jp/archives/575556",
+    "Page Spread": {
+      "title": "COMME des GARÇONS Six New again 05, 06+08",
+      "url": "https://page-spread.com/comme-des-garcons-six-new-again-05-0608/",
       "date": "2026-11-10",
       "fresh": true
     },
-    "Page Spread": {
-      "title": "idea special edition: typography-ex [pt.2]",
-      "url": "https://page-spread.com/idea-special-edition-typography-ex-pt2/",
-      "date": "2026-11-09",
+    "Nostos Books": {
+      "title": "OBJECTS &#124; John Gruen",
+      "url": "https://nostos.jp/archives/456020",
+      "date": "2026-11-11",
       "fresh": true
     },
     "Bird Graphics": {
@@ -85,28 +79,28 @@
       "date": "2025-11-13",
       "fresh": false
     },
-    "Artpedia Asia": {
-      "title": "【美術解説】会田誠「美少女・戦争画・サラリーマンで日本社会の矛盾を描く」",
-      "url": "https://www.artpedia.asia/2019/09/10/artpedia-%E4%BC%9A%E7%94%B0%E8%AA%A0-%E6%AC%A7%E7%B1%B3%E7%BE%8E%E8%A1%93%E3%82%92%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%8B%E3%83%BC%E3%82%92%E4%BA%A4%E3%81%88%E3%81%A6%E8%A1%A8%E7%8F%BE%E3%81%99%E3%82%8B%E7%8F%BE%E4%BB%A3%E7%BE%8E%E8%A1%93%E5%AE%B6/",
-      "date": "2026-10-19",
-      "fresh": false
-    },
-    "IMA Pedia – Artist": {
-      "title": "北海道への移住後から撮り溜めた新鮮な眼差し。写真家・萬田康文のモノクローム写真展を開催",
-      "url": "https://imaonline.jp/news/exhibition/20261109/",
-      "date": "2026-11-09",
+    "IMA Graphy": {
+      "title": "⼈⼯物と⾃然が共存する風景を捉えた写真家柴田敏雄。キャリア50年を振り返る大規模個展を開催",
+      "url": "https://imaonline.jp/news/exhibition/20261110/",
+      "date": "2026-11-10",
       "fresh": true
     },
-    "IMA Graphy": {
-      "title": "北海道への移住後から撮り溜めた新鮮な眼差し。写真家・萬田康文のモノクローム写真展を開催",
-      "url": "https://imaonline.jp/news/exhibition/20261109/",
-      "date": "2026-11-09",
+    "IMA Pedia – Artist": {
+      "title": "⼈⼯物と⾃然が共存する風景を捉えた写真家柴田敏雄。キャリア50年を振り返る大規模個展を開催",
+      "url": "https://imaonline.jp/news/exhibition/20261110/",
+      "date": "2026-11-10",
       "fresh": true
     },
     "ECAL Typefaces": {
       "title": "A Typographic Atlas",
       "url": "https://ecal-typefaces.ch/a-typographic-atlas/",
       "date": "2026-04-29",
+      "fresh": false
+    },
+    "Artpedia Asia": {
+      "title": "【美術解説】会田誠「美少女・戦争画・サラリーマンで日本社会の矛盾を描く」",
+      "url": "https://www.artpedia.asia/2019/09/10/artpedia-%E4%BC%9A%E7%94%B0%E8%AA%A0-%E6%AC%A7%E7%B1%B3%E7%BE%8E%E8%A1%93%E3%82%92%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%8B%E3%83%BC%E3%82%92%E4%BA%A4%E3%81%88%E3%81%A6%E8%A1%A8%E7%8F%BE%E3%81%99%E3%82%8B%E7%8F%BE%E4%BB%A3%E7%BE%8E%E8%A1%93%E5%AE%B6/",
+      "date": "2026-10-19",
       "fresh": false
     }
   }
