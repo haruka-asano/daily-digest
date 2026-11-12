@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T23:12:11.491Z",
+  "generated": "2026-11-12T23:12:44.587Z",
   "updates": {
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
@@ -14,21 +14,21 @@
       "fresh": false
     },
     "It's Nice That": {
-      "title": "Why the retro brand identities of Biabum studio have illustration built into their DNA",
-      "url": "https://www.itsnicethat.com/articles/biabum-graphic-design-illustration-discover-111126",
-      "date": "2026-11-11",
-      "fresh": true
-    },
-    "Another Graphic": {
-      "title": "Blanc!",
-      "url": "https://anothergraphic.org/blanc/",
+      "title": "Vucko’s motion identity for Etsy is built on joy, simplicity and craft",
+      "url": "https://www.itsnicethat.com/articles/vucko-etsy-motion-graphic-design-sponsored-content-121126",
       "date": "2026-11-12",
       "fresh": true
     },
     "Fonts In Use": {
-      "title": "Veintinueve Trece 2023",
-      "url": "https://fontsinuse.com/uses/80733/veintinueve-trece-2023",
-      "date": "2026-11-11",
+      "title": "TML 1–4, The Magic Line",
+      "url": "https://fontsinuse.com/uses/79915/tml-1-4-the-magic-line",
+      "date": "2026-11-12",
+      "fresh": true
+    },
+    "Another Graphic": {
+      "title": "April Society",
+      "url": "https://anothergraphic.org/april-society/",
+      "date": "2026-11-13",
       "fresh": true
     },
     "Brands in Motion": {
@@ -37,46 +37,10 @@
       "date": "2026-11-09",
       "fresh": false
     },
-    "Whitney Design": {
-      "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
-      "url": "https://design.whitney.org/post/813893844258127872",
-      "date": "2020-12-02",
-      "fresh": false
-    },
     "Visual Journal": {
       "title": "Fraser Farm",
       "url": "https://visualjournal.it/home/2026/fraserfarm",
       "date": "2026-11-11",
-      "fresh": true
-    },
-    "Nostos Books": {
-      "title": "アイヌの美しき手仕事 柳宗悦と芹沢銈介のコレクションから",
-      "url": "https://nostos.jp/archives/365749",
-      "date": "2026-11-12",
-      "fresh": true
-    },
-    "Books Atelier": {
-      "title": "Heralded as the new blackRyan Ganderライアン・ガンダー",
-      "url": "https://www.books-atelier.com/?pid=194421972",
-      "date": "2026-11-11",
-      "fresh": true
-    },
-    "Page Spread": {
-      "title": "idea 276: Arrival of the Next Standard in Music Package-147 record+cd jackets",
-      "url": "https://page-spread.com/idea-276-next-standard-in-music-package/",
-      "date": "2026-11-11",
-      "fresh": true
-    },
-    "Bird Graphics": {
-      "title": "しゅうまつのやわらかな、",
-      "url": "https://www.bird-graphics.com/?p=44711",
-      "date": "2025-10-23",
-      "fresh": false
-    },
-    "Graphic Research （by 北千住デザインさん）": {
-      "title": "Land ahoy studio",
-      "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
-      "date": "2026-10-07",
       "fresh": false
     },
     "SDA Member Archives": {
@@ -85,6 +49,36 @@
       "date": "2025-11-13",
       "fresh": false
     },
+    "Books Atelier": {
+      "title": "Heralded as the new blackRyan Ganderライアン・ガンダー",
+      "url": "https://www.books-atelier.com/?pid=194421972",
+      "date": "2026-11-11",
+      "fresh": true
+    },
+    "Graphic Research （by 北千住デザインさん）": {
+      "title": "Land ahoy studio",
+      "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
+      "date": "2026-10-07",
+      "fresh": false
+    },
+    "Bird Graphics": {
+      "title": "しゅうまつのやわらかな、",
+      "url": "https://www.bird-graphics.com/?p=44711",
+      "date": "2025-10-23",
+      "fresh": false
+    },
+    "Page Spread": {
+      "title": "idea liquid 2 Abstract Expression Today",
+      "url": "https://page-spread.com/idea-liquid-2-abstract-expression-today/",
+      "date": "2026-11-12",
+      "fresh": true
+    },
+    "Nostos Books": {
+      "title": "On Display &#124; Maurice Scheltens",
+      "url": "https://nostos.jp/archives/575579",
+      "date": "2026-11-13",
+      "fresh": true
+    },
     "Artpedia Asia": {
       "title": "【美術解説】会田誠「美少女・戦争画・サラリーマンで日本社会の矛盾を描く」",
       "url": "https://www.artpedia.asia/2019/09/10/artpedia-%E4%BC%9A%E7%94%B0%E8%AA%A0-%E6%AC%A7%E7%B1%B3%E7%BE%8E%E8%A1%93%E3%82%92%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%8B%E3%83%BC%E3%82%92%E4%BA%A4%E3%81%88%E3%81%A6%E8%A1%A8%E7%8F%BE%E3%81%99%E3%82%8B%E7%8F%BE%E4%BB%A3%E7%BE%8E%E8%A1%93%E5%AE%B6/",
@@ -92,16 +86,22 @@
       "fresh": false
     },
     "IMA Graphy": {
-      "title": "アジェ、アーヴィング・ペンから現代の実験写真まで。写真技法の歴史をたどる「写真術の系譜」展が開催",
-      "url": "https://imaonline.jp/news/exhibition/20261111/",
-      "date": "2026-11-11",
+      "title": "写真の「失敗」を芸術へ。オランダの異端フィーレットのヴィンテージプリント36点がPOSTに集結",
+      "url": "https://imaonline.jp/news/exhibition/20261112/",
+      "date": "2026-11-12",
       "fresh": true
     },
     "IMA Pedia – Artist": {
-      "title": "アジェ、アーヴィング・ペンから現代の実験写真まで。写真技法の歴史をたどる「写真術の系譜」展が開催",
-      "url": "https://imaonline.jp/news/exhibition/20261111/",
-      "date": "2026-11-11",
+      "title": "写真の「失敗」を芸術へ。オランダの異端フィーレットのヴィンテージプリント36点がPOSTに集結",
+      "url": "https://imaonline.jp/news/exhibition/20261112/",
+      "date": "2026-11-12",
       "fresh": true
+    },
+    "ECAL Typefaces": {
+      "title": "A Typographic Atlas",
+      "url": "https://ecal-typefaces.ch/a-typographic-atlas/",
+      "date": "2026-04-29",
+      "fresh": false
     }
   }
 }
