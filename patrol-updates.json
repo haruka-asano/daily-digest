@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T23:12:44.587Z",
+  "generated": "2026-11-13T23:11:32.131Z",
   "updates": {
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
@@ -14,20 +14,14 @@
       "fresh": false
     },
     "It's Nice That": {
-      "title": "Vucko’s motion identity for Etsy is built on joy, simplicity and craft",
-      "url": "https://www.itsnicethat.com/articles/vucko-etsy-motion-graphic-design-sponsored-content-121126",
-      "date": "2026-11-12",
+      "title": "UEFA Women’s Champions League zine collaborates with art duo Swedish Girls to bring fandom to the streets of Gothenburg",
+      "url": "https://www.itsnicethat.com/features/uefa-womens-champions-league-queenzine-swedish-girls-gothenburg-collaboration-sponsored-content-131126",
+      "date": "2026-11-13",
       "fresh": true
     },
     "Fonts In Use": {
-      "title": "TML 1–4, The Magic Line",
-      "url": "https://fontsinuse.com/uses/79915/tml-1-4-the-magic-line",
-      "date": "2026-11-12",
-      "fresh": true
-    },
-    "Another Graphic": {
-      "title": "April Society",
-      "url": "https://anothergraphic.org/april-society/",
+      "title": "Kings and Queens of Africa: Forms and Figures of Power exhibition catalog",
+      "url": "https://fontsinuse.com/uses/79674/kings-and-queens-of-africa-forms-and-figures-",
       "date": "2026-11-13",
       "fresh": true
     },
@@ -37,28 +31,22 @@
       "date": "2026-11-09",
       "fresh": false
     },
-    "Visual Journal": {
-      "title": "Fraser Farm",
-      "url": "https://visualjournal.it/home/2026/fraserfarm",
-      "date": "2026-11-11",
-      "fresh": false
-    },
-    "SDA Member Archives": {
-      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
-      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
-      "date": "2025-11-13",
-      "fresh": false
-    },
-    "Books Atelier": {
-      "title": "Heralded as the new blackRyan Ganderライアン・ガンダー",
-      "url": "https://www.books-atelier.com/?pid=194421972",
-      "date": "2026-11-11",
+    "Another Graphic": {
+      "title": "Atelier du Bourg",
+      "url": "https://anothergraphic.org/atelier-du-bourg/",
+      "date": "2026-11-14",
       "fresh": true
     },
-    "Graphic Research （by 北千住デザインさん）": {
-      "title": "Land ahoy studio",
-      "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
-      "date": "2026-10-07",
+    "Whitney Design": {
+      "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
+      "url": "https://design.whitney.org/post/813893844258127872",
+      "date": "2020-12-02",
+      "fresh": false
+    },
+    "Visual Journal": {
+      "title": "Penthaus",
+      "url": "https://visualjournal.it/home/2026/penthaus",
+      "date": "2026-11-12",
       "fresh": false
     },
     "Bird Graphics": {
@@ -67,11 +55,29 @@
       "date": "2025-10-23",
       "fresh": false
     },
+    "Books Atelier": {
+      "title": "Heralded as the new blackRyan Ganderライアン・ガンダー",
+      "url": "https://www.books-atelier.com/?pid=194421972",
+      "date": "2026-11-11",
+      "fresh": false
+    },
+    "Graphic Research （by 北千住デザインさん）": {
+      "title": "Land ahoy studio",
+      "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
+      "date": "2026-10-07",
+      "fresh": false
+    },
     "Page Spread": {
-      "title": "idea liquid 2 Abstract Expression Today",
-      "url": "https://page-spread.com/idea-liquid-2-abstract-expression-today/",
-      "date": "2026-11-12",
+      "title": "idea extra designers in Italy",
+      "url": "https://page-spread.com/idea-extra-designers-in-italy/",
+      "date": "2026-11-13",
       "fresh": true
+    },
+    "SDA Member Archives": {
+      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
+      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
+      "date": "2025-11-13",
+      "fresh": false
     },
     "Nostos Books": {
       "title": "On Display &#124; Maurice Scheltens",
@@ -86,15 +92,15 @@
       "fresh": false
     },
     "IMA Graphy": {
-      "title": "写真の「失敗」を芸術へ。オランダの異端フィーレットのヴィンテージプリント36点がPOSTに集結",
-      "url": "https://imaonline.jp/news/exhibition/20261112/",
-      "date": "2026-11-12",
+      "title": "サンローラン参加ジム・ジャームッシュ監督の金獅子賞受賞作『ファーザー マザー シスター ブラザー』公開",
+      "url": "https://imaonline.jp/news/event/20261113/",
+      "date": "2026-11-13",
       "fresh": true
     },
     "IMA Pedia – Artist": {
-      "title": "写真の「失敗」を芸術へ。オランダの異端フィーレットのヴィンテージプリント36点がPOSTに集結",
-      "url": "https://imaonline.jp/news/exhibition/20261112/",
-      "date": "2026-11-12",
+      "title": "サンローラン参加ジム・ジャームッシュ監督の金獅子賞受賞作『ファーザー マザー シスター ブラザー』公開",
+      "url": "https://imaonline.jp/news/event/20261113/",
+      "date": "2026-11-13",
       "fresh": true
     },
     "ECAL Typefaces": {
