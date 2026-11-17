@@ -1,12 +1,6 @@
 {
-  "generated": "2026-11-16T23:11:48.246Z",
+  "generated": "2026-11-17T23:12:05.382Z",
   "updates": {
-    "It's Nice That": {
-      "title": "“Your biggest confidence blocker is comparison”",
-      "url": "https://www.itsnicethat.com/articles/creative-career-condundrums-if-you-could-jobs-advice-161126",
-      "date": "2026-11-16",
-      "fresh": true
-    },
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
       "url": "https://www.siteofsites.co/post/product-spotlight-with-yael-renous-brik",
@@ -19,15 +13,21 @@
       "date": "2026-11-01",
       "fresh": false
     },
-    "Fonts In Use": {
-      "title": "Mythologies at Musée Bonnat-Helleu exhibition and catalog",
-      "url": "https://fontsinuse.com/uses/81442/mythologies-at-musee-bonnat-helleu-exhibition",
-      "date": "2026-11-16",
+    "It's Nice That": {
+      "title": "Nico Therin’s photographs of beach footballers in Zanzibar captures the sport in its purest form",
+      "url": "https://www.itsnicethat.com/articles/nico-therin-photography-zanzibar-project-171126",
+      "date": "2026-11-17",
       "fresh": true
     },
     "Another Graphic": {
-      "title": "Solide",
-      "url": "https://anothergraphic.org/solide/",
+      "title": "Neue Gestaltung",
+      "url": "https://anothergraphic.org/neue-gestaltung/",
+      "date": "2026-11-18",
+      "fresh": true
+    },
+    "Fonts In Use": {
+      "title": "Slanted magazine #48, “Seoul”",
+      "url": "https://fontsinuse.com/uses/81594/slanted-magazine-48-seoul-1",
       "date": "2026-11-17",
       "fresh": true
     },
@@ -38,15 +38,39 @@
       "fresh": false
     },
     "Visual Journal": {
-      "title": "JUNO",
-      "url": "https://visualjournal.it/home/2026/juno",
-      "date": "2026-11-13",
+      "title": "Yumiko",
+      "url": "https://visualjournal.it/home/2026/yumiko",
+      "date": "2026-11-16",
+      "fresh": false
+    },
+    "Hallointer": {
+      "title": "volksbuehne-berlin.de",
+      "url": "https://hallointer.net/volksbuehne-berlin-de",
+      "date": "2026-11-18",
+      "fresh": true
+    },
+    "Bird Graphics": {
+      "title": "しゅうまつのやわらかな、",
+      "url": "https://www.bird-graphics.com/?p=44711",
+      "date": "2025-10-23",
+      "fresh": false
+    },
+    "SDA Member Archives": {
+      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
+      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
+      "date": "2025-11-13",
       "fresh": false
     },
     "Whitney Design": {
       "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
       "url": "https://design.whitney.org/post/813893844258127872",
       "date": "2020-12-02",
+      "fresh": false
+    },
+    "Page Spread": {
+      "title": "idea liquid 01 tomato/Mark Farrow",
+      "url": "https://page-spread.com/idea-liquid-1-tomato-mark-farrow/",
+      "date": "2026-11-16",
       "fresh": false
     },
     "Books Atelier": {
@@ -56,33 +80,15 @@
       "fresh": false
     },
     "Nostos Books": {
-      "title": "田中一光のデザイン",
-      "url": "https://nostos.jp/archives/7189",
-      "date": "2026-11-17",
-      "fresh": true
-    },
-    "Bird Graphics": {
-      "title": "しゅうまつのやわらかな、",
-      "url": "https://www.bird-graphics.com/?p=44711",
-      "date": "2025-10-23",
-      "fresh": false
-    },
-    "Page Spread": {
-      "title": "idea liquid 01 tomato/Mark Farrow",
-      "url": "https://page-spread.com/idea-liquid-1-tomato-mark-farrow/",
-      "date": "2026-11-16",
+      "title": "Spitzmaus Mummy in a Coffin and Other Treasures &#124; Wes Anderson ＆ Juman Malouf",
+      "url": "https://nostos.jp/archives/452305",
+      "date": "2026-11-18",
       "fresh": true
     },
     "Graphic Research （by 北千住デザインさん）": {
       "title": "Land ahoy studio",
       "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
       "date": "2026-10-07",
-      "fresh": false
-    },
-    "SDA Member Archives": {
-      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
-      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
-      "date": "2025-11-13",
       "fresh": false
     },
     "Artpedia Asia": {
@@ -92,15 +98,15 @@
       "fresh": false
     },
     "IMA Pedia – Artist": {
-      "title": "2026年11月後半の運勢【マコのポジティブ占い】",
-      "url": "https://imaonline.jp/news/others/20261115/",
-      "date": "2026-11-15",
+      "title": "日没から夜明けまで、一晩限りの写真展。小見山峻「冴えない夜の処方箋」が7年ぶりに開催",
+      "url": "https://imaonline.jp/news/exhibition/20261117/",
+      "date": "2026-11-17",
       "fresh": true
     },
     "IMA Graphy": {
-      "title": "2026年11月後半の運勢【マコのポジティブ占い】",
-      "url": "https://imaonline.jp/news/others/20261115/",
-      "date": "2026-11-15",
+      "title": "日没から夜明けまで、一晩限りの写真展。小見山峻「冴えない夜の処方箋」が7年ぶりに開催",
+      "url": "https://imaonline.jp/news/exhibition/20261117/",
+      "date": "2026-11-17",
       "fresh": true
     },
     "ECAL Typefaces": {
