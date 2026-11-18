@@ -1,6 +1,12 @@
 {
-  "generated": "2026-11-17T23:12:05.382Z",
+  "generated": "2026-11-18T23:12:17.395Z",
   "updates": {
+    "It's Nice That": {
+      "title": "Illustrator Agnes Lee on 50 years of Metropolitan Diary, the hand-drawn column where NYC is the main theme",
+      "url": "https://www.itsnicethat.com/features/agnes-lee-metropolitan-diary-illustration-spotlight-181126",
+      "date": "2026-11-18",
+      "fresh": true
+    },
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
       "url": "https://www.siteofsites.co/post/product-spotlight-with-yael-renous-brik",
@@ -13,22 +19,16 @@
       "date": "2026-11-01",
       "fresh": false
     },
-    "It's Nice That": {
-      "title": "Nico Therin’s photographs of beach footballers in Zanzibar captures the sport in its purest form",
-      "url": "https://www.itsnicethat.com/articles/nico-therin-photography-zanzibar-project-171126",
-      "date": "2026-11-17",
-      "fresh": true
-    },
     "Another Graphic": {
-      "title": "Neue Gestaltung",
-      "url": "https://anothergraphic.org/neue-gestaltung/",
-      "date": "2026-11-18",
+      "title": "Kasper Quaink",
+      "url": "https://anothergraphic.org/kasper-quaink/",
+      "date": "2026-11-19",
       "fresh": true
     },
     "Fonts In Use": {
-      "title": "Slanted magazine #48, “Seoul”",
-      "url": "https://fontsinuse.com/uses/81594/slanted-magazine-48-seoul-1",
-      "date": "2026-11-17",
+      "title": "Dafi Kühne: Constructing Posters",
+      "url": "https://fontsinuse.com/uses/78663/dafi-kuehne-constructing-posters",
+      "date": "2026-11-18",
       "fresh": true
     },
     "Brands in Motion": {
@@ -37,22 +37,22 @@
       "date": "2026-11-09",
       "fresh": false
     },
-    "Visual Journal": {
-      "title": "Yumiko",
-      "url": "https://visualjournal.it/home/2026/yumiko",
-      "date": "2026-11-16",
-      "fresh": false
-    },
     "Hallointer": {
       "title": "volksbuehne-berlin.de",
       "url": "https://hallointer.net/volksbuehne-berlin-de",
       "date": "2026-11-18",
       "fresh": true
     },
-    "Bird Graphics": {
-      "title": "しゅうまつのやわらかな、",
-      "url": "https://www.bird-graphics.com/?p=44711",
-      "date": "2025-10-23",
+    "Whitney Design": {
+      "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
+      "url": "https://design.whitney.org/post/813893844258127872",
+      "date": "2020-12-02",
+      "fresh": false
+    },
+    "Visual Journal": {
+      "title": "Yumiko",
+      "url": "https://visualjournal.it/home/2026/yumiko",
+      "date": "2026-11-16",
       "fresh": false
     },
     "SDA Member Archives": {
@@ -61,17 +61,11 @@
       "date": "2025-11-13",
       "fresh": false
     },
-    "Whitney Design": {
-      "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
-      "url": "https://design.whitney.org/post/813893844258127872",
-      "date": "2020-12-02",
-      "fresh": false
-    },
     "Page Spread": {
-      "title": "idea liquid 01 tomato/Mark Farrow",
-      "url": "https://page-spread.com/idea-liquid-1-tomato-mark-farrow/",
-      "date": "2026-11-16",
-      "fresh": false
+      "title": "AG Fronzoni Man hielt mich für Verrückt, aber man liess mich gewähren",
+      "url": "https://page-spread.com/ag-fronzoni-man-hielt-mich/",
+      "date": "2026-11-18",
+      "fresh": true
     },
     "Books Atelier": {
       "title": "Heralded as the new blackRyan Ganderライアン・ガンダー",
@@ -79,17 +73,23 @@
       "date": "2026-11-11",
       "fresh": false
     },
-    "Nostos Books": {
-      "title": "Spitzmaus Mummy in a Coffin and Other Treasures &#124; Wes Anderson ＆ Juman Malouf",
-      "url": "https://nostos.jp/archives/452305",
-      "date": "2026-11-18",
-      "fresh": true
+    "Bird Graphics": {
+      "title": "しゅうまつのやわらかな、",
+      "url": "https://www.bird-graphics.com/?p=44711",
+      "date": "2025-10-23",
+      "fresh": false
     },
     "Graphic Research （by 北千住デザインさん）": {
       "title": "Land ahoy studio",
       "url": "https://scrapbox.io/graphicresearch/Land_ahoy_studio",
       "date": "2026-10-07",
       "fresh": false
+    },
+    "Nostos Books": {
+      "title": "Gucci by Harmony Korine",
+      "url": "https://nostos.jp/archives/577881",
+      "date": "2026-11-19",
+      "fresh": true
     },
     "Artpedia Asia": {
       "title": "【美術解説】会田誠「美少女・戦争画・サラリーマンで日本社会の矛盾を描く」",
@@ -98,15 +98,15 @@
       "fresh": false
     },
     "IMA Pedia – Artist": {
-      "title": "日没から夜明けまで、一晩限りの写真展。小見山峻「冴えない夜の処方箋」が7年ぶりに開催",
-      "url": "https://imaonline.jp/news/exhibition/20261117/",
-      "date": "2026-11-17",
+      "title": "女性の身体に宿る美と葛藤を青く写し出す。渋谷美鈴作品展「うつしみ」が銀座で開催",
+      "url": "https://imaonline.jp/news/exhibition/20261118/",
+      "date": "2026-11-18",
       "fresh": true
     },
     "IMA Graphy": {
-      "title": "日没から夜明けまで、一晩限りの写真展。小見山峻「冴えない夜の処方箋」が7年ぶりに開催",
-      "url": "https://imaonline.jp/news/exhibition/20261117/",
-      "date": "2026-11-17",
+      "title": "女性の身体に宿る美と葛藤を青く写し出す。渋谷美鈴作品展「うつしみ」が銀座で開催",
+      "url": "https://imaonline.jp/news/exhibition/20261118/",
+      "date": "2026-11-18",
       "fresh": true
     },
     "ECAL Typefaces": {
