@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-18T23:12:17.395Z",
+  "generated": "2026-11-19T23:11:25.031Z",
   "updates": {
-    "It's Nice That": {
-      "title": "Illustrator Agnes Lee on 50 years of Metropolitan Diary, the hand-drawn column where NYC is the main theme",
-      "url": "https://www.itsnicethat.com/features/agnes-lee-metropolitan-diary-illustration-spotlight-181126",
-      "date": "2026-11-18",
-      "fresh": true
-    },
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
       "url": "https://www.siteofsites.co/post/product-spotlight-with-yael-renous-brik",
       "date": "2026-08-18",
       "fresh": false
+    },
+    "It's Nice That": {
+      "title": "Taxidermy, cat shows, and beauty pageants: Alice Poyzer takes us into her world and what it means to be neurodivergent",
+      "url": "https://www.itsnicethat.com/articles/alice-poyzer-other-joys-photography-discover-191126",
+      "date": "2026-11-19",
+      "fresh": true
     },
     "HTML Review – Archive": {
       "title": "Submissions are open",
@@ -19,16 +19,10 @@
       "date": "2026-11-01",
       "fresh": false
     },
-    "Another Graphic": {
-      "title": "Kasper Quaink",
-      "url": "https://anothergraphic.org/kasper-quaink/",
-      "date": "2026-11-19",
-      "fresh": true
-    },
     "Fonts In Use": {
-      "title": "Dafi Kühne: Constructing Posters",
-      "url": "https://fontsinuse.com/uses/78663/dafi-kuehne-constructing-posters",
-      "date": "2026-11-18",
+      "title": "Faszination Japan / Fascination with Japan",
+      "url": "https://fontsinuse.com/uses/81060/faszination-japan-fascination-with-japan",
+      "date": "2026-11-19",
       "fresh": true
     },
     "Brands in Motion": {
@@ -37,10 +31,10 @@
       "date": "2026-11-09",
       "fresh": false
     },
-    "Hallointer": {
-      "title": "volksbuehne-berlin.de",
-      "url": "https://hallointer.net/volksbuehne-berlin-de",
-      "date": "2026-11-18",
+    "Another Graphic": {
+      "title": "Yoffdog",
+      "url": "https://anothergraphic.org/yoffdog/",
+      "date": "2026-11-20",
       "fresh": true
     },
     "Whitney Design": {
@@ -49,10 +43,16 @@
       "date": "2020-12-02",
       "fresh": false
     },
+    "Hallointer": {
+      "title": "volksbuehne-berlin.de",
+      "url": "https://hallointer.net/volksbuehne-berlin-de",
+      "date": "2026-11-18",
+      "fresh": false
+    },
     "Visual Journal": {
-      "title": "Yumiko",
-      "url": "https://visualjournal.it/home/2026/yumiko",
-      "date": "2026-11-16",
+      "title": "NeueHaus",
+      "url": "https://visualjournal.it/home/2026/neuehaus",
+      "date": "2026-11-18",
       "fresh": false
     },
     "SDA Member Archives": {
@@ -61,22 +61,10 @@
       "date": "2025-11-13",
       "fresh": false
     },
-    "Page Spread": {
-      "title": "AG Fronzoni Man hielt mich für Verrückt, aber man liess mich gewähren",
-      "url": "https://page-spread.com/ag-fronzoni-man-hielt-mich/",
-      "date": "2026-11-18",
-      "fresh": true
-    },
     "Books Atelier": {
       "title": "Heralded as the new blackRyan Ganderライアン・ガンダー",
       "url": "https://www.books-atelier.com/?pid=194421972",
       "date": "2026-11-11",
-      "fresh": false
-    },
-    "Bird Graphics": {
-      "title": "しゅうまつのやわらかな、",
-      "url": "https://www.bird-graphics.com/?p=44711",
-      "date": "2025-10-23",
       "fresh": false
     },
     "Graphic Research （by 北千住デザインさん）": {
@@ -85,10 +73,22 @@
       "date": "2026-10-07",
       "fresh": false
     },
-    "Nostos Books": {
-      "title": "Gucci by Harmony Korine",
-      "url": "https://nostos.jp/archives/577881",
+    "Bird Graphics": {
+      "title": "しゅうまつのやわらかな、",
+      "url": "https://www.bird-graphics.com/?p=44711",
+      "date": "2025-10-23",
+      "fresh": false
+    },
+    "Page Spread": {
+      "title": "10 corso como COMME des GARÇONS JEAN PROUVÉ &#8211; CHARLOTTE PERRIAND &#8211; LE CORBUSIER Poster DM",
+      "url": "https://page-spread.com/10-corso-como-comme-des-garcons-jean-prouve-poster-dm/",
       "date": "2026-11-19",
+      "fresh": true
+    },
+    "Nostos Books": {
+      "title": "windows &#124; 奥山由之",
+      "url": "https://nostos.jp/archives/577913",
+      "date": "2026-11-20",
       "fresh": true
     },
     "Artpedia Asia": {
@@ -97,16 +97,16 @@
       "date": "2026-10-19",
       "fresh": false
     },
-    "IMA Pedia – Artist": {
-      "title": "女性の身体に宿る美と葛藤を青く写し出す。渋谷美鈴作品展「うつしみ」が銀座で開催",
-      "url": "https://imaonline.jp/news/exhibition/20261118/",
-      "date": "2026-11-18",
+    "IMA Graphy": {
+      "title": "金魚鉢の中の2匹の魚と東京のポートレート。エリック・グスタフソンの新作写真集刊行&#038;サイン会",
+      "url": "https://imaonline.jp/news/event/20261119/",
+      "date": "2026-11-19",
       "fresh": true
     },
-    "IMA Graphy": {
-      "title": "女性の身体に宿る美と葛藤を青く写し出す。渋谷美鈴作品展「うつしみ」が銀座で開催",
-      "url": "https://imaonline.jp/news/exhibition/20261118/",
-      "date": "2026-11-18",
+    "IMA Pedia – Artist": {
+      "title": "金魚鉢の中の2匹の魚と東京のポートレート。エリック・グスタフソンの新作写真集刊行&#038;サイン会",
+      "url": "https://imaonline.jp/news/event/20261119/",
+      "date": "2026-11-19",
       "fresh": true
     },
     "ECAL Typefaces": {
