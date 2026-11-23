@@ -1,0 +1,1962 @@
+{
+  "date": "2026-11-24",
+  "edition": "morning",
+  "asof": "08:23",
+  "footnote": "AI担当: lead 1本、cards 10本、rows 15行、buzz 3件、calendar 2件。日本語の出典が見つからず英語に頼った記事が多い(Claude Ship、GPT-6.2のチャット提供、GoogleのAIモード、Amazon×Decart、xAIの計算機貸し、Grok訴訟、Z.ai GLM-5.4)。The VergeとTechCrunchはcurl/WebFetchで本文を読めた。GPT-6.2のチャット提供はOpenAIの公式ページ・日本語ヘルプで確認できず、The Decoderの記事のみ。xAIとAnthropicの月31億ドルの話は、NYTの記事そのものは読めず、The Decoderによる紹介(報道ベース)。Microsoft、Apple、DeepSeek、Alibaba Qwen、MiniMax、日本の大手(ソフトバンク、NTT、富士通など)は、11/22夕方〜11/24朝の新しい動きを見つけられなかった。Claude Code 2.1.331の修正、Gemini Gems→Skills、Gemini 4 Carbon、DeepMindの量子アルゴリズムの話は、Xの投稿だけで裏が取れず記事にしていない。見送った候補: Sierraの企業価値300億ドル(TechCrunchの見出しのみ確認)、NothingのAIイヤホン「Ear Note」、AIコーディングエージェントが模擬職場で1割未満しか仕事を終えられない研究(The Decoderの有料記事で本文が読めず)、NVIDIA RTX Spark搭載ノートでLinuxの推論が遅くなる件、OpenRouterの量子化の検証(GIGAZINE)。画像は3本のみ(lead、Google、CrowdStrike)。GIGAZINEの顔認識の記事の画像は飾りのイラストなので入れなかった。 / 6サイトすべて取得できた。今日の更新: SANKOU! 3件(11/23掲載)、MUUUUU.ORG 1件(SOTD RE:SHAPE)、S5-Style 9件、Brilliant Design Collect 1件、Minimal Gallery 2件。me ki ki kiは新しい掲載なし(latestは前号と同じ11/21の2件)。RE:SHAPEはMUUUUU.ORGとS5-Styleの両方に載った。SANKOU!はトップ・詳細ページがUAによって403になり、再取得で読めた。S5-Style・Brilliant Design Collect・Milkinside・Fourloなどにクレジット記載なし。picksはRE:SHAPE、VUILD、SHIBUYA PARCO / 百軒店の3本(前号のROSCA・FUCURA・田巻 海と重複なし)。VUILDの書体のうち和文は、サイトのCSSのフォント名(TsukuGoPro)から筑紫ゴシック系と判断した。 / デザイン4本・Web5本・buzz2件・calendar2件。Studio不正アクセスは、Studio公式の11月の新しい続報を見つけられず(GMO Flatt Securityの自社サイト分の発表は11/5と古く、件数は有料記事で読めず)見送り。Cuenote FC・GoQSystem・ChatPlus・Chrome 158・KARTEは新事実なし(KARTEは対象企業への詳細データ提供が24日から、とは前号どおり)。3連休でデザインの国内ニュースが少なく、AXIS(最新11/20分は既出)、JDN(フィード404)、MdN・TECTURE(読めず)、Web担当者Forumの個別記事(403)。Figma FigJam/Slidesの記事は日本語の出典が見つからず英語の公式リリースノートのみ。首里城正殿は文化担当と重なるかもしれない(前号までは大阪の祝賀公演だけ)。Casa BRUTUSのカール・オーボック×ルッツモリスのキーリング(本文が短く中身不明)と、Canva Japanのマスコット「キャンバビィ」(11/19、軽い話題)は見送り。Figma記事・GitLab・gTLD・Figma管理機能は、内容を示す画像がなく画像なし。 / 時事ドットコム本体は有料で冒頭1段落しか読めないため、本文はYahoo!ニュース転載(時事・共同・朝日・読売・ロイター・東京商工リサーチ)で確認した。NHKのRSSは8月で止まっていて使えなかった。見送ったもの: 防衛費の攻防(時事の続報は冒頭しか読めず、前号と重複も大きい)、EUの第22弾対ロシア制裁案(中身がスポーツ大会の出場禁止中心のため)、エヌビディア・フアン氏の復帰そのもの(AI担当と重なるので、econでは市場の動きとして扱った)。画像は時事のNY証券取引所の写真1枚のみ(Yahoo!ニュースの画像URLは期限つきのため使わなかった)。quickは10件(候補はあったが、質を優先して11件目は入れなかった)。calendarSrc も参考に付けた(台湾・スペインの出典は前々号・前号のquickと同じ記事)。 / natalie.mu(映画・お笑いナタリー)は直接アクセスが403/WAFで読めず、Yahoo!ニュース配信版の本文で確認し、出典もYahoo!ニュースのURLにした(画像もYahoo配信の画像URL)。週末(11/20〜23)の興行ランキングは、興行通信社・ジョルダンとも未更新(11/13〜15分が最新)で載せていない。東京フィルメックス会期中の新しいニュース(受賞・来日など)は見つけられなかった。三大映画祭の新しい動きも拾えていない。THE W 2026、ytv漫才新人賞の新しい発表は見つけられなかった。お笑いの5本目(モノマネの会)は画像なし。Yahoo!リアルタイム検索はトップ+2語(M-1、ローソン盛りすぎチャレンジ)の3ページ。映画の話題はbuzzなし。ねとらぼ・Fashion Press・ORICONは一覧/RSSを取得できず未使用。 / 文化6本・ファッション6本・alerts 7件・calendar 3件。【拾えなかったもの】(1)本(文学賞): 11/22〜24に発表された文学賞が見つからなかった(野間文芸新人賞は11/5発表、新文芸誌Leafの記事は10月の話で古い)。本の記事は0本。(2)舞台: ステージナタリー(natalie.mu)が403/人間確認で読めず、エンタステージ・歌舞伎美人の新着は11/20以前のみ。舞台の記事は0本。音楽ナタリーも同じく読めなかった。(3)SPUR(rss・トップとも Client Challenge で読めず)、GINZA(feedが空)は見られなかった。FUDGEはコーデ特集ばかりでニュース記事にできるものがなかった。WIREDは見ていない。(4)ワンピースの新作(2〜4万円台)は見つからなかった。(5)ビルケンシュトック別注は、公式通販(jadorejun.jp)にプロキシ経由でつながらず、出典はWWDJAPANのみ。コム デ ギャルソン×マリメッコも公式の商品ページはなく、FASHIONSNAPとファッションプレス。(6)Roof Park Art Fes(〜11/29)は文字数の都合でalertsから外した(前号に記事あり)。ハービー・山口展と源氏物語・跳ね橋・アイヌ展の会期は前号の出典のまま(今日は開き直していない)。【重複チェック済み】ゴッホ304億円落札・草間彌生の記録(11/19・11/21号)、ポーラのゴンザレス=トレス(11/18号)、rei harakami AMBIENT KYOTO(11/20号)、トトロのロンドン公演(11/19・20号)、MAFIN、関島寿子は過去号にあるので除いた。",
+  "ai": {
+    "lead": {
+      "c": "AI / NVIDIA",
+      "s": 3,
+      "t": 2,
+      "h": "NVIDIAのフアン氏、辞任から11日でCEOに戻る。トランプ大統領は「私がまとめた」",
+      "a": "NVIDIAは23日(米国時間)、ジェンスン・フアン氏が同じ日付でCEOと取締役に戻ったと発表した。フアン氏は12日に辞めていた。中国の情報機関との関係が疑われる実業家との交際が報じられたためだ。取締役会は本人と面談し、全会一致で復帰を決めた。",
+      "b": "取締役会は、米政府の高官の意見も聞き、復帰は国の安全を脅かさないと判断したと説明した。トランプ大統領は米CNBCの電話取材で、取締役会に直接働きかけたと認め、「私が説得した。私がまとめた」と語った。株価は一時36%を超えて上がったとNHKは伝えた。",
+      "u": "疑いが晴れたわけではない。取締役会の独立した調査は続き、結論はまだ出ていない。AIの半導体を作る会社の経営が、政治と安全保障に強く縛られる例として見ておきたい。",
+      "m": "NVIDIAは、輸出のルールを守っているかを見張る新しい委員会を作り、安全保障に詳しい法律の顧問を置く。法令を守る責任者(CCO)も選ぶ。暫定CEOだったコレット・クレス氏は財務の責任者に戻る。12月1日には、米下院の3つの委員会がフアン氏から非公開で話を聞く予定。NVIDIAの先端の半導体が中国側に渡った可能性を問題にしている。民主党のウォーレン上院議員は「無謀な決定」と批判し、どの高官が何を言ったのか説明を求めた。米TechCrunchは、半導体が中国へ流れた経路や、NVIDIAがどこまで知っていたかは、まだ答えが出ていないと指摘する。",
+      "ex": "「取締役会」は、株主に代わって社長を選び、見張る役の集まり。「輸出規制」は、性能の高い半導体を特定の国へ売ることを、国が制限するルールだ。NVIDIAのGPU(画像処理用の半導体)は、世界のAIを動かすエンジンにあたる。つまり、AIの計算機を握る会社のトップを、大統領が事実上決める形になり、AIの半導体が「国の安全」の道具として扱われる時代がはっきりした。",
+      "img": {
+        "u": "https://www.itmedia.co.jp/news/article/image/2611/24/2000003397/10012785/728",
+        "a": "9月の昼食会で、フアン氏とトランプ大統領が話す様子",
+        "c": "ホワイトハウス / ITmedia NEWS"
+      },
+      "r": [
+        {
+          "t": "ITmedia NEWS",
+          "u": "https://www.itmedia.co.jp/news/article/2611/24/2000003397/"
+        },
+        {
+          "t": "NHK",
+          "u": "https://news.web.nhk/newsweb/na/nd-20261123de80304"
+        },
+        {
+          "t": "ASCII.jp",
+          "u": "https://ascii.jp/elem/000/004/453/4453950/"
+        },
+        {
+          "t": "TechCrunch(英語)",
+          "u": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/"
+        }
+      ]
+    },
+    "rows": [
+      {
+        "co": "NVIDIA",
+        "tag": "人事",
+        "text": "12日に辞めたジェンスン・フアン氏が、23日付でCEOと取締役に復帰。取締役会の全会一致。社内の独立調査は続く。"
+      },
+      {
+        "co": "NVIDIA",
+        "tag": "聴取",
+        "text": "12月1日に、フアン氏が米下院の3委員会の非公開の聴取に応じる予定。2日は法務責任者。先端半導体が中国側に渡った可能性を問う。"
+      },
+      {
+        "co": "Anthropic",
+        "tag": "新機能",
+        "text": "コードの確認・修正・承認をAIに任せる「Claude Ship」を発表(23日)。修正役「PR Steward」と承認役「Claude Approvals」はベータ。TeamとEnterprise向け、GitHubで使う。"
+      },
+      {
+        "co": "Anthropic",
+        "tag": "提供終了",
+        "text": "Claude Opus 4.5のAPI提供を2027年1月22日に終えると開発者に通知(23日)。移行先はOpus 5.5。"
+      },
+      {
+        "co": "OpenAI",
+        "tag": "新モデル",
+        "text": "ChatGPTの会話画面に、会話向けに調整した「GPT-6.2 Sol」を世界で順に提供(23日)。Plus・Pro・Business・Enterprise向け。"
+      },
+      {
+        "co": "OpenAI",
+        "tag": "研究",
+        "text": "GPT-6.2 Astraが、2006年の数学の定理を、人の手を借りずに機械で確かめられる形で証明したと、評価会社Vals AIが公表。1800行、約94分、21.58ドル。"
+      },
+      {
+        "co": "Google",
+        "tag": "新機能",
+        "text": "検索のAIモードが、GmailやカレンダーにくわえてWalletとつながる。ドライブとGeminiアプリも対象に(23日)。つなぐかは選べる。"
+      },
+      {
+        "co": "Amazon",
+        "tag": "買収",
+        "text": "Decartの、AIを少ない計算で動かす技術「DOS」と創業チームを手に入れると公式ブログで公表(23日)。金額は75億ドルとBloombergが報じた。"
+      },
+      {
+        "co": "CrowdStrike",
+        "tag": "買収",
+        "text": "ネットのセキュリティのZscalerを、株式交換で買うと最終合意(23日)。企業価値は約439億ドル(約7兆円)。狙いはAIエージェントの見張り。"
+      },
+      {
+        "co": "xAI",
+        "tag": "事業",
+        "text": "自社のAIより、計算機を他社に貸す事業に重心を移しているとNYTが報じた。最大の客はAnthropicで月約31億ドル。画像・動画のGrok Imagineの60人のチームは解散と。"
+      },
+      {
+        "co": "xAI",
+        "tag": "訴訟",
+        "text": "米オレゴン州とバージニア州の司法長官が、Grokで性的なディープフェイクが作られたとして、xAIを合併したSpaceXを提訴(23日)。賠償を求める。"
+      },
+      {
+        "co": "Z.ai",
+        "tag": "新モデル",
+        "text": "中国のZ.ai(旧Zhipu)が、層を2回くり返して使う「ループ型」の大型モデルGLM-5.4を公開。7500億パラメータで、2〜3兆の規模並みと主張。"
+      },
+      {
+        "co": "Meta",
+        "tag": "発言",
+        "text": "AI責任者のアレクサンドル・ワン氏が、リーマン予想の証明を「超知能が近い」しるしと発言。業界は先の備えが足りないと警告した。"
+      },
+      {
+        "co": "住友生命",
+        "tag": "活用",
+        "text": "ChatGPT Enterpriseを6月に導入。毎週の利用率は8割超。月101回以上使う人では、投資の効果が平均524%と試算。"
+      },
+      {
+        "co": "FIXER",
+        "tag": "導入",
+        "text": "外にデータを出さずに社内だけで動く生成AIの箱「Sovereign GaiXer」を、愛媛の化粧品メーカー、アイテックが導入(24日)。"
+      }
+    ],
+    "cards": [
+      {
+        "g": "ai",
+        "c": "AI / Anthropic",
+        "s": 3,
+        "t": 2,
+        "h": "Claude、プログラムの修正の「承認」までAIが担う「Claude Ship」。人の確認を減らす代わりに、責任の線引きが問われる",
+        "a": "Anthropicは23日(米国時間)、プログラムの変更をAIが確かめ、直し、承認まで行う「Claude Ship」を発表した。3つの役で構成する。問題を指摘する「Code Review」は正式提供。テストの失敗や変更のぶつかりを直す「PR Steward」と、決まった条件の変更を承認する「Claude Approvals」はベータ版。",
+        "b": "これまでもAIの確認役はあった。新しいのは、AIが「通してよい」と判断するところまで踏み込んだ点だ。承認の条件は、チームがふつうの言葉でファイルに書いておく。Anthropicは、自社のClaude Codeのチームではコードの大半をClaudeが書いており、その後の手続きも同じ速さにしたかったと説明する。",
+        "u": "AIが大量にコードを書くと、人の確認が渋滞する。その渋滞を減らす道具だ。ただし、承認役はまずは「見ているだけ」で試すよう、Anthropic自身が勧めている。",
+        "m": "TeamとEnterpriseのプラン向けで、GitHubのリポジトリで使う。確認の深さを「Quick」「Standard」「Deep」から選べ、月の使用額の上限も決められる。どの変更を人に回すかも、チームが決める。PR Stewardは、変更のたびに何を直したか、どう戻すかをコメントに残す。料金の具体的な数字は示されていない。",
+        "ex": "「プルリクエスト」は、プログラムの変更案を出して、仲間に確かめてもらう手続き。出版でいえば、原稿を編集者に見せて「これで印刷してよい」とはんこをもらう流れにあたる。「CI」は、変更のたびに自動で動くテストのこと。つまり、編集者のはんこまでAIが押せるようになり、開発は速くなるが、AIが通した不具合の責任をだれが持つかを、各社が決めておく必要が出てきた。",
+        "r": [
+          {
+            "t": "TechCrunch(英語)",
+            "u": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+          },
+          {
+            "t": "The Verge(英語)",
+            "u": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / OpenAI",
+        "s": 2,
+        "t": 1,
+        "h": "ChatGPTのふだんの会話にも「GPT-6.2」。画像の読み取りと、難しい指示に従う力が上がった",
+        "a": "OpenAIは23日(米国時間)、会話向けに調整した「GPT-6.2 Sol」を、ChatGPTのチャット画面で世界に順に出し始めた。対象はPlus、Pro、Business、Enterpriseの有料プラン。17日の発表時点では、仕事向けの「Work」とCodexでしか選べなかった。",
+        "b": "社内のテストでは、GPT-6と比べて、画像についての質問に答える力が47.4%から71.7%に、難しい指示どおりに答える割合が62.5%から78.1%に上がった。難しい会話で安全の方針を守る割合も、77〜80%から91〜94%に上がった。とくに若い人の心の依存や摂食障害の話題で伸びたとされる。",
+        "u": "写真や画面のスクリーンショットを見せて質問する使い方が、前より頼れるようになる。数字はOpenAI自身の社内テストで、外部の検証ではない点は覚えておきたい。",
+        "m": "Web検索で難しい答えを探すテストでも、最も難しい水準で約10ポイント上回ったという。数字は会話のモードだけに当てはまり、WorkとCodexのモデルは変わらない。企業の管理者は、社員にGPT-6.2を使わせるかを選べる。",
+        "ex": "「モデル」は、AIの頭脳にあたる本体。同じChatGPTでも、中の頭脳を入れ替えると答えの質が変わる。「ベンチマーク」は、AIの力を比べるための共通のテストのこと。つまり、有料プランの人は、ふだんの会話のままで、写真の読み取りや細かい注文への従い方が一段よくなったAIを使えるようになる。",
+        "r": [
+          {
+            "t": "The Decoder(英語)",
+            "u": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / Google",
+        "s": 2,
+        "t": 1,
+        "h": "Google検索のAIモード、ドライブとWalletの中身も読んで答える。お金は動かせない",
+        "a": "Googleは23日(米国時間)、検索の「AIモード」が、利用者のGoogleドライブとGoogle Wallet、Geminiアプリの情報も使って答えるようにすると発表した。これまでつながっていたのは、Gmail、カレンダー、Googleフォトだった。",
+        "b": "Walletとつなぐと、使ったお金の見直しや、クレジットカードのポイントの使い方を相談できる。ドライブとつなぐと、自分の書類や表をもとに、たとえば確定申告の準備の計画を作れる。Geminiアプリとの会話の流れも、AIモードに引き継がれる。",
+        "u": "つなぐかどうかは自分で選べ、いつでも切れる。AIモードはWalletの情報を読むだけで、お金を動かしたり管理したりはできないとGoogleは説明する。答えの下には、どの情報を使ったかを示す印が近く出る。",
+        "m": "提供する国やプランは示されていない。X(旧Twitter)では、Walletは順に始まり、ドライブとGeminiアプリは数週間のうちに、という紹介が出ている。",
+        "ex": "「AIモード」は、Google検索の中で、AIが調べて文章で答えてくれる画面。ふつうの検索が「本のありかを教える図書館の案内」なら、AIモードは「本を読んでまとめてくれる司書」にあたる。今回は、その司書が自分の家計簿やファイル棚まで見られるようになる。つまり、検索が「世の中の情報」から「自分の情報」までまとめて答える道具になり、便利さと引き換えに、何をAIに見せるかを自分で決める場面が増える。",
+        "img": {
+          "u": "https://techcrunch.com/wp-content/uploads/2026/01/ai-mode-google.jpg?w=1024",
+          "a": "スマートフォンに表示されたGoogleのAIモードの案内画面",
+          "c": "Thomas Fuller/SOPA Images/LightRocket / Getty Images / TechCrunch"
+        },
+        "r": [
+          {
+            "t": "TechCrunch(英語)",
+            "u": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / セキュリティ",
+        "s": 2,
+        "t": 2,
+        "h": "CrowdStrike、Zscalerを約7兆円で買う。狙いは「社内のAIエージェントが何をしているか」を見張ること",
+        "a": "米CrowdStrikeは23日(米国時間)、米Zscalerを買うことで最終合意したと発表した。お金ではなく自社の株と交換する。Zscalerの企業価値は約439億ドル(約7兆円)。手続きが終わるのは、2027年2月〜2028年1月の会計年度の後半の見込み。",
+        "b": "CrowdStrikeは、パソコンやサーバーを守るソフト「Falcon」の会社。Zscalerは、社員とアプリの間の通信をクラウドで中継し、検査する会社だ。CrowdStrikeのカーツCEOは、企業から「自社のAIエージェントがどこにいて、何をし、どのデータに触れ、どこと通信しているか分からない」という声が出ていると話す。",
+        "u": "会社でAIに仕事を任せるほど、AIそのものが新しい「穴」になる。端末とネットの両方からAIの動きを見張る道具が、1社にまとまる流れだ。",
+        "m": "Zscalerは世界200か所以上で、1日7500億件を超える通信を処理し、米国の大企業500社の約半数が使う。両社は前から組んでおり、共通の客は2000社を超える。統合後の年間の継続収入は、始めから100億ドルを超える見込み。CrowdStrikeは2024年7月、更新の不具合で世界のWindows端末が起動できなくなる障害を起こしている。",
+        "ex": "「AIエージェント」は、指示を受けて、自分でアプリを開いたりデータを取りに行ったりして仕事を進めるAI。新しく雇った派遣社員に、社内のどの部屋にも入れる鍵を渡すようなものだ。「ゼロトラスト」は、社内の通信でも毎回身元を確かめる考え方。つまり、AIに仕事を任せる会社が増えるほど、「AIの社員証と行動記録」を管理する仕事が大きな商売になる。",
+        "img": {
+          "u": "https://www.itmedia.co.jp/news/article/image/2611/24/2000003398/10012789/728",
+          "a": "ZscalerのZero Trust Exchangeの仕組みを示した図",
+          "c": "Zscaler / ITmedia NEWS"
+        },
+        "r": [
+          {
+            "t": "ITmedia NEWS",
+            "u": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / Amazon",
+        "s": 1,
+        "t": 1,
+        "h": "【続き】Amazon、Decartの技術とチームを手に入れると公表。自社のAI半導体を外に売る準備",
+        "a": "Amazonは23日(米国時間)、AIを少ない計算で速く動かすDecartの技術「Decart Optimization Stack(DOS)」と、創業チーム、研究者・技術者を迎えると公式ブログで公表した。金額は75億ドルとBloombergが報じた。会社ごと買うのかは、明らかになっていない。",
+        "b": "DOSは、AIをNVIDIA、Amazon、Googleの半導体で効率よく動かすソフト。Amazonは自社のAI半導体「Trainium」を、NVIDIAの対抗として客に売る準備をしている。DOSがあれば、客はNVIDIAから乗り換えやすくなる。",
+        "u": "AIの計算機は、NVIDIAの一強から、各社が自前の半導体を売り込む競争に移りつつある。クラウドの料金にも響いてくる話だ。",
+        "m": "Decartは、操作に合わせてその場で動く仮想の世界を作るAI(最新は「Oasis 3」)や、動画を作るAIも手がける。Amazonの半導体とAIモデルの責任者、ピーター・デサンティス氏は「AIの進歩は、半導体1枚からより多くを引き出すことから始まる」とコメントした。",
+        "ex": "「半導体」は、AIの計算をこなす部品。同じエンジンでも、運転のうまい人が乗ると燃費が良くなるように、ソフトの工夫で同じ半導体からより多くの計算を引き出せる。Decartの技術は、その「運転のうまさ」にあたる。つまり、AmazonはNVIDIAに頼らずにAIを安く動かす道を広げ、AIサービスの値段の競争がさらに進む。",
+        "r": [
+          {
+            "t": "TechCrunch(英語)",
+            "u": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / xAI",
+        "s": 2,
+        "t": 2,
+        "n": "報道ベース",
+        "h": "xAI、自社のAIより「計算機の貸し出し」へ。最大の客はライバルのAnthropicで、月に約31億ドルと報じられた",
+        "a": "イーロン・マスク氏のxAIが、自社のAIの開発より、計算機を他社に貸す商売に重心を移している、と米ニューヨーク・タイムズが報じた。最大の客はAnthropicで、契約は月に約31億ドル。Googleも月8億ドルを払う。どちらも90日前に知らせれば解約できる。",
+        "b": "xAIは5月からライバルに計算機を貸している。報道によると、マスク氏は8月、社内のチャットで「GPU1枚あたりの売上」を求め、チャットの名前を「競争できないから計算機を売れ」に変えたという。画像・動画を作るGrok Imagineの約60人のチームは解散すると、11月に社員へ伝えられた。",
+        "u": "Anthropicの弱みも見える。Claudeを動かす計算機の大きな部分を、競争相手でもあるマスク氏の会社に頼っている。90日で解約できる契約は、両方にとって不安の種になる。",
+        "m": "xAIは、Anthropicの注文に間に合わせるため、10月までに新しいデータセンターを仕上げる必要があったという。マスク氏は、Anthropicはさらに借りたがっていると話している。OpenAIも、計算機が足りないとして動画のSoraを止めている。",
+        "ex": "「計算資源」は、AIを学ばせたり動かしたりするための計算機の力。電気や水道のように、使った分だけ借りることもできる。xAIは、自分で店を開くより、ほかの店に厨房を貸すほうがもうかると判断した形だ。つまり、AIの競争は「賢いAIを作る会社」と「計算機を貸す会社」に分かれ始め、利用者が使うAIの値段や安定は、その貸し借りの契約に左右される。",
+        "r": [
+          {
+            "t": "The Decoder(英語)",
+            "u": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / 規制",
+        "s": 2,
+        "t": 1,
+        "h": "Grokの性的なディープフェイク、米2州がSpaceXを訴える。「安全対策の弱さは失敗でなく、わざと」",
+        "a": "米オレゴン州とバージニア州の司法長官が23日、それぞれ別の訴えを起こした。Grokで性的なディープフェイク画像が作られ広まったのに、安全だと宣伝したのは消費者を守る法律に反する、という内容。xAIは今年SpaceXと合併しており、訴えた相手はSpaceX。どちらも賠償を求める。",
+        "b": "問題の中心は、画像や動画を作る「Grok Imagine」。2025年8月に性的な内容を出す「spicy」モードが加わり、2026年1月には、X上のどんな画像も元の投稿者の同意なしに編集できる機能が付いた。バージニア州の訴状は、弱い安全対策を「失敗ではなく、仕様だ」と書いた。",
+        "u": "AIで作った画像の被害に、州が消費者保護の法律で責任を問う流れが広がる。他社の画像AIにも、安全の宣伝と実際の中身が合っているかが問われる。",
+        "m": "Xの安全チームは、規約を破って安全対策をすり抜けようとした人がいたと説明し、未成年や実在の人の露骨な画像を断る仕組みを強め、すべての指示と出来上がりを検査していると声明を出した。米The Vergeの試験では、xAIが制限を加えた後も、性的なディープフェイクはあまり防げていなかったという。",
+        "ex": "「ディープフェイク」は、AIで本物そっくりに作った、うその写真や動画。実在の人の顔を、本人が撮っていない場面に貼り付けられる。「司法長官」は、州の法律を守らせる役の責任者で、住民に代わって企業を訴えることができる。つまり、AIの会社は「規約で禁じた」だけでは足りず、実際に被害を防げているかで責任を問われるようになった。",
+        "r": [
+          {
+            "t": "The Verge(英語)",
+            "u": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / 中国",
+        "s": 2,
+        "t": 2,
+        "h": "中国Z.ai、同じ層を2回使う「ループ型」の新モデルGLM-5.4。7500億パラメータで、2〜3兆の規模並みと主張",
+        "a": "中国のZ.ai(旧Zhipu AI)は、大型の新モデル「GLM-5.4」を公開した。ふつうのAIは、中の層を1回ずつ通る。GLM-5.4は、28の層を2回くり返して通り、1回目の結果を2回目で磨き直す。大きさは7500億パラメータで、2〜3兆の規模のモデル並みの力が出ると同社は説明する。",
+        "b": "OpenAIは、GPT-6 Astraから似た仕組みを使っている。Z.aiは、2月に出したGLM-5を作り直してループ型にした。最初からループ型で育てると、同じ計算量では普通のモデルに負けてきたためだという。",
+        "u": "部品を増やさずに「考える回数」を増やして賢くする方向が、米中の両方で進む。安く動く強いモデルが中国から出ると、AIの値段の下げ圧力になる。",
+        "m": "2回目の計算でメモリが倍にならないよう、1回目に読んだ文脈の記憶を2回目でも使い回す。100万トークンの長い文脈でも、前のGLM-5.3と比べて負担はおさえられるという。速さは、空いている時間で毎秒最大200トークン、混んでいるときで70〜80トークン。性能の数字はZ.ai自身の発表。",
+        "ex": "「パラメータ」は、AIの中にある調整つまみの数で、多いほど大きく賢くなりやすい。「ループ型」は、同じ問題集を2周解いて答えを直すやり方に近い。つまみの数(=お金のかかる大きさ)を増やさずに、もう一度考えさせて賢くする。つまり、AIの性能は「どれだけ大きいか」だけでなく「どう考えさせるか」で伸びる段階に入り、強いAIがより安く使えるようになっていく。",
+        "r": [
+          {
+            "t": "The Decoder(英語)",
+            "u": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / 事件",
+        "s": 2,
+        "t": 1,
+        "h": "AIの顔認識だけで逮捕は「8ボール占いと大差ない」。米連邦裁判官、誤認逮捕した刑事の免責を認めず",
+        "a": "米ケンタッキー州の連邦裁判官が、AIの顔認識だけを根拠に人を逮捕した刑事について、警察官を民事の責任から守る「免責」を認めなかった。AIの一致は、逮捕に必要な「相当な理由」にあたらないと判断した。",
+        "b": "2024年8月、ケンタッキー州の銀行で、偽造が疑われる小切手を換金しようとした男が逃げた。刑事は防犯カメラの映像をAIで警察の資料とFacebookの写真に照らし、ネブラスカ州に住むアラン・オソリオ氏を2025年1月に逮捕した。オソリオ氏はその時刻に別の州で働いていた証拠を出し、訴えは取り下げられた。",
+        "u": "AIの答えは「手がかり」であって「証拠」ではない。仕事でAIの判定を使うときも、最後に人が別の方法で確かめる手順が要る、という教訓になる。",
+        "m": "判決文は、映像と写真は「黒人でひげがある」こと以外は似ていないと書いた。警察署の方針も、顔認識は参考情報で、ほかの捜査なしに逮捕の理由にはならないと定めていた。裁判官は、AIの顔認識だけで逮捕するのは、占いのおもちゃ「マジック8ボール」で容疑者を決めるのと大差ないと述べた。",
+        "ex": "「顔認識」は、写真の顔の特徴を数字に変えて、ほかの写真と似ているかをAIが判定する技術。「似ている度合い」を出すだけで、本人だと保証するものではない。「相当な理由」は、米国で逮捕や捜索に必要な、犯罪を疑うだけの十分な根拠のこと。つまり、AIの判定を根拠に人に不利益を与えた人は、AIのせいにできず、自分で責任を負う、という線が裁判で引かれた。",
+        "r": [
+          {
+            "t": "GIGAZINE",
+            "u": "https://gigazine.net/news/20261123-probable-cause-ai/"
+          }
+        ]
+      },
+      {
+        "g": "ai",
+        "c": "AI / みんなの使い方",
+        "s": 2,
+        "t": 2,
+        "h": "みんなの使い方: 住友生命、ChatGPTを「よく使う人ほど得」。月101回以上の人は、効果が平均524%",
+        "a": "住友生命は、2026年6月に企業向けのChatGPT Enterpriseを入れた。毎週使う人の割合は8割を超える。使った回数、使った仕事、同僚との共有、本人が答えた短縮時間から、投資に対する効果(ROI)を試算した。全体の平均は203%だった。",
+        "b": "効果は使う回数で大きく違う。月8〜15回の人は平均55%、16〜30回は231%、101回以上は524%。社長が試験導入の段階から自ら使い、経営会議や社内サイトで利用を呼びかけたことが広がりのきっかけになった。",
+        "u": "企画部門は、役員への提案資料の確認や、国内外の事例の下調べに使う。人から聞いた話と公開情報を、ChatGPTの「プロジェクト」に資料や指示ごとまとめておく。まねしやすいのは、この「案件ごとに箱を作る」使い方だ。",
+        "m": "2023年に生成AIを使い始め、深い調べものの機能と、Word・PowerPoint・Excelとの連携を理由にChatGPTを選んだ。2025年に役員や企画の約100〜150人で試し、2026年度の後半から数千人に広げる。OpenAIと一緒に社内の安全基準を確かめ、初期設定では業務のデータが学習に使われないことも確認した。資産運用では、値動きの予測やリスクの分析の計算コードを作らせている。数字は社員の自己申告をもとにした試算。",
+        "ex": "「ROI」は、かけたお金に対して、どれだけの得が返ってきたかの割合。100%なら、かけた分と同じだけ取り戻した計算になる。ここでの「得」は、主に社員が答えた「短くなった時間」をお金に直したもの。つまり、AIは入れただけでは効果が小さく、毎日何度も頼る人ほど元が取れる道具で、職場で「使い続ける仕組み」を作れるかで差がつく。",
+        "r": [
+          {
+            "t": "キーマンズネット",
+            "u": "https://kn.itmedia.co.jp/kn/article/2611/24/2000003335/"
+          }
+        ]
+      }
+    ]
+  },
+  "buzz": [
+    {
+      "g": "ai",
+      "kw": "Claude",
+      "text": "AnthropicがClaude Opus 4.5のAPI提供を2027年1月22日に終えると知らせた、という投稿が回る。「明日でOpus 4.5から1年」と振り返る声も。Claude Codeの更新で、利用枠が知らないうちに減る不具合が直ったので早めに更新を、という呼びかけや、頼むときは「終わった状態を1行で言う」というこつの共有も多い(投稿ベース)。",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=Claude"
+    },
+    {
+      "g": "ai",
+      "kw": "ChatGPT",
+      "text": "ChatGPTのチャット画面に「GPT-6.2」が来た、という報告が並ぶ。画像の読み取りの数字が上がったことを紹介する投稿が多い。来週からChatGPTとCodexの利用枠が共通になる、という話も出ているが未確認。NVIDIAのフアン氏の復帰とあわせて、朝のAIニュースのまとめに並んでいる。",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=ChatGPT"
+    },
+    {
+      "g": "ai",
+      "kw": "Gemini",
+      "text": "Google検索のAIモードが、WalletやドライブとつながるというGoogleの発表の紹介が回る。開発ツールAntigravityで新しい「Gemini 4 Carbon」が使えるようになった、「Gems」が「Skills」に変わった、という投稿もある(投稿ベース、未確認)。新しいGeminiをほめる声と、「宣伝では」と疑う声が分かれる。",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=Gemini"
+    },
+    {
+      "g": "design",
+      "kw": "Figma",
+      "text": "FigmaのAIエージェントがFigJamとスライドにも入り、「Figma、Slides、FigJamを行き来できてうれしい」「仕事で使い始めたら便利」という声が出ている。学習中の人の「Figmaで作ったボタンをコードで再現する」練習の話も多い。",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=Figma"
+    },
+    {
+      "g": "web",
+      "kw": "CSS",
+      "text": "CSSだけで要素ごとにランダムな大きさを付ける「random()」や、入力欄の高さを中身に合わせる「field-sizing: content」を紹介する投稿が回っている。ブラウザの対応状況は、投稿の中の話で未確認。",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=CSS"
+    },
+    {
+      "g": "comedy",
+      "kw": "M-1",
+      "text": "12月3日の準決勝の前に、視聴者投票「ワイルドカード」で準々決勝の敗退組から1組が選ばれる。TVerで敗退組のネタを見比べる投稿が続き、滝音やカベポスターなどの敗退を惜しむ声が多い。「全部見るには時間が足りない」「応援目線になり公平に選べない」と、投票をためらう人もいる。",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=M-1"
+    },
+    {
+      "g": "trend",
+      "kw": "ローソン盛りすぎチャレンジ",
+      "text": "トレンド上位に。ローソンの公式Xが24日朝に始めた引用投稿のキャンペーンで、合言葉を付けて投稿すると、抽選で1人にQUOカードPay1万円分が当たる。からあげクンなど、好きな商品を書き添える投稿が並ぶ。",
+      "url": "https://search.yahoo.co.jp/realtime/search?p=%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%E7%9B%9B%E3%82%8A%E3%81%99%E3%81%8E%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8"
+    }
+  ],
+  "gallery": {
+    "sites": [
+      {
+        "name": "SANKOU!",
+        "url": "https://sankoudesign.com/",
+        "today": [
+          {
+            "title": "VUILD – Architecture, Democratized.",
+            "url": "https://vuild.co.jp/",
+            "img": "https://sankoudesign.com/wp-content/uploads/vuild02_t-400x350.jpg",
+            "credit": "制作: Patmos(Gestalting)、LIT design(CG)、qomunelab(撮影)、Snipe(開発)"
+          },
+          {
+            "title": "SHIBUYA PARCO / 百軒店",
+            "url": "https://shibuya.parco.jp/page/hyakkendana-dommune/",
+            "img": "https://sankoudesign.com/wp-content/uploads/hyakkendanadommune_t-400x350.jpg",
+            "credit": "制作: eieio(Webデザイン・開発)、nakamura harumichi(ロゴ)"
+          },
+          {
+            "title": "KIDS Athletic Style WINTER | THE NORTH FACE",
+            "url": "https://www.thenorthface.jp/special/athletic_style/winter2026/",
+            "img": "https://sankoudesign.com/wp-content/uploads/thenorthfaceathleticwinter2026_t-400x350.jpg",
+            "credit": "制作: Pivolo(Ayumi Yagi)、kokon inc.(Mayuko Kanazawa)、Yusuke Shono(開発)"
+          }
+        ],
+        "note": "トップ一覧(11/24 08:15 JST)で、前号の先頭FUCURAより上の3件。3件とも詳細ページの掲載日は2026/11/23(RSSはVUILDのみ、11/23 23:14 JST、/web/vuild/)。トップはUA次第で403、Safari系UA+Accept-Languageで読めた。VUILDの詳細ページも初回403、再取得で読めた。PICK UP欄のPOTEL・RAMEN CLUBは新着ではないので除外"
+      },
+      {
+        "name": "MUUUUU.ORG",
+        "url": "https://muuuuu.org/",
+        "today": [
+          {
+            "title": "RE:SHAPE",
+            "url": "https://reshape-local.com/",
+            "img": "https://muuuuu.org/wp-content/uploads/2026/11/reshape_1123-768x576.jpg",
+            "tag": "SOTD",
+            "credit": "制作: Yusuke Fukunaga(実装)"
+          }
+        ],
+        "note": "SITE OF THE DAY NOV 23,2026(RSS muuuuu.org/feed 11/23 18:00 JST、詳細 /industry/art/25371.html)。前号のROSCA(11/22)の次。制作者一覧はYusuke Fukunaga(実装、引用元: X)"
+      },
+      {
+        "name": "S5-Style",
+        "url": "https://www.s5-style.com/",
+        "today": [
+          {
+            "title": "UltraLMTM",
+            "url": "https://ultralmtm.com/",
+            "img": "https://api.s5-style.com/media/post-images/v80kc7ilu9wt-500x375.webp"
+          },
+          {
+            "title": "株式会社ハイペリオン｜変幻自在の裏方集団",
+            "url": "https://www.hyperion.co.jp/",
+            "img": "https://api.s5-style.com/media/post-images/jab1rm38y4ke-500x375.webp"
+          },
+          {
+            "title": "RE:SHAPE | ホテルとまちでつくる循環型アートプロジェクト",
+            "url": "https://reshape-local.com/",
+            "img": "https://api.s5-style.com/media/post-images/l9wio4aqrx12-500x375.webp"
+          },
+          {
+            "title": "rocket Inc. ｜株式会社ロケット",
+            "url": "https://rckt.jp/",
+            "img": "https://api.s5-style.com/media/post-images/uom541wihde7-500x375.webp"
+          },
+          {
+            "title": "桜井歯科医院｜山形県南陽市・高畠町の歯科医院",
+            "url": "https://www.dental-sakurai.com/",
+            "img": "https://api.s5-style.com/media/post-images/h0qu32yogcx9-500x375.webp"
+          },
+          {
+            "title": "一般社団法人 オンライン臨床",
+            "url": "https://online-clinical.com/",
+            "img": "https://api.s5-style.com/media/post-images/9zhmgcwsalrb-500x375.webp"
+          },
+          {
+            "title": "まちのこども財団",
+            "url": "https://www.mkfd.org/",
+            "img": "https://api.s5-style.com/media/post-images/6fot8ehi72l5-500x375.webp"
+          },
+          {
+            "title": "Kling 3.0 AI Video Generator",
+            "url": "https://kling3ai.co/",
+            "img": "https://api.s5-style.com/media/post-images/jzi087muo6hp-500x375.webp"
+          },
+          {
+            "title": "Fourlo - 免下載的派對遊戲",
+            "url": "https://fourlo.app/",
+            "img": "https://api.s5-style.com/media/post-images/9xoq0c3t4rle-500x375.webp"
+          }
+        ],
+        "note": "RSS(api.s5-style.com/rss/designs/all)で、前号の先頭DEEP ATRAS(/12330/)より新しい /12331/〜/12339/ の9件(11/23 17:10〜18:19 JST)。サイトURLは各詳細ページのsite_urlから。制作者の記載なし"
+      },
+      {
+        "name": "Brilliant Design Collect",
+        "url": "https://brilliantdesign.work/",
+        "today": [
+          {
+            "title": "Brandon Yasin",
+            "url": "https://brandonyasin.com/",
+            "img": "https://i0.wp.com/brilliantdesign.work/wp-content/uploads/2026/10/25eefba0-cd83-44d4-919b-68fc0ad6cfd5.png?resize=720%2C450&ssl=1"
+          }
+        ],
+        "note": "RSS(brilliantdesign.work/feed/)で /archives/12821 が11/23 08:21 JST公開(前号の確認より後)。前号の田巻 海(/archives/12920)の次。詳細ページに制作者の記載なし"
+      },
+      {
+        "name": "me ki ki ki",
+        "url": "https://mekikiki.com/",
+        "today": [],
+        "latest": {
+          "date": "11/21",
+          "items": [
+            {
+              "title": "KIRINK｜キリンク",
+              "url": "https://media.kirinholdings.com/",
+              "img": "https://mekikiki.com/wp/wp-content/themes/mekikiki-theme/assets/img/archive/thumb_12794_pc.jpg"
+            },
+            {
+              "title": "We-Being Project|KOKUYO",
+              "url": "https://we-being.net/",
+              "img": "https://mekikiki.com/wp/wp-content/themes/mekikiki-theme/assets/img/archive/thumb_12793_pc.jpg"
+            }
+          ]
+        },
+        "note": "掲載日の表示なし。11/24 08:15 JSTの一覧の先頭は前号と同じ(thumb_12794 KIRINK、12793 We-Being、12792)で、新しい掲載なし。latestの日付は11/21朝に初めて確認した日"
+      },
+      {
+        "name": "Minimal Gallery",
+        "url": "https://minimal.gallery/",
+        "today": [
+          {
+            "title": "Furniture Connect",
+            "url": "https://www.furnitureconnect.com/",
+            "img": "https://minimal.gallery/wp-content/uploads/2026/09/furnitureconnect.com_-900x500.jpg",
+            "credit": "制作: Bou(デザイン・ブランディング)"
+          },
+          {
+            "title": "Milkinside",
+            "url": "https://milkinside.com/",
+            "img": "https://minimal.gallery/wp-content/uploads/2026/10/milkinside.com_-900x500.jpg"
+          }
+        ],
+        "note": "RSS(minimal.gallery/feed/)で、前号のDaniel Vignal(11/23 07:31 JST)より上の2件(11/24 07:30〜07:31 JST、詳細ページのPublishedはNovember 24, 2026)。Furniture ConnectはCredits: Bou。MilkinsideはSubmitter(Gleb Kuznetsov)のみでクレジット欄なし。サムネイルは詳細ページのog:imageと同名の900x500版(取得確認済み)"
+      }
+    ],
+    "src": [
+      {
+        "t": "SANKOU!",
+        "u": "https://sankoudesign.com/"
+      },
+      {
+        "t": "MUUUUU.ORG",
+        "u": "https://muuuuu.org/"
+      },
+      {
+        "t": "S5-Style",
+        "u": "https://www.s5-style.com/"
+      },
+      {
+        "t": "Brilliant Design Collect",
+        "u": "https://brilliantdesign.work/"
+      },
+      {
+        "t": "me ki ki ki",
+        "u": "https://mekikiki.com/"
+      },
+      {
+        "t": "Minimal Gallery(英語)",
+        "u": "https://minimal.gallery/"
+      }
+    ]
+  },
+  "study": {
+    "design": [
+      {
+        "g": "design",
+        "c": "デザイン / 今日の注目サイト",
+        "s": 2,
+        "t": 1,
+        "h": "今日の注目サイト: 「RE:SHAPE」。古着を和紙に変えるアート企画を、切り絵のような写真で見せる",
+        "a": "渋谷のホテル「all day place shibuya」を起点に、手放された服を回収して和紙にし、アーティストが作品にする企画のサイト。MUUUUU.ORGの11月23日のSite of the Dayに選ばれ、S5-Styleにも載った。",
+        "b": "トップでは、服を着た人の写真が、太い文字やぎざぎざの形に切り抜かれて画面に散らばる。白地に灰色とくすんだピンクの布の色が重なり、紙を切り貼りしたコラージュのように見える。",
+        "u": "「服が和紙になる」という中身を、写真の切り抜き方そのもので伝える例。リサイクルや循環の企画を、説明文に頼らず一目で伝えたいときの参考になる。",
+        "m": "画面の隅の「DRAW: ON/OFF」を切り替えると、マウスの動きに合わせて画面に形が描かれる仕掛けがある。回収、和紙への再生、創作、展示、販売の5段階を番号つきで順に見せる。展示は11月1日〜30日、Jinny Street Galleryで開く。実装はYusuke Fukunaga氏。",
+        "img": {
+          "u": "https://muuuuu.org/wp-content/uploads/2026/11/reshape_1123-768x576.jpg",
+          "a": "RE:SHAPEのトップ。白地に、服を着た人の写真が太い文字や破片の形に切り抜かれて散らばる",
+          "c": "出典: MUUUUU.ORG"
+        },
+        "r": [
+          {
+            "t": "MUUUUU.ORG(RE:SHAPE)",
+            "u": "https://muuuuu.org/industry/art/25371.html"
+          },
+          {
+            "t": "RE:SHAPE",
+            "u": "https://reshape-local.com/"
+          }
+        ]
+      },
+      {
+        "g": "design",
+        "c": "デザイン / 今日の注目サイト",
+        "s": 2,
+        "t": 1,
+        "h": "今日の注目サイト: 「VUILD」。木の建築の写真を左右に並べ、「建築の民主化」を2語で言い切る",
+        "a": "デジタル技術で木の建築を設計から施工まで手がける会社、VUILD株式会社のサイト。SANKOU!が11月23日に掲載した。",
+        "b": "トップは画面を縦に2つに割り、左に緑のあるベランダが波打つ建物、右に曲がった木の天井の大写しを並べる。左右に「Architecture,」「Democratized.」と1語ずつ置き、2枚で1つの文になる。",
+        "u": "写真2枚とことば2語だけで、会社の考えを伝える構成。情報が多いBtoBのサイトでも、最初の画面は思い切って絞れることがわかる。",
+        "m": "文字は、欧文に端正なゴシック(Söhne)、和文に筑紫ゴシック系を組み合わせる。メニューとお問い合わせは、画面の下に浮かぶ半透明のボタンにまとめた。ブランドづくりはPatmos、CGはLIT design、撮影はqomunelab、開発はSnipeが担当した。",
+        "img": {
+          "u": "https://sankoudesign.com/wp-content/uploads/vuild02_t-768x671.jpg",
+          "a": "VUILDのトップ。左に木と緑のベランダが重なる建物、右に曲がった木の天井。中央に「Architecture,」「Democratized.」",
+          "c": "出典: SANKOU!"
+        },
+        "r": [
+          {
+            "t": "SANKOU!(VUILD)",
+            "u": "https://sankoudesign.com/web/vuild/"
+          },
+          {
+            "t": "VUILD",
+            "u": "https://vuild.co.jp/"
+          }
+        ]
+      },
+      {
+        "g": "design",
+        "c": "デザイン / 今日の注目サイト",
+        "s": 1,
+        "t": 1,
+        "h": "今日の注目サイト: 「SHIBUYA PARCO / 百軒店」。黒い画面に昔の渋谷の写真を散らした7周年企画",
+        "a": "渋谷PARCOの7周年企画「BORDER/SHIBUYA」で、渋谷の古い街「百軒店(ひゃっけんだな)」とDOMMUNEが組んだイベントのサイト。SANKOU!が11月23日に掲載した。",
+        "b": "黒い背景に、白黒の昔の渋谷の写真が何枚も浮かび、中央に「BORDER/ SHIBUYA」と字間を広げた文字を置く。上に赤、下に緑の細い線が走り、古いテレビやネオンのような空気を出す。",
+        "u": "街の歴史を見せたいとき、年表ではなく古い写真を散らすだけで「時代が重なる感じ」が出せる例。イベントや周年のサイトで使いやすい見せ方。",
+        "m": "画面の端には、今の時刻と渋谷の緯度・経度(35.6583° N, 139.6957° E)が小さく出て、「いま、この場所」を感じさせる。欧文の書体はBe Vietnam Pro、スクロールはなめらかに動く。イベントは11月20日〜29日。Webデザインと開発はeieio、ロゴはnakamura harumichi氏。",
+        "img": {
+          "u": "https://sankoudesign.com/wp-content/uploads/hyakkendanadommune_t-768x671.jpg",
+          "a": "SHIBUYA PARCO / 百軒店のトップ。黒い背景に、白黒の昔の渋谷の写真と「BORDER/ SHIBUYA」の文字",
+          "c": "出典: SANKOU!"
+        },
+        "r": [
+          {
+            "t": "SANKOU!(SHIBUYA PARCO / 百軒店)",
+            "u": "https://sankoudesign.com/web/shibuyaparco-hyakkendanadommune/"
+          },
+          {
+            "t": "SHIBUYA PARCO / 百軒店",
+            "u": "https://shibuya.parco.jp/page/hyakkendana-dommune/"
+          }
+        ]
+      },
+      {
+        "g": "design",
+        "c": "デザイン / 建築",
+        "s": 3,
+        "t": 2,
+        "h": "首里城の正殿、7年ぶりに中へ入れる。赤の色を古文書から探し直し、正面の彫りも古写真どおりに",
+        "a": "2019年10月の火事で焼けた首里城の正殿(那覇市)が、復元工事を終えて11月23日から一般公開された。22日に完成式があった。中の見学は、30分ごとの日時を選ぶ事前予約制。",
+        "b": "今回の「令和の復元」では、外の赤い色が変わった。首里城の色は「弁柄(べんがら)」という鉄さびの赤い顔料で、古文書に「久志間切(くしまぎり。いまの名護市東部など)から取り寄せよ」とある。前回の平成の復元では正体が分からなかったが、今回は北部の川にすむ鉄バクテリア由来の顔料らしいと分かった。正面の奥の彫刻は、明治の写真3枚をもとに「牡丹1つと唐草」から「牡丹3つと唐草、獅子1対」に改めた。",
+        "u": "建物の色や飾りを、資料を読み直して決め直した例として見ると面白い。色見本や古い写真から「元の姿」を探す作業は、ブランドの復刻やリデザインの考え方にも近い。",
+        "m": "耐震補強、炎を感じる装置、放火を見張るセンサーを新しく入れた。有料区域の入場料は大人1000円(23日から)。中を見るときは靴を脱ぐ。首里城は琉球王国の王宮で、1945年の沖縄戦でも焼け、1992年に一度復元されていた。",
+        "img": {
+          "u": "https://ryukyushimpo.jp/tachyon/2026/11/1119_photo2_%E9%AC%A5%E5%A4%9C%E3%88%B9%E8%9D%93%E5%8F%96%EF%BD%AD%EF%BD%A3%E8%B0%BF%EF%BD%BF_%E3%83%BB%E4%BA%95%EF%BD%B8_%E9%9B%8B%EF%BD%A1%E3%83%BB%E7%94%BB%EF%BD%B2%E4%B9%9F%EF%BD%B8%E3%83%BB%EF%BD%BE%E5%BC%B1%EF%BD%89%E8%9F%B2%EF%BD%B6%E9%9B%8B%EF%BD%A1%E8%9D%97%EF%BD%A3_edit.jpg?resize=1200%2C630&gravity&crop=0px%2C69px%2C1200px%2C630px",
+          "a": "令和の復元を終えた首里城正殿。赤い壁と、正面の金色の彫刻",
+          "c": "琉球新報(所蔵: 沖縄美ら島財団)"
+        },
+        "r": [
+          {
+            "t": "琉球新報(新たな首里城の見どころは)",
+            "u": "https://ryukyushimpo.jp/region/entry-5605789.html"
+          },
+          {
+            "t": "Impress Watch(首里城正殿、11月23日公開)",
+            "u": "https://www.watch.impress.co.jp/docs/news/2157861.html"
+          }
+        ]
+      },
+      {
+        "g": "design",
+        "c": "デザイン / 家具",
+        "s": 2,
+        "t": 1,
+        "h": "京都の名作住宅に、日本とスペインのモダニズム家具。剣持勇、ジョージ・ナカシマ、ミゲル・ミラを並べる",
+        "a": "日本のデザインギャラリー「GALLERY STOOP」と、スペインの「SIDE GALLERY」が、京都・北白川の旧喜多源逸邸で展覧会『Japanese Design Meets Spanish Design』を開いている。12月20日まで。",
+        "b": "会場は建築家・藤井厚二が設計し、1926年に建った木造2階建ての家。主催者は全国の藤井の住宅をめぐって、ここに決めた。剣持勇、坂倉準三、ジョージ・ナカシマ、ミゲル・ミラらの家具や照明を置く。主催者は、イタリアやフランスが形を重んじたのに対し、日本とスペインは素材を大切にした、と話す。",
+        "u": "家具を白い展示室でなく、実際の家に置くと、木の色や光の入り方との相性がよく分かる。インテリアの写真や、住まいのサイトを作るときの見せ方の参考になる。",
+        "m": "完全予約制で、一般の予約受付はすでに終わっている。10時〜17時、不定休。2つのギャラリーは、今後も日本の名作住宅での展示を続ける予定。",
+        "img": {
+          "u": "https://wp2022.casabrutus.com/wp-content/uploads/2026/11/1111stoop_1200.jpg",
+          "a": "旧喜多源逸邸の縁側と和室に置かれた木の椅子と照明。庭には透明な椅子",
+          "c": "Casa BRUTUS"
+        },
+        "r": [
+          {
+            "t": "Casa BRUTUS(藤井厚二の旧喜多邸でモダニズム家具の展覧会)",
+            "u": "https://casabrutus.com/categories/design/496543"
+          }
+        ]
+      },
+      {
+        "g": "design",
+        "c": "デザイン / ツール",
+        "s": 2,
+        "t": 1,
+        "h": "Figmaのエージェント、FigJamとスライドでも正式に。散らかったボードを、まとめの資料に直す",
+        "a": "Figmaが11月23日、AIの「Figmaエージェント」を、ホワイトボードのFigJamと、スライド作りのFigma Slidesで、すべての有料プランに正式に出した。",
+        "b": "エージェントは、頼んだ作業を自分で段取りして進めるAI。Hex、Slack、Asanaなど外のツールから情報を引き込み、ボードや図、スライドを作る。付箋だらけのFigJamのボードを、要点と次にやることを書いた「Spec(仕様のまとめ)」に整理することもできる。",
+        "u": "打ち合わせのメモから、提案スライドの下書きまでを同じFigmaの中で進められる。エージェントは、デザインファイル、開発者向けの画面(前号)に続いて、FigJamとスライドにも入った。",
+        "m": "Specの骨組みとブランドのテンプレートを渡すと、スライドの下書きを作る。詰め込みすぎのスライドを分けたり、話す人のメモを書いたりもする。",
+        "r": [
+          {
+            "t": "Figma リリースノート(英語)",
+            "u": "https://www.figma.com/release-notes/"
+          }
+        ]
+      },
+      {
+        "g": "design",
+        "c": "デザイン / プロダクト",
+        "s": 1,
+        "t": 1,
+        "h": "石巻工房から、スウェーデンのTAF Studioのワゴン「スタジオ トローリー」。12万1000円",
+        "a": "宮城県石巻市の家具ブランド「石巻工房」から、スウェーデンのデザイン事務所TAF Studioによる移動式のワゴン《スタジオ トローリー》が出た。価格は12万1000円(税込)。Casa BRUTUSが11月22日に紹介した。",
+        "b": "TAF Studioが自分たちの事務所で使うために作ったワゴンを、使いやすく育てた形。どこでも手に入る部品で、簡単な組み立てにしてある。自分の手で組む楽しさが残る。",
+        "u": "道具を「自分たちで使うために作る」ところから製品にする流れは、社内ツールを外に出すWebサービスにも似ている。作業机の横に置く道具を選ぶときの候補にも。",
+        "m": "Casa BRUTUSの2026年12月号でも紹介されている。",
+        "img": {
+          "u": "https://wp2022.casabrutus.com/wp-content/uploads/2026/11/12fridge13_1200.jpg",
+          "a": "石巻工房の《スタジオ トローリー》",
+          "c": "Casa BRUTUS"
+        },
+        "r": [
+          {
+            "t": "Casa BRUTUS(石巻工房からTAF Studioのトロリー)",
+            "u": "https://casabrutus.com/categories/design/496265"
+          }
+        ]
+      }
+    ],
+    "web": [
+      {
+        "g": "web",
+        "c": "Web / 脆弱性",
+        "s": 2,
+        "t": 1,
+        "h": "GitLabに緊急の修正版。中に入っているRubyの穴「Ruby2Shell」で、外から乗っ取られるおそれ",
+        "a": "米GitLabが11月20日(現地時間)、ソースコードを管理する「GitLab」の緊急の修正版 19.6.1、19.5.8、19.4.10 を出した。自分のサーバーで動かしているGitLabは、すぐ更新するよう強く勧めている。",
+        "b": "GitLabの中で動くプログラム言語「Ruby」に欠陥があった。ドイツ語の「ß」を大文字の「SS」に直すとき、入れ物の大きさを確かめていなかった。場合によっては、外から好きな命令を動かされる。Rubyの開発チームは4段階で最も重い「Critical」とした。攻撃の手順を示すコードは、11月25日以降に公開される予定。",
+        "u": "制作会社や社内で、GitLabを自前のサーバーに置いているなら、25日より前に更新を済ませる。gitlab.com(クラウド版)の利用者は、何もしなくてよい。",
+        "m": "対象は19.4.10より前のすべてと、19.5.0〜19.5.7、19.6.0。公式のパッケージには修正済みのRubyが入っている。自分でソースから組み立てた環境は、Rubyを3.3.14か3.4.13以降で作り直す。",
+        "r": [
+          {
+            "t": "窓の杜(GitLabに緊急パッチ、Ruby2Shell脆弱性に対処)",
+            "u": "https://forest.watch.impress.co.jp/docs/news/2158477.html"
+          }
+        ]
+      },
+      {
+        "g": "web",
+        "c": "Web / 安全",
+        "s": 2,
+        "t": 1,
+        "h": "期限切れのドメインが、詐欺サイトに使い回される。Infobloxが2027年の予測で「AIでなりすましが大量に」",
+        "a": "ネットの住所の仕組み(DNS)の安全対策を手がけるInfobloxが11月17日、2027年のサイバー攻撃の予測を説明した。INTERNET Watchが24日に伝えた。",
+        "b": "日本向けの予測は3つ。AIのチャットで投資詐欺が大きくなる。AIの翻訳で、海外のサポート詐欺が日本の会社を狙う。本物によく似たドメインと偽サイトが、AIで大量に作られる。同社は、gTLD(.comなど)の登録の約20%が、期限切れのドメインを拾い直して詐欺に使う「ドロップキャッチ」だとする。前の持ち主の実績と訪問者を、そのまま悪用できるためだ。",
+        "u": "閉じたキャンペーンサイトや旧ブランドのドメインを、うっかり手放さない。更新の期限と担当者を一覧にしておく。手放すなら、検索やリンクから人が来なくなってからにする。",
+        "m": "同社はAppleをよそおう似たドメインを1年で80万件以上見つけている。対策として、怪しいドメインへの接続を、住所を調べる段階で止める「プロテクティブDNS」を勧めた。",
+        "img": {
+          "u": "https://internet.watch.impress.co.jp/img/iw/list/2158/274/01.jpg",
+          "a": "記者説明会に立つInfobloxの土橋一範氏とクリケット・リユ氏",
+          "c": "INTERNET Watch"
+        },
+        "r": [
+          {
+            "t": "INTERNET Watch(Infoblox、2027年の脅威を予測)",
+            "u": "https://internet.watch.impress.co.jp/docs/news/2158274.html"
+          }
+        ]
+      },
+      {
+        "g": "web",
+        "c": "Web / 事故",
+        "s": 2,
+        "t": 1,
+        "h": "【続き】六花亭の通販、カード情報に加えて氏名や住所も漏れたおそれ。不正利用も1件",
+        "a": "六花亭が11月21日、支払い画面を書き換えられた「六花亭オンラインショップ」で、カード情報だけでなく、氏名、郵便番号、住所、電話番号、メールアドレスも漏れたおそれがあると発表した。",
+        "b": "20日には、客からの申し出で、カードの不正利用を1件確かめた。対象は前回と同じく、10月21日21時から11月18日11時までにサイトで入力した人。通販サイトは止まったまま。",
+        "u": "対象期間に買った人は、カード会社に連絡して作り直す。終わるまでは明細を見て、覚えのない請求があればカード会社に聞く。通販サイトを持つ人は、支払い画面のファイルの書き換えに気づける仕組みを確かめる。",
+        "m": "ほかの情報が漏れていないかも調べている。",
+        "r": [
+          {
+            "t": "ネットショップ担当者フォーラム(六花亭オンラインショップへの不正アクセス)",
+            "u": "https://netshop.impress.co.jp/n/2026/11/24/17081"
+          }
+        ]
+      },
+      {
+        "g": "web",
+        "c": "Web / ドメイン",
+        "s": 1,
+        "t": 1,
+        "h": "「.neko」「.株式会社」も申請中。新しいドメインの末尾1606件に、2027年3月まで意見を出せる",
+        "a": "ドメインを管理するICANNが11月17日、新しいgTLD(.comのような末尾)の申請に、誰でも意見を出せる場を開いた。2027年3月16日まで。INTERNET Watchが20日に伝えた。",
+        "b": "2026年の募集には1615件の申請があり、取り下げを除く1606件を審査している。日本からは84件で、前回(2012年)の71件より増えた。うち61件は、会社が自社だけで使う「ブランドTLD」。NTTドコモは、14年前に取り下げた「.docomo」を出し直した。",
+        "u": "ブランドTLDが増えると、会社の公式サイトの住所が「.com」以外になる例が増える。似た名前で混乱を招く申請には、異議も出せる。",
+        "m": "日本からの申請で、ほかと重ならない単独のものは「.bldg」「.neko」「.sns」「.株式会社」の4つ。",
+        "r": [
+          {
+            "t": "INTERNET Watch(新gTLDについて一般からの意見募集を開始)",
+            "u": "https://internet.watch.impress.co.jp/docs/news/2158360.html"
+          }
+        ]
+      },
+      {
+        "g": "web",
+        "c": "Web / ツール",
+        "s": 1,
+        "t": 1,
+        "h": "Figma、つないでよいAIツールを管理者が選べるように。Claude CodeやCursorも対象",
+        "a": "Figmaが11月17日、組織プランとエンタープライズプランの管理者が、チームでFigmaにつないでよい外部アプリを許可制にできる機能を出した。数日かけて順に広げる。",
+        "b": "対象は、Figmaのアカウントでログインして使う外部アプリ(OAuthアプリ)。CursorやClaude Codeのように、MCP(AIと外のツールをつなぐ共通の決まり)でデザインを読みに来るAIツールも含む。管理画面の新しい「拡張機能」タブで、申請を見て許可する。",
+        "u": "AIにデザインファイルを読ませてコードを書かせる流れが広がり、何がファイルを見ているかを会社が把握したくなった。チームで使うなら、使いたいAIツールを先に管理者へ伝えておく。",
+        "m": "詳しい使い方は、Figmaのヘルプセンターに日本語の説明がある。",
+        "r": [
+          {
+            "t": "Figma リリースノート",
+            "u": "https://www.figma.com/ja-jp/release-notes/"
+          }
+        ]
+      }
+    ],
+    "econ": [
+      {
+        "g": "econ",
+        "c": "経済 / 米国",
+        "s": 3,
+        "t": 1,
+        "h": "NY株が急反発、ダウは1447ドル高。フアン氏のエヌビディア復帰で、AI株に買い戻し",
+        "a": "週明け23日のニューヨーク市場で、ダウ平均は前週末より1447ドル高い4万9595ドルで終えた。ハイテク株の多いナスダック総合指数も1471ポイント上がった。エヌビディアが、辞任したジェンスン・フアン氏のCEO復帰を発表し、同社株は終値で31.5%上がった。",
+        "b": "前の週は、エヌビディアの経営の先行きが不安視され、AI関連の株が売られていた。その反動で、ほかの半導体やAIの株も大きく上がった。ただ、ロイターによると、エヌビディア株は11月12日の辞任以降の下げを、まだ取り戻していない。",
+        "u": "円は1ドル=159円近くまで下がった。AI株の値動きと、円安の両方が、投資信託や輸入品の値段に響く。",
+        "m": "復帰の経緯はAI面のトップ記事にある。米議会では、先端半導体の行き先の追跡を義務づける法案を求める声が上がっている。",
+        "ex": "株価指数は、たくさんの会社の株価をまとめた「平均点」で、ダウは米国の代表的な30社、ナスダックはIT企業が多い。1日で1400ドル以上の上げは、4万9000ドル台の水準から見て約3%にあたる大きな動きだ。円は前週末より58銭安くなり、米国の利上げ観測で、ドルを持つほうが得だと見られている。つまり、AI株の不安は一度やわらいだが、円安は続いていて、輸入品や海外旅行の値段は下がりにくい。",
+        "img": {
+          "u": "https://www.jiji.com/news2/kiji_photos/202611/20261124ds40_o.jpg",
+          "a": "エヌビディアのニュースをテレビで見る、ニューヨーク証券取引所のトレーダーたち",
+          "c": "AFP時事 / 時事ドットコム"
+        },
+        "r": [
+          {
+            "t": "時事通信(Yahoo!ニュース、NY株大幅反発)",
+            "u": "https://news.yahoo.co.jp/articles/635716ac7829221e0e788b915b7d8d674d64427e"
+          },
+          {
+            "t": "ロイター(Yahoo!ニュース、フアン氏がCEOに復帰)",
+            "u": "https://news.yahoo.co.jp/articles/da857dcc03d8b4ea504be2d435a04d26767959b1"
+          },
+          {
+            "t": "時事通信(Yahoo!ニュース、NY円159円近辺)",
+            "u": "https://news.yahoo.co.jp/articles/74fb2fba3452b4f6fd8d13d5fbe3483a005ef301"
+          }
+        ]
+      },
+      {
+        "g": "econ",
+        "c": "経済 / 金利",
+        "s": 3,
+        "t": 2,
+        "h": "地銀やネット銀行が、定期預金の金利を大きく上げる。5年物で年2%も",
+        "a": "地方銀行やネット銀行で、定期預金の金利を大幅に上げる動きが続いている。三十三銀行は16日から、5年物に年2.0%(税引き前)をつける冬のキャンペーンを始めた。新しく預ける50万円以上が対象で、来年2月26日まで。",
+        "b": "冬のボーナスの時期に預金を集め、貸し出しに回すお金を確保するねらいだ。日銀が12月に政策金利を今の1.25%程度から1.5%程度に上げるとの見方もあり、金利の上昇を追い風に貸し出しを増やしたい思惑もある。",
+        "u": "預け先によって、同じ年数でも利息に大きな差が出る。ボーナスを預けるなら、銀行ごとの金利と条件を見比べる価値がある。",
+        "m": "三十三銀行の1年物は1.4%、3年物は1.7%。記録が残る2008年以降、金利は高くても0.3%程度の時期が長かった。あいち銀行は5年物を1.7%台に、ドコモSMTBネット銀行は300万円未満の5年物を年1.9%に上げた。大垣共立銀行は来年1月まで、0〜17歳の3か月の定期預金を10%にしている(10万円まで)。メガバンクも上げたが、5年物は年1.10%にとどまる。",
+        "ex": "定期預金は、決めた期間はお金を引き出さない約束で、ふつうの預金より高い利息をもらう仕組みだ。銀行は集めたお金を会社や家の購入者に貸し、その利息との差で稼ぐので、貸すお金が欲しい銀行ほど高い金利で預金を集める。三十三銀行の5年物2.0%は、メガバンクの1.10%の倍に近い。つまり、預金が「ほぼ増えないもの」から「選べば増えるもの」に変わり、預け先を選ぶ手間が家計の差になる。",
+        "r": [
+          {
+            "t": "読売新聞オンライン(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/b8b14aed73468302264e013d8799cc99aeb62302"
+          }
+        ]
+      },
+      {
+        "g": "econ",
+        "c": "経済 / 暮らし",
+        "s": 2,
+        "t": 2,
+        "h": "奨学金の利率が約30年ぶりに上限の3%に。負担を軽くするよう求める署名が2万筆を超えた",
+        "a": "日本学生支援機構(JASSO)の、利子がつく貸与型奨学金のうち「利率固定方式」の返還利率が、今年7月に上限の3%に達した。約30年ぶり。返済の負担を軽くするよう求めるオンライン署名が、2万筆を超えた。",
+        "b": "世の中の金利が上がり、それに合わせて奨学金の利率も上がった。利率がこのまま3%なら、2027年3月に卒業する学生は、利率0.9%だった4年前の卒業生と比べて、利子の負担が3倍以上になる。",
+        "u": "奨学金を返している人や、これから借りる家族は、利率の決め方(固定か、変わるか)と、返済が苦しいときの救済制度を確かめておきたい。",
+        "m": "署名は、大学教授らのプロジェクトが10月下旬に署名サイト「Change.org」で始めた。利子の負担を国のお金で軽くすること、返済が難しいときの救済制度を物価に合わせて見直すこと、有利子から無利子、さらに返さなくてよい給付型へ移すことの3点を求めている。呼びかけ人の大内裕和・武蔵大教授は、入学時に予想できなかった利率の急上昇で、返す額が大きく膨らんでいると指摘する。",
+        "ex": "貸与型の奨学金は、学費のための借金で、卒業後に利子をつけて返す。利率固定方式は、借り終えたときの利率が返し終わるまで続くので、金利が高い年に卒業すると、ずっと高い利子を払うことになる。0.9%と3%の差は、たとえば数百万円を十数年かけて返す場合、利子だけで数十万円単位の違いになりうる。つまり、金利の上昇は、預金だけでなく若い人の借金の重さにもはね返っている。",
+        "r": [
+          {
+            "t": "朝日新聞(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/4eb7023a808ce6e78c1352c8b9eeaa17cfdb980e"
+          }
+        ]
+      },
+      {
+        "g": "econ",
+        "c": "経済 / 雇用",
+        "s": 2,
+        "t": 1,
+        "h": "AIの普及で、事務職の新卒採用を「減らす」企業が2割。マイナビ調べ",
+        "a": "就職情報会社のマイナビが、AIが新卒採用に与える影響を職種ごとに企業に聞いた。「事務・管理系」の新卒を採っている企業の19.6%が「減らす」と答え、「増やす」の1.2%を大きく上回った。79.2%は今のまま。",
+        "b": "AIは、決まった形の書類づくりやデータ入力などの定型の仕事が得意とされる。最近は、指示に答えるだけでなく、自分で作業を進められるようになり、任せられる仕事が増えている。",
+        "u": "IT系や、AIに置き換えにくい現場の仕事は、採用を増やす意向が目立った。仕事の中で「AIに任せられる部分」と「人がやる部分」を分けて考えることが、働き方を選ぶ手がかりになる。",
+        "m": "調査は9〜10月に行い、上場企業114社を含む1600社超から回答を得た。「企画・マーケティング系」も11.7%が採用減を見込み、増やすは1.2%だった。AIの利用がさらに進めば、企業の求める人材と、学生の志望とのずれが広がる可能性がある。",
+        "ex": "新卒採用は、学生を毎年まとめて採り、社内で育てる日本独特のやり方だ。事務職は、その入り口として多くの人を受け入れてきた。今回は「減らす」が「増やす」の約16倍で、方向ははっきり減らす側に傾いている。つまり、AIは「仕事を奪う」より先に、「若い人が最初に任される仕事」を細らせる形で、働き方に響き始めている。",
+        "r": [
+          {
+            "t": "共同通信(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/d05d80269b744ac2d480008e296670167cad73ba"
+          }
+        ]
+      },
+      {
+        "g": "econ",
+        "c": "経済 / 政策",
+        "s": 2,
+        "t": 2,
+        "h": "安保3文書の改定、経済安全保障の概要案。攻撃されてもすぐ立ち直る「復元力」と「AI主権」",
+        "a": "政府が12月に改定する安全保障3文書のうち、経済安全保障の概要案がわかったと読売新聞が報じた。インフラが攻撃されてもすぐに立ち直る「復元力」を掲げる。AIで他国に頼りすぎない「AI主権」も打ち出す。",
+        "b": "長い戦争に耐えるウクライナでは、道路や発電所が壊されてもすぐ直し、日常の暮らしを保っている。中国によるレアアースの輸出規制なども念頭に、物の調達先を増やす必要が高まっている。",
+        "u": "サイバー攻撃への備えや、データセンターの安全確保は、企業の仕事にも関わってくる。取引先や使っているクラウドが、どこの国に頼っているかが問われやすくなる。",
+        "m": "新しい文書では、経済安保を「国家安全保障を根底から支える基盤」と位置づける。同じ考えの国と協力して供給網を広げる「集団的強靱性」を外交の方針に据える。官民でサイバー攻撃などのリスクを点検し続ける。AIでは、国家安全保障局が司令塔になり、国産の開発に力を入れる。有識者会議と与党の議論を経て最終的に決める。",
+        "ex": "経済安全保障は、食べ物や薬、半導体など、生活や産業に欠かせない物を、よその国に止められても困らないようにする考え方だ。たとえば、冷蔵庫の中身を1軒のスーパーだけに頼っていると、その店が閉まった日に困るので、買える店を何軒か持っておく、という発想に近い。今回は、壊されないことに加えて「壊されても早く直す」ことを前面に出した点が、これまでと違う。つまり、国の安全の話が、企業の調達先選びや、データの置き場所の判断にまで広がっていく。",
+        "n": "報道ベース",
+        "r": [
+          {
+            "t": "読売新聞オンライン(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/038739ccde03c6a92800956b4f905529f7405212"
+          }
+        ]
+      },
+      {
+        "g": "econ",
+        "c": "国際 / エネルギー",
+        "s": 2,
+        "t": 1,
+        "h": "トランプ氏、ガソリン値下がりに「選挙前に理解されず残念」。イランへの再攻撃の可能性にも言及",
+        "a": "トランプ米大統領は22日、米国でガソリンやディーゼルの値段が下がっていることを受け、「有権者が投票する前にこのことを理解していなかったのが残念だ」とSNSに書いた。同じ日、FOXニュースの取材で、イランとの交渉で合意できなければ、来年以降に再び攻撃する可能性があると述べた。",
+        "b": "3日の中間選挙では、イランへの軍事作戦で油の値段が上がったことが、共和党の大敗の原因になった。米国とイランは、カタールとパキスタンを通じて間接的に話し合っているが、小さな攻撃の応酬も続いている。",
+        "u": "中東で再び戦闘が起きれば、原油が上がり、ガソリンや電気代、運ぶ費用を通じて、日本の物価にも響く。",
+        "m": "トランプ氏は、イランは話しているだけで「すべてがでたらめだ」と非難した。米国はイランの港の封鎖や経済制裁で譲歩を迫っているが、うまくいっていない。イランにある濃縮ウランの国外への持ち出しを求めているとされるが、イランは拒んでいる。イスラエルのネタニヤフ首相は、再攻撃を強く働きかけている。",
+        "ex": "原油は、ガソリンやプラスチック、電気のもとになる「経済の燃料」だ。イランの近くのホルムズ海峡は、中東の原油を運ぶタンカーが通る狭い出入り口で、ここが乱れると世界の原油の値段がすぐ上がる。米国では、中間選挙の後に油の値段が下がっており、トランプ氏はそれを選挙前に見せたかったと悔しがった形だ。つまり、交渉が決裂して攻撃が再開すれば、下がり始めたガソリン代が、日本でも再び上がる方向に戻りうる。",
+        "r": [
+          {
+            "t": "共同通信(Yahoo!ニュース、ガソリン価格下落に恨み節)",
+            "u": "https://news.yahoo.co.jp/articles/16c35b94c6545712798b9420a3bda23c60ab8201"
+          },
+          {
+            "t": "共同通信(Yahoo!ニュース、イラン再攻撃に言及)",
+            "u": "https://news.yahoo.co.jp/articles/95f1036e5f1f868dce56e452973b29e6a245e820"
+          }
+        ]
+      },
+      {
+        "g": "econ",
+        "c": "経済 / 企業",
+        "s": 2,
+        "t": 1,
+        "h": "リフォーム工事業の倒産、10月までで108件。年間の最多をすでに更新",
+        "a": "東京商工リサーチによると、家の修繕や増改築を手がける「リフォーム工事業」の倒産が、2026年1〜10月で108件になった。2002年以降で最多だった2025年1年間の105件を、すでに上回った。",
+        "b": "住宅の値段が上がり、中古の家の人気が高まって、リフォームの仕事は増えている。それでも、資材と人件費の上昇、顧客や不動産会社からの値引き要求、金利上昇で銀行の貸し方が厳しくなったことが重なり、赤字の工事が増えている。",
+        "u": "家の修繕を頼むときは、相場より極端に安い見積もりに注意したい。工事の途中で業者が倒れると、やり直しや追加の費用がかかることがある。",
+        "m": "原因は、販売不振が75件(前年同期より20.9%増)、赤字が積み重なった「既往のシワ寄せ」が20件(同100%増)。従業員5人未満が86件と約8割を占め、小さな会社が多い。年間では130件も視野に入る。大手の住宅会社が職人を抱え込み、人手不足が続いているとの声もある。",
+        "ex": "倒産は、会社が借金を返せなくなり、仕事を続けられなくなることだ。ここでの数は、借金1000万円以上の倒産だけを数えている。リーマン・ショックの2008年は91件だったので、今はそれより多い。つまり、仕事があっても、材料費と人件費の値上がりを値段に乗せられない小さな会社から先に苦しくなっている。",
+        "r": [
+          {
+            "t": "東京商工リサーチ(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/4318e66b15360bd8944f40107ef9a7df408c6a83"
+          }
+        ]
+      }
+    ],
+    "trend": [
+      {
+        "g": "trend",
+        "c": "トレンド / 食",
+        "s": 2,
+        "t": 1,
+        "h": "雪見だいふく、45周年で「おもち」を改良。11月下旬から順に店頭へ",
+        "a": "ロッテは、発売45周年の「雪見だいふく」と「ミニ雪見だいふく」をリニューアルし、11月下旬から順に売る。雪見だいふくは2個入りで226円前後、ミニは9個入りで540円前後。",
+        "b": "変えたのは、アイスを包むおもち。配合を見直し、風味を高めた。冷凍のまま時間がたっても、もちもちした食感が続くようにした。",
+        "u": "公式Xでは、おもちの原料の国産もち米「雪見だいふく米(まい)」を使ったレシピを順に出す。いかめし、赤飯、おこわのカップ寿司など、アイス以外の使い方が並ぶ。",
+        "m": "11月24日10時から29日まで、公式Xで、もち米の生産者を応援する投稿キャンペーンがある。もち米1kgとアイス5個のセットが30名、もち米1kgが70名に当たる。もち米は北海道、岩手、宮城産のブレンド。",
+        "img": {
+          "u": "https://gourmet.watch.impress.co.jp/img/grw/list/2157/066/01.jpg",
+          "a": "リニューアルしたロッテ「雪見だいふく」",
+          "c": "グルメ Watch"
+        },
+        "r": [
+          {
+            "t": "グルメ Watch",
+            "u": "https://gourmet.watch.impress.co.jp/docs/news/2157066.html"
+          }
+        ]
+      },
+      {
+        "g": "trend",
+        "c": "トレンド / コンビニ",
+        "s": 2,
+        "t": 1,
+        "h": "セブン‐イレブン、おにぎりや弁当を1個買うたびに次回30円引き。使ってもまたもらえる「おかわりクーポン」",
+        "a": "セブン‐イレブンは12月1日から7日まで、対象のおにぎり・寿司・弁当を1個買うごとに、次に使える30円引きのレシートクーポンを1枚出す。使えるのは12月14日まで。",
+        "b": "クーポンを使って買ったときも、新しいクーポンがまた出る。続けて通うほど得になる仕組みで、年末の来店を増やすねらいとみられる。",
+        "u": "2個買えば2枚もらえ、次に2個買うときに2枚使える。冷凍のおにぎりや弁当、麺類、グラタン・ドリアは対象外。ほかのクーポンとは一緒に使えない。",
+        "m": "値引きは税別の標準価格から。複数個入りのパックのおにぎり・寿司は1個として数える。米や雑穀入りのサラダは対象。宅配の7NOWは一部が対象外。",
+        "img": {
+          "u": "https://gourmet.watch.impress.co.jp/img/grw/list/2158/501/01.jpg",
+          "a": "おかわりクーポンの対象になるおにぎり・寿司・弁当の例",
+          "c": "グルメ Watch"
+        },
+        "r": [
+          {
+            "t": "グルメ Watch",
+            "u": "https://gourmet.watch.impress.co.jp/docs/news/2158501.html"
+          }
+        ]
+      },
+      {
+        "g": "trend",
+        "c": "トレンド / 外食",
+        "s": 1,
+        "t": 1,
+        "h": "丸亀製麺、12月1日は釜揚げうどんが半額。並は190円",
+        "a": "丸亀製麺は毎月1日を「釜揚げうどんの日」にしている。12月1日は釜揚げうどんを半額にする。並190円(通常390円)、大290円(同580円)、得380円(同770円)。",
+        "b": "釜揚げうどんは、創業のときからあるメニュー。小麦粉、塩、水だけの麺を、ゆでたまま桶で出す。",
+        "u": "持ち帰りは対象外。東京ドームシティ店、駒澤大学店、東洋大学店、町田パリオ店では実施しない。一部の店は価格が違う。",
+        "m": "店のおすすめは、最初はだしをつけずに麺だけを味わい、あとから、しょうが、ねぎ、すりごま、天かすを足す食べ方。食べ終わったつけだしは、釜のお湯で割って飲める。",
+        "img": {
+          "u": "https://gourmet.watch.impress.co.jp/img/grw/list/2157/601/10.jpg",
+          "a": "丸亀製麺の釜揚げうどん",
+          "c": "グルメ Watch"
+        },
+        "r": [
+          {
+            "t": "グルメ Watch",
+            "u": "https://gourmet.watch.impress.co.jp/docs/news/2157601.html"
+          }
+        ]
+      },
+      {
+        "g": "trend",
+        "c": "トレンド / コンビニ",
+        "s": 1,
+        "t": 1,
+        "h": "ファミマに、ドラクエの「箱」に入ったスライムのチャーム。全12種、385円。24日から",
+        "a": "ファミリーマートは11月24日10時から、バンダイの「ドラゴンクエスト チョコボックス ボックスフィギュアコレクション」を順に売る。ゲームのパッケージに似せた小箱に、モンスターのフィギュアチャームとお菓子が入る。",
+        "b": "中身は、スライム、メタルスライム、はぐれメタル、キングスライムなどスライム系の11種と、シークレット1種。箱の裏に、モンスターの豆知識が書いてある。",
+        "u": "11月30日までは1会計で1人2個まで。予約や取り置きはできず、店への電話の問い合わせも控えるよう案内している。扱いのない店もある。",
+        "m": "同じ日から「ドラゴンクエストモンスターズ4」とのコラボも始まり、スライムの形の中華まんや、オリジナルのくじが出る。",
+        "img": {
+          "u": "https://gourmet.watch.impress.co.jp/img/grw/list/2158/568/top2.jpg",
+          "a": "ドラゴンクエストのパッケージ風の箱に入ったフィギュアチャーム",
+          "c": "グルメ Watch"
+        },
+        "r": [
+          {
+            "t": "グルメ Watch",
+            "u": "https://gourmet.watch.impress.co.jp/docs/news/2158568.html"
+          }
+        ]
+      },
+      {
+        "g": "trend",
+        "c": "トレンド / イベント",
+        "s": 1,
+        "t": 1,
+        "h": "「ちいかわクリスマスマーケット」、幕張で24日から。6mのツリーと35種の限定フード",
+        "a": "「ちいかわ」のクリスマスマーケットが、11月24日から12月25日まで、千葉・幕張の豊砂公園(イオンモール幕張新都心前)で開かれる。日時を指定するチケット制。",
+        "b": "会場の中心に高さ約6mのツリーを置き、光と映像と音で、ちいかわたちがクリスマスの準備をする話を見せる。映画『ちいかわ 人魚の島のひみつ』の公開が続くなかでの催し。",
+        "u": "フードは「討伐チュロス」「うさぎのピスタチオモンブラン」など全35種。チケットを買うと、飛び出すクリスマスカードと、巨大ガチャガチャ1回(オーナメント全16種から1つ)が付く。4歳未満は大人1人につき1人まで無料。",
+        "m": "高さ約3mのちいかわ・ハチワレ・うさぎのバルーンや、動くメリーゴーランドの写真スポットもある。限定グッズの詳細は、後日、公式サイトとXで出る。",
+        "img": {
+          "u": "https://www.cinemacafe.net/imgs/ogp_f/838488.png",
+          "a": "「ちいかわクリスマスマーケット」の会場イメージ",
+          "c": "cinemacafe.net"
+        },
+        "r": [
+          {
+            "t": "cinemacafe.net",
+            "u": "https://www.cinemacafe.net/article/2026/11/23/114340.html"
+          }
+        ]
+      }
+    ]
+  },
+  "hobby": {
+    "film": [
+      {
+        "g": "film",
+        "c": "映画 / 洋画",
+        "s": 2,
+        "t": 1,
+        "h": "『アベンジャーズ/ドゥームズデイ』、大阪・御堂筋でパレード。沿道に約30万人。12月18日に日米同時公開",
+        "a": "11月23日、大阪の「御堂筋ランウェイ 2026」の中で、公開記念のパレードがあった。前田敦子、ミキ、見取り図が参加。高さ4.5mのドクター・ドゥームの山車(フロート)や、コスプレの人たち、計250人が歩いた。",
+        "b": "『アベンジャーズ/エンドゲーム』(2019年)の続きを描く。かつてアイアンマンを演じたロバート・ダウニー・Jrが、今回は敵役のドクター・ドゥームを演じる。同じ日に、最後の予告編と本ポスターも出た。",
+        "u": "日本とアメリカで同じ12月18日(金)に公開。最終予告では、アベンジャーズ、ファンタスティック・フォー、初期の映画版X-MENが一緒に戦う場面が初めて出た。監督は『エンドゲーム』と同じルッソ兄弟。",
+        "m": "前田敦子は「この7年間、今日このお仕事のために頑張ってきた」と話した。夕方には、大阪府知事、大阪市長と、御堂筋のイルミネーションの点灯式にも出た。",
+        "img": {
+          "u": "https://img.cinematoday.jp/a/Dyqh4x0IvtMj/_size_r1200x630/_v_1795427759/main.jpg",
+          "a": "ドゥームの色のドレスでパレードに出た前田敦子",
+          "c": "シネマトゥデイ"
+        },
+        "r": [
+          {
+            "t": "シネマトゥデイ(パレード)",
+            "u": "https://www.cinematoday.jp/news/N0158120"
+          },
+          {
+            "t": "シネマトゥデイ(最終予告)",
+            "u": "https://www.cinematoday.jp/news/N0158121"
+          }
+        ]
+      },
+      {
+        "g": "film",
+        "c": "映画 / ミニシアター",
+        "s": 2,
+        "t": 1,
+        "h": "父を亡くした研究者が、オオタカと暮らした実話。『オオタカと私』、2月5日から恵比寿・有楽町ほかで",
+        "a": "英国のノンフィクション「H is for Hawk」の映画化『オオタカと私』の本予告とポスターが出た。2027年2月5日から、YEBISU GARDEN CINEMA、ヒューマントラストシネマ有楽町ほか全国で公開する。",
+        "b": "原作は20カ国で翻訳され、英国の文学賞を受けた。主演はドラマ「ザ・クラウン」のクレア・フォイ。製作は、『ムーンライト』を世に出したブラッド・ピットの会社プランB。",
+        "u": "派手な事件ではなく、悲しみからどう立ち直るかを描く話。動物と自然の映像が見どころで、大きなスクリーン向きの一本。上映時間は119分。",
+        "m": "ケンブリッジ大学で教える研究者ヘレンは、父を急に亡くす。周りに止められながら、子どものころから憧れていたオオタカを迎え、メイベルと名付けて育てる。監督は、英国アカデミー賞を3度受けたフィリッパ・ロウソープ。父役はブレンダン・グリーソン。",
+        "img": {
+          "u": "https://media.eiga.com/images/buzz/130704/5ddafa32dfd7f4a1.jpg",
+          "a": "映画『オオタカと私』の場面",
+          "c": "映画.com"
+        },
+        "r": [
+          {
+            "t": "映画.com",
+            "u": "https://eiga.com/news/20261123/6/"
+          }
+        ]
+      },
+      {
+        "g": "film",
+        "c": "映画 / 旧作・特集上映",
+        "s": 2,
+        "t": 1,
+        "h": "今村昌平の生誕100年。脚本作2本が初めてDVDに、日活時代の4本は4K復元。新文芸坐で記念上映も",
+        "a": "『楢山節考』『うなぎ』でカンヌ映画祭の最高賞を2度受けた今村昌平の生誕100年を記念し、日活が旧作のソフトを出す。今村が脚本を書いた『東シナ海』(1968年)と『サムライの子』(1963年)が、初めてDVDになる。",
+        "b": "日活は代表作を4Kでデジタル復元している。1960年代の監督作『豚と軍艦』『にっぽん昆虫記』『赤い殺意』『「エロ事師たち」より 人類学入門』は、復元版のBlu-rayになる。",
+        "u": "2027年1月以降、東京・池袋の名画座、新文芸坐で、4K復元版の記念上映が予定されている。映画館で見直せる機会になる。",
+        "m": "『東シナ海』は、本土復帰前の沖縄で撮った風刺喜劇で、主演は田村正和。発売は2月3日と3月3日に分かれる。価格はBlu-rayが5500円、DVDが4400円(税込)。",
+        "img": {
+          "u": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000025-nataliee-000-1-view.jpg",
+          "a": "初めてDVDになる映画『東シナ海』のパッケージ",
+          "c": "映画ナタリー(Yahoo!ニュース)"
+        },
+        "r": [
+          {
+            "t": "映画ナタリー(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/7d27f979b3c7d571c6dd421eb10158730508a925"
+          }
+        ]
+      },
+      {
+        "g": "film",
+        "c": "映画 / 特別上映",
+        "s": 1,
+        "t": 1,
+        "h": "クイーンの1980年代のライブ映像2本が映画館へ。1月8日から新宿ピカデリーほか",
+        "a": "特別上映「クイーン80's フィルム・ショー」が決まった。1986年の「ライヴ・アット・ウェンブリー・スタジアム」を2027年1月8日から、1982年の「オン・ファイアー:ライヴ・アット・ザ・ボウル」を1月22日から、新宿ピカデリーほか全国で順に上映する。",
+        "b": "ウェンブリー公演は、フレディ・マーキュリーが参加した最後のツアーのもの。「ボヘミアン・ラプソディ」などの代表曲に加え、7万人を超える観客とフレディが即興で声をかけ合う場面が入る。",
+        "u": "1982年の公演には、「アンダー・プレッシャー」など当時の新曲が入る。1月9日と23日は、上映の前にトークなどがある特別上映会。",
+        "m": "2本とも監督はギャビン・テイラー。予告編はYouTubeで公開中。特別上映会は、音楽ニュースサイトのMUSIC LIFE CLUBが開く。",
+        "img": {
+          "u": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000012-nataliee-000-1-view.jpg",
+          "a": "「クイーン80's フィルム・ショー」のポスター",
+          "c": "映画ナタリー(Yahoo!ニュース)"
+        },
+        "r": [
+          {
+            "t": "映画ナタリー(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/eac8297cd22e333d9e81635981160e4d5f38e845"
+          }
+        ]
+      },
+      {
+        "g": "film",
+        "c": "映画 / 洋画",
+        "s": 1,
+        "t": 1,
+        "h": "BTSの所属会社HYBEとハリウッドが組んだ映画『K-POP スーパースター!THE DEBUT』、5月14日公開",
+        "a": "HYBEとハリウッドが組んだ青春音楽映画『K-POP スーパースター!THE DEBUT』が、2027年5月14日に全国で公開される。予告編と場面写真が出た。ILLITがカメオ出演し、BTSやLE SSERAFIMの曲が使われる。",
+        "b": "アメリカ育ちの韓国系の主人公が、オーディション番組に挑むため、一人でソウルへ行く話。デビューできるのは4人だけ。",
+        "u": "主演のジヨン・ユは、アカデミー賞を受けたNetflix映画『KPOPガールズ!デーモン・ハンターズ』の英語版で、ゾーイの声を担当した。K-POPを題材にした作品の流れが、映画館にも広がる。",
+        "m": "共演は歌手のエリック・ナム、『グランド・ブダペスト・ホテル』のトニー・レヴォロリ。",
+        "img": {
+          "u": "https://media.eiga.com/images/buzz/130731/8216b6981c316c02.jpg",
+          "a": "映画『K-POP スーパースター!THE DEBUT』の場面",
+          "c": "映画.com"
+        },
+        "r": [
+          {
+            "t": "映画.com",
+            "u": "https://eiga.com/news/20261124/1/"
+          }
+        ]
+      }
+    ],
+    "comedy": [
+      {
+        "g": "comedy",
+        "c": "お笑い / ライブ",
+        "s": 2,
+        "t": 1,
+        "h": "キングオブコント王者ジェラードンのキャラ「如月マロン」、2年ぶりのフェス。賞金を出しても足りず、クラファンも",
+        "a": "ジェラードン・かみちぃが演じる地下アイドル「如月マロン」のフェス「焼栗祭」が、2027年1月31日に東京・ヒューリックホール東京で開かれる。MCはパンサー向井。蛙亭、紅しょうが、ネルソンズらが出る。",
+        "b": "如月マロンは、コントから生まれ、音楽活動やイベントにも出るキャラクター。かみちぃは、キングオブコント2026で優勝した賞金を出す。それでも少し赤字になるため、11月25日からクラウドファンディングで100万円を集め、新曲も作る。",
+        "u": "チケットは全席指定で一般6000円、VIP9000円。FANYチケットの一次先行は11月25日10時から30日11時まで。",
+        "m": "クラファンは12月31日まで。目覚ましの声(1000円)、新曲のMVのエンドロールに名前を入れる権利(5000円)などのお返しがある。紅しょうが熊元プロレスのアイドルキャラ「くまま」との共演もある。",
+        "img": {
+          "u": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000056-natalieo-000-1-view.jpg",
+          "a": "「如月マロンフェス『焼栗祭』」のチラシ",
+          "c": "お笑いナタリー(Yahoo!ニュース)"
+        },
+        "r": [
+          {
+            "t": "お笑いナタリー(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/ec192e40c6dbaafc1f2f599842a721c5a089f8ae"
+          }
+        ]
+      },
+      {
+        "g": "comedy",
+        "c": "お笑い / グッズ",
+        "s": 1,
+        "t": 1,
+        "h": "粗品らのライブ「チンチロ」、URBAN RESEARCHやドン・キホーテとコラボ。27日発売",
+        "a": "霜降り明星・粗品ら4人が12月17・18日に東京・TOYOTA ARENA TOKYOで開くライブ「チンチロ」に合わせ、URBAN RESEARCH、ドン・キホーテ、ビックカメラ系のビックアイデアがグッズを出す。発売は11月27日。",
+        "b": "出演は、粗品、シモリュウのシモタ、前田龍二、ダブルヒガシ大東の“四兄弟”。URBAN RESEARCHの服は、粗品もデザインの指示に加わった。チケットは完売している。",
+        "u": "ドン・キホーテは、サイコロのクッション、耳栓とアイマスクのセット、花火などを出す。一部の店と、ライブ会場で買える。",
+        "m": "ビックアイデアは、Ankerの完全ワイヤレスイヤホンなどの小物を売る。12月17日には、会場で初日だけのTシャツも売る。",
+        "img": {
+          "u": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000051-natalieo-000-1-view.jpg",
+          "a": "「チンチロ」とURBAN RESEARCHのコラボグッズ",
+          "c": "お笑いナタリー(Yahoo!ニュース)"
+        },
+        "r": [
+          {
+            "t": "お笑いナタリー(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/bfb702d5da513e3ff8de1fc6df064f9fe382b9a8"
+          }
+        ]
+      },
+      {
+        "g": "comedy",
+        "c": "お笑い / 若手",
+        "s": 2,
+        "t": 1,
+        "h": "大阪の若手トリオ・生姜猫、初めての「漫才だけ」の単独ライブ。12月22日、配信もあり",
+        "a": "よしもと漫才劇場の生姜猫(川﨑、ケージュ、カンサイ)が、12月22日に大阪のCOOL JAPAN PARK OSAKA SSホールで、初めての漫才単独ライブ「ニンニクケン」を開く。",
+        "b": "幼なじみで組んだトリオ。M-1グランプリ2025で準決勝、2026年は「おもしろ荘」準優勝、キングオブコント2026で準決勝と、漫才とコントの両方で結果を出している。今回はすべて漫才でやる。",
+        "u": "前売2500円、当日3000円、配信1800円。一般発売と配信チケットの販売は11月28日10時から。21時開演で、終わりは22時の予定。",
+        "m": "コントの印象が強い3人。ケージュは「コントだけじゃなくて漫才もやりますよ」とコメントした。",
+        "img": {
+          "u": "https://magazine.fany.lol/wp-content/uploads/2026/11/M2023-1-1.jpg",
+          "a": "生姜猫の単独ライブ「ニンニクケン」のポスター",
+          "c": "FANY Magazine"
+        },
+        "r": [
+          {
+            "t": "FANY Magazine(吉本興業)",
+            "u": "https://magazine.fany.lol/296315/"
+          }
+        ]
+      },
+      {
+        "g": "comedy",
+        "c": "お笑い / 劇場",
+        "s": 1,
+        "t": 1,
+        "h": "大阪・よしもと漫才劇場の芸人197人が運勢を書く「マンゲキ芸人おみくじ2027」、元日に発売。1回300円",
+        "a": "よしもと漫才劇場(マンゲキ)は、所属の芸人197人が運勢を書いたおみくじを、2027年1月1日8時30分から劇場5階ロビーで売る。1回300円で、現金のみ。",
+        "b": "毎年の恒例企画。上位の「極」メンバー100人と、若手の「翔」メンバー97人が参加する。撮り下ろしの顔写真と、手書きの運勢コメントが入る。",
+        "u": "「極」と「翔」の箱に分かれ、中身は選べない。1回の会計で1人10回まで。森ノ宮よしもと漫才劇場では売らない。持ち帰り用の袋は自分で用意する。",
+        "m": "項目は、運勢、願い事、学問、恋愛、運言(パワーワード)、運人(ラッキーな人)、全体のお告げの7つ。すべて芸人が自分で考える。",
+        "img": {
+          "u": "https://magazine.fany.lol/wp-content/uploads/2026/11/M2023-1-2.jpg",
+          "a": "「マンゲキ芸人おみくじ2027」の告知画像。芸人たちの顔写真が並ぶ",
+          "c": "FANY Magazine"
+        },
+        "r": [
+          {
+            "t": "FANY Magazine(吉本興業)",
+            "u": "https://magazine.fany.lol/297486/"
+          }
+        ]
+      },
+      {
+        "g": "comedy",
+        "c": "お笑い / ライブ",
+        "s": 1,
+        "t": 1,
+        "h": "「細かすぎて伝わらないモノマネ」の優勝者ボルトボルズらが大阪でライブ。若手の「モノマネ研究生」も",
+        "a": "ライブ「ザ・細かすぎても伝えようとがんばるモノマネの会」が、12月20日に大阪・心斎橋角座で開かれる。前売2500円、当日3000円。チケットぴあで販売中。",
+        "b": "フジテレビの「細かすぎて伝わらないモノマネ2024冬」で優勝したボルトボルズのほか、代走みつくに、天然もろこし、我こそは田中らモノマネが得意な芸人が出る。MCはかみじょうたけしとチキチキジョニー。",
+        "u": "若手から選んだ「モノマネ研究生」も特別に出る。テレビで見る機会の少ない、細かいモノマネを生で見られる場になる。",
+        "m": "ほかにW刑事、アルミカン、ソエジマ隊員、にしね・ザ・タイガーらが出る。19時開演。",
+        "r": [
+          {
+            "t": "お笑いナタリー(Yahoo!ニュース)",
+            "u": "https://news.yahoo.co.jp/articles/d5489d8571bae674f08cc6e8dbb7b0b81f362aef"
+          }
+        ]
+      }
+    ],
+    "culture": [
+      {
+        "g": "culture",
+        "c": "文化 / 美術展",
+        "s": 3,
+        "t": 2,
+        "h": "皇居の中の新しい国立博物館、26日から展示を総入れ替え。聖徳太子ゆかりの法隆寺の宝物へ",
+        "a": "皇居東御苑にある皇居三の丸尚蔵館の特別展「皇室の至宝―美いづるところ」は、前期が23日で終わった。26日から12月20日までの中期は、国宝《竜首水瓶》(飛鳥時代)など、聖徳太子ゆかりの法隆寺献納宝物を出す。",
+        "b": "館は11月3日に全面開館した。展示室は前の建物の約8倍、1280㎡に広がった。九州国立博物館以来21年ぶりの新しい国立博物館で、展覧会は3期で約190件をすべて入れ替える。前期は、聖武天皇ゆかりの正倉院宝物が皇居内で初めて公開された。",
+        "u": "日時指定の予約制で、当日券は会場で売らない。行く日を決めてから予約する。皇居東御苑の休園日の金曜も、館は開いている。",
+        "m": "後期(12月23日〜2027年1月24日)は、国宝《唐獅子図屏風》と国宝《蒙古襲来絵詞》が出る。新しくできた第3展示室では、明治の皇室が腕のよい美術工芸家を守った「帝室技芸員」の名品を見せる。",
+        "img": {
+          "u": "https://tab-prod-public.s3.ap-northeast-1.amazonaws.com/asset_files/uploaded/2026-11/2334f866/c222bd1a-773b-4863-887f-311af698f597.jpg?w=1200",
+          "a": "皇居三の丸尚蔵館「皇室の至宝」に並ぶ屏風",
+          "c": "Tokyo Art Beat"
+        },
+        "r": [
+          {
+            "t": "Tokyo Art Beat",
+            "u": "https://www.tokyoartbeat.com/articles/-/beauty-through-the-ages-treasures-of-the-imperial-collections-report-202611"
+          }
+        ]
+      },
+      {
+        "g": "culture",
+        "c": "文化 / 美術展",
+        "s": 2,
+        "t": 2,
+        "h": "ムンクと同じ時代の、もう一人のノルウェーの巨匠。ニコライ・アストルップ、日本で初めての大回顧展",
+        "a": "ノルウェーの画家ニコライ・アストルップ(1880〜1928)の、日本初の大規模な回顧展が、東京駅の東京ステーションギャラリーで21日に始まった。会期は2027年1月31日まで。一般1800円。",
+        "b": "アストルップはムンクより17歳年下。パリなどで学んだあと故郷の西ノルウェーに戻り、険しい山や湖、季節で変わる自然と、村の暮らしを描き続けた。国内では評価が高かったが、海外で紹介される機会は少なく、ここ10年ほどで再評価が進んでいる。",
+        "u": "月曜休館で、今日24日も休み。代表的な油絵と木版画に加え、近年注目されているテキスタイル(布の仕事)も並ぶ。色と模様の作り方は、デザインの目でも見どころが多い。",
+        "m": "企画は東京ステーションギャラリーの学芸員3人。開館は10時〜18時、金曜は20時まで。12月28日〜1月2日も休館。",
+        "img": {
+          "u": "https://bt.imgix.net/magazine/33371/main/1795156331111_cf09343eeb448a983762ddaaf67d22c9.jpg?v=2&cs=origin&q=90&fm=jpg&fit=crop&crop=faces%2Cedges&w=1200&h=630",
+          "a": "「ニコライ・アストルップ　創造する庭」の展示風景",
+          "c": "美術手帖"
+        },
+        "r": [
+          {
+            "t": "美術手帖",
+            "u": "https://bijutsutecho.com/magazine/news/report/33371"
+          }
+        ]
+      },
+      {
+        "g": "culture",
+        "c": "文化 / インスタレーション",
+        "s": 2,
+        "t": 2,
+        "h": "音を、耳だけでなく体で感じる。ロンドンのバービカン発「Feel the Sound」が高輪で日本初開催",
+        "a": "英国の文化施設バービカン・センターと共同で作った、音の体感型の展覧会「Feel the Sound」が、東京・高輪のMoN Takanawaで20日に始まった。会期は2027年3月22日まで。",
+        "b": "音や振動、テクノロジーを組み合わせた作品で、全12の空間を作る。ロンドンで初公開した作品に、東京のための新作3点を加えた。",
+        "u": "坂本龍一と真鍋大度の《Sensing Streams》は、身の回りの電磁波(目に見えない電気の波)を拾って、音と光に変える。見えない情報を、目と耳で感じられる形にする発想は、画面づくりのヒントにもなる。",
+        "m": "マックス・クーパーの《Reflections of Being》は、「ふだん言えないことは何か」という問いに集まった匿名の声を、音楽と映像と文字で見せる。インドの職人の技と音楽をデジタルと合わせた作品では、来場者が体を動かして音を出せる。",
+        "img": {
+          "u": "https://tab-prod-public.s3.ap-northeast-1.amazonaws.com/asset_files/uploaded/2026-11/1a00a2dc/c0395858-74d3-4891-b543-270739ff94ef.jpg?w=1200",
+          "a": "坂本龍一と真鍋大度の作品《Sensing Streams》",
+          "c": "Tokyo Art Beat / Photo: TOMITA Ryohei"
+        },
+        "r": [
+          {
+            "t": "Tokyo Art Beat",
+            "u": "https://www.tokyoartbeat.com/articles/-/mon-takanawa-feel-the-sound-news-202611"
+          }
+        ]
+      },
+      {
+        "g": "culture",
+        "c": "文化 / 美術展",
+        "s": 2,
+        "t": 1,
+        "h": "ゴッホの《ひまわり》を、絵の具の盛り上がりまで巨大な映像で。所沢で12月19日から体感型の展覧会",
+        "a": "埼玉・所沢の角川武蔵野ミュージアムで、映像と音楽でゴッホの人生をたどる「ファン・ゴッホ ひまわりの情熱」が開かれる。会期は12月19日〜2027年8月30日。一般2700円。",
+        "b": "兄ゴッホと、絵が売れない兄を支えた弟テオの手紙をもとにした新作。ベルギー、パリ、アルル、オーヴェールで撮った360度の実写映像と、絵を重ねる。",
+        "u": "東京・新宿のSOMPO美術館が持つ《ひまわり》を3Dスキャナーで測り、8Kの10倍以上の細かさの立体データにした。本物では近づけない距離で、筆の跡を見られる。",
+        "m": "ゴッホの声は小野賢章、テオは三宅健太。オンラインのチケットは11月17日から売っている。火曜休館。",
+        "img": {
+          "u": "https://www.fashion-press.net/img/news/153720/top.jpg",
+          "a": "「ファン・ゴッホ ひまわりの情熱」のキービジュアル",
+          "c": "ファッションプレス / ©損保ジャパン／SOMPO 美術館／NHK エンタープライズ"
+        },
+        "r": [
+          {
+            "t": "ファッションプレス",
+            "u": "https://www.fashion-press.net/news/153720"
+          }
+        ]
+      },
+      {
+        "g": "culture",
+        "c": "文化 / 音楽",
+        "s": 2,
+        "t": 1,
+        "h": "SixTONES、初の日産スタジアムに7.2万人。アリーナとあわせて、のべ89万人のツアーを完走",
+        "a": "SixTONESが22日、横浜の日産スタジアムで、デビュー6周年の全国スタジアムツアー『MILESixTONES』の最終公演を開いた。この日は7.2万人。1〜6月のアリーナツアー50公演とあわせ、のべ89万人を集めた。",
+        "b": "初のスタジアムツアーで、3都市6公演。アンコールまで約3時間、28曲を歌った。",
+        "u": "大きな会場を「遠い席にも近く」見せる工夫が見どころ。高さ約11mの移動式タワー6機が場内を動き、最後は連結して大きなサブステージになった。",
+        "m": "タワーの上部はさらに伸び、最大で約17mになる。レーザーと炎のほか、アンコールの「Dance Forever」では750発の花火を上げた。最終日はファンクラブのサイトで生配信もした。",
+        "img": {
+          "u": "https://contents.oricon.co.jp/upimg/news/2495000/2494618/20261122_214734_p_o_36043173.jpg",
+          "a": "日産スタジアムで歌うSixTONES",
+          "c": "ORICON NEWS"
+        },
+        "r": [
+          {
+            "t": "ORICON NEWS",
+            "u": "https://www.oricon.co.jp/news/2494618/full/"
+          }
+        ]
+      },
+      {
+        "g": "culture",
+        "c": "文化 / 音楽",
+        "s": 2,
+        "t": 1,
+        "h": "ブランキー・ジェット・シティ最後のライブ、2000年フジロックを初めてノーカットで上映。チケット先行は今日から",
+        "a": "ブランキー・ジェット・シティが最後に立った2000年7月28日のフジロックのステージを、全編ノーカットで上映するイベントが、2027年2月21日に東京・豊洲PITで開かれる。スタンディング5500円。",
+        "b": "浅井健一、照井利幸、中村達也の3人組。この公演は、日本人として初めてグリーンステージのヘッドライナーを務めたもの。予定になかったアンコール「Baby Baby」も入る。",
+        "u": "先行受付は、ローソンチケットとイープラスが今日24日〜12月4日、チケットぴあが12月6日まで。同じ時刻に、全国約100の映画館でもライブビューイングを予定している。",
+        "m": "映像は最新の技術で4Kの細かさに上げ、大きなスクリーンと大音量で流す。映画館の上映館や料金は、あとで発表される。",
+        "img": {
+          "u": "https://www.fashion-press.net/img/news/153681/top.jpg",
+          "a": "ブランキー・ジェット・シティの上映イベントのビジュアル",
+          "c": "ファッションプレス"
+        },
+        "r": [
+          {
+            "t": "ファッションプレス",
+            "u": "https://www.fashion-press.net/news/153681"
+          }
+        ]
+      }
+    ],
+    "fashion": [
+      {
+        "g": "fashion",
+        "c": "新作 / バッグ",
+        "s": 3,
+        "t": 1,
+        "p": "¥26,400〜¥27,500",
+        "h": "コム デ ギャルソンが、マリメッコの布でバッグ。花の輪やフルーツ柄のトートなど4型、12月1日から",
+        "a": "コム デ ギャルソンが、フィンランドのマリメッコと組んだホリデーのバッグを12月1日に出す。ラージトートとラージショッパーが各2万7500円、ミディアムが各2万6400円。",
+        "b": "マリメッコの数多い布から、コム デ ギャルソンが4つの柄を選んだ。横長のトートは、花の茎が輪のように連なる「セッペル(花輪)」柄と、手描きのようなドット柄。",
+        "u": "形が斜めのショッパーバッグは、カラフルなフルーツの中に玉ねぎがまぎれた柄と、幾何学模様をボーダーに並べた柄。売るのはコム デ ギャルソンの国内各店で、路面の直営店とトレーディング ミュージアムでは扱わない。",
+        "m": "サイズはラージとミディアムの2つ。問い合わせはコム デ ギャルソン(03-3486-7611)。",
+        "img": {
+          "u": "https://fashionsnap-assets.com/asset/format=auto,width=1280,height=670,gravity=auto,fit=pad/article/images/2026/11/e65c7ac0-ead4-4560-954e-40834e7c974e.jpg",
+          "a": "コム デ ギャルソンとマリメッコのトートバッグ",
+          "c": "FASHIONSNAP / Image by: COMME des GARÇONS"
+        },
+        "r": [
+          {
+            "t": "FASHIONSNAP",
+            "u": "https://www.fashionsnap.com/article/2026-11-24/comme-des-garcons-marimekko-holiday/"
+          },
+          {
+            "t": "ファッションプレス",
+            "u": "https://www.fashion-press.net/news/153698"
+          }
+        ]
+      },
+      {
+        "g": "fashion",
+        "c": "新作 / コスメ",
+        "s": 2,
+        "t": 1,
+        "p": "¥4,620",
+        "h": "デイジーの輪がついた口紅。マリークワント「リップ ポッシュ」、定番3色と限定2色",
+        "a": "マリークワントが、ブランドの花のマーク、デイジーの輪をあしらった口紅「リップ ポッシュ」を出した。各4620円。",
+        "b": "とろけるように伸びて唇に密着し、ツヤのある色が続く。光の効果で縦じわをぼかす。スクワランやローズヒップ油など、植物由来の保湿成分を入れた。",
+        "u": "定番はピンクベージュの「01 ハッシュ」、ローズベージュの「02 イレクト」、モーヴピンクの「03 ダスク」。限定は深いローズレッドの「L-01 エンバー」と、明るくやわらかなピンクの「L-02 リルト」。",
+        "m": "限定の2色は数量限定。公式オンラインショップに特集ページがある。",
+        "img": {
+          "u": "https://fashionsnap-assets.com/asset/format=auto,width=1280,height=670,gravity=auto,fit=pad/article/images/2026/11/8dc2f1d9-8415-45c4-bcbe-633514570f79.jpg",
+          "a": "マリークワントの口紅「リップ ポッシュ」",
+          "c": "FASHIONSNAP"
+        },
+        "r": [
+          {
+            "t": "FASHIONSNAP",
+            "u": "https://www.fashionsnap.com/article/2026-11-23/maryquant-lip-new/"
+          },
+          {
+            "t": "マリークワント公式オンラインショップ",
+            "u": "https://www.mq-onlineshop.com/ext/lip/lip_posh.html"
+          }
+        ]
+      },
+      {
+        "g": "fashion",
+        "c": "新作 / 靴",
+        "s": 2,
+        "t": 1,
+        "p": "¥27,500",
+        "h": "冬のビルケンシュトックは、黒スエードにふわふわのボア。アダム エ ロペの別注2型、27日から",
+        "a": "アダム エ ロペが、ビルケンシュトックの2型を真っ黒にした限定モデルを27日に出す。クロッグ型の「ロマ シアリング」と、つっかけ型の「ソラナ シアリング」で、各2万7500円。",
+        "b": "上の部分はスエード。いつもの金属の留め具を面ファスナーに替えて、飾りを減らした。足をのせる中敷きには、天然の羊の毛皮(ラムボア)を張った。",
+        "u": "素足でも靴下でもはけて、冬の足元が暖かい。売るのはアダム エ ロペ オムの店と、公式通販のジャドール ジュン オンライン。",
+        "m": "「ロマ」は2025-26年秋冬に出た、つま先の閉じたクロッグ。定番の「ボストン」の流れをくむ。",
+        "img": {
+          "u": "https://media.wwdjapan.com/wp-content/uploads/2026/11/22161349/OG%E4%BD%9C%E6%88%90-16.png",
+          "a": "黒スエードとボアのビルケンシュトック",
+          "c": "WWDJAPAN"
+        },
+        "r": [
+          {
+            "t": "WWDJAPAN",
+            "u": "https://www.wwdjapan.com/articles/2558489"
+          }
+        ]
+      },
+      {
+        "g": "fashion",
+        "c": "文化・ブランド",
+        "s": 2,
+        "t": 1,
+        "h": "リアーナが、第3子ロッキーと並んでディオールの広告に。淡いピンクの「レディ ディオール」",
+        "a": "ディオールが、代表的なバッグ「レディ ディオール」の2027年の広告にリアーナを起用した。2025年9月に生まれた第3子のロッキーも一緒に出ている。",
+        "b": "リアーナは長くディオールの顔を務め、2024年からは香水「ジャドール」の公式アンバサダー。2025年のメットガラで妊娠を公表して話題になった。",
+        "u": "2人ともレザージャケットを着て、ペールピンクのバッグを見せる。親子で出る広告は、ブランドが「家族」や「受け継ぐもの」を打ち出す流れとして読める。",
+        "m": "ロッキーという名前は、父親のエイサップ・ロッキーからとった。",
+        "img": {
+          "u": "https://fashionsnap-assets.com/asset/format=auto,width=1280,height=670,gravity=auto,fit=pad/article/images/2026/11/a2e5405b-b2ad-4048-9bcd-cbad0381e240.jpg",
+          "a": "レディ ディオールの広告に出たリアーナと子ども",
+          "c": "FASHIONSNAP"
+        },
+        "r": [
+          {
+            "t": "FASHIONSNAP",
+            "u": "https://www.fashionsnap.com/article/2026-11-23/ladydior-rihanna/"
+          }
+        ]
+      },
+      {
+        "g": "fashion",
+        "c": "文化・イベント",
+        "s": 2,
+        "t": 1,
+        "h": "麻布台ヒルズに、カルティエの赤い箱の木。豹がプレゼントを配るパリの街を、無料で12月25日まで",
+        "a": "カルティエが、麻布台ヒルズの中央広場でホリデーのイベントを開いている。高さ約10mのクリスマスツリーを、20日に板垣李光人と堀田真由が点灯した。入場無料で12月25日まで。",
+        "b": "ツリーは、ブランドの象徴である赤い箱とリボン、豹(パンテール)の飾りで包んだ。周りにパリの街並みのような空間を作り、影絵や煙突、望遠鏡ごしに、ギフトを配る豹たちを探せる。",
+        "u": "11時〜21時。ツリーの明かりは12時〜23時。ブランドの物語を「歩いて見つける」空間の作り方は、展示やWebの体験づくりの参考になる。",
+        "m": "会場では、カルティエに伝わる5つの物語も紹介している。",
+        "img": {
+          "u": "https://fashionsnap-assets.com/asset/format=auto,width=1280,height=670,gravity=auto,fit=pad/article/images/2026/11/dcb40e7d-3375-4249-90ae-da50d1630938.jpg",
+          "a": "麻布台ヒルズのカルティエのクリスマスツリー",
+          "c": "FASHIONSNAP / Masayuki Saito © Cartier"
+        },
+        "r": [
+          {
+            "t": "FASHIONSNAP",
+            "u": "https://www.fashionsnap.com/article/2026-11-23/cartier-xmas-2026/"
+          }
+        ]
+      },
+      {
+        "g": "fashion",
+        "c": "文化・デザイナー",
+        "s": 2,
+        "t": 1,
+        "h": "100年前の穀物袋や古いキルトを、今の服に。キミーが青山でポップアップ、26日から",
+        "a": "韓国出身のデザイナー、キム・ヒョクスのブランド「キミー」が、青山のセレクトショップ「ワークスアウト 青山」でポップアップを開く。11月26日〜12月10日。",
+        "b": "キミーは2021年秋冬に始まった、日本発のブランド。手仕事のぬくもりと機能を合わせた服を作る。今回は、パキスタンのキルト、ヨーロッパの毛布、1920年代の穀物用の麻袋「フィードサック」を作り直した服をそろえる。",
+        "u": "古い布を捨てずに服へ生まれ変わらせる「アップサイクル」の実物を見られる。26日18時〜21時のレセプションでは、デザイナーが店頭で作り直す工程を見せる。",
+        "m": "キムは2006年にエスモードジャポンを卒業し、国内外のブランドで経験を積んだ。スエット3万3000円、デニムパンツ4万8400円など。平日12時〜20時、土日11時〜20時。",
+        "img": {
+          "u": "https://fashionsnap-assets.com/asset/format=auto,width=1280,height=670,gravity=auto,fit=pad/article/images/2026/11/ff760e46-2d1c-49bb-a029-1bd094b4d6ff.jpg",
+          "a": "ヴィンテージの布を使ったキミーの服",
+          "c": "FASHIONSNAP"
+        },
+        "r": [
+          {
+            "t": "FASHIONSNAP",
+            "u": "https://www.fashionsnap.com/article/2026-11-23/kimmy-popup/"
+          }
+        ]
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "g": "culture",
+      "kind": "写真展",
+      "days": "明日まで",
+      "title": "ハービー・山口写真展「HOPE 2026 〜シャッターを切ったとき、幸せだった。〜」",
+      "place": "富士フイルムフォトサロン 大阪 / 11月13日〜25日"
+    },
+    {
+      "g": "culture",
+      "kind": "写真展",
+      "days": "あと2日",
+      "title": "野町和嘉写真展「サハラ SAHARA THE ETERNAL」",
+      "place": "フジフイルム スクエア(東京・六本木) / 10月30日〜11月26日(最終日は14時まで) / 無料"
+    },
+    {
+      "g": "culture",
+      "kind": "日本美術",
+      "days": "あと5日",
+      "title": "特別展 源氏物語 王朝のかがやき",
+      "place": "京都国立博物館 / 10月6日〜11月29日"
+    },
+    {
+      "g": "culture",
+      "kind": "絵画",
+      "days": "あと5日",
+      "title": "ゴッホの跳ね橋と印象派の画家たち ヴァルラフ=リヒャルツ美術館所蔵",
+      "place": "名古屋市美術館 / 9月19日〜11月29日"
+    },
+    {
+      "g": "culture",
+      "kind": "歴史",
+      "days": "あと5日",
+      "title": "企画展示「アイヌ民族と博覧会 ―150年の経験―」",
+      "place": "国立歴史民俗博物館(千葉・佐倉) / 10月6日〜11月29日 / 一般1,500円"
+    },
+    {
+      "g": "culture",
+      "kind": "彫刻・光",
+      "days": "あと12日",
+      "title": "多田美波―光、凛と ゆれる",
+      "place": "東京都現代美術館 / 8月29日〜12月6日 / 一般1,600円"
+    },
+    {
+      "g": "culture",
+      "kind": "絵画",
+      "days": "あと12日",
+      "title": "アンドリュー・ワイエス展",
+      "place": "あべのハルカス美術館(大阪) / 10月3日〜12月6日 / 一般2,200円"
+    }
+  ],
+  "alertsSrc": [
+    {
+      "t": "富士フイルムフォトサロン 大阪",
+      "u": "https://www.fujifilm.co.jp/photosalon/osaka/"
+    },
+    {
+      "t": "Time Out Tokyo(無料の展覧会)",
+      "u": "https://www.timeout.jp/tokyo/ja/art/free-art-event-nov-2026"
+    },
+    {
+      "t": "京都国立博物館",
+      "u": "https://www.kyohaku.go.jp/jp/exhibitions/special/2026_genji/"
+    },
+    {
+      "t": "名古屋市美術館",
+      "u": "https://art-museum.city.nagoya.jp/exhibitions/post/van_gogh_and_the_impressionists/"
+    },
+    {
+      "t": "美術手帖(アイヌ民族と博覧会)",
+      "u": "https://bijutsutecho.com/magazine/news/report/33200"
+    },
+    {
+      "t": "インターネットミュージアム(多田美波)",
+      "u": "https://www.museum.or.jp/event/126366"
+    },
+    {
+      "t": "アンドリュー・ワイエス展 公式",
+      "u": "https://wyeth2026.jp/ticket.html"
+    }
+  ],
+  "calendar": [
+    {
+      "k": "11/25(水)",
+      "t": "没入型の展覧会「ティム・バートンのラビリンス」が開幕(東京・豊洲)",
+      "d": "約150点のアートワークやスケッチ。2027年2月21日まで",
+      "s": "文化"
+    },
+    {
+      "k": "11/25(水)",
+      "t": "Rubyの欠陥「Ruby2Shell」の攻撃コードが公開予定",
+      "d": "主要な会社の修正が遅れれば延期。GitLabなどの更新はその前に",
+      "s": "Web"
+    },
+    {
+      "k": "〜11/26(木)",
+      "t": "ホラー専門の「闇国際映画祭」(ヒューマントラストシネマ渋谷)",
+      "s": "映画"
+    },
+    {
+      "k": "11/26(木)",
+      "t": "皇居三の丸尚蔵館「皇室の至宝」中期が始まる",
+      "d": "法隆寺献納宝物。12月20日まで。日時指定の予約制",
+      "s": "文化"
+    },
+    {
+      "k": "11/26(木)",
+      "t": "キミーのポップアップ、ワークスアウト 青山で",
+      "d": "12月10日まで。初日18時からデザイナーの公開制作",
+      "s": "文化"
+    },
+    {
+      "k": "11/27(金)",
+      "t": "11月の東京都区部消費者物価指数(中旬速報)と、10月の貿易統計(速報、財務省)",
+      "s": "経済"
+    },
+    {
+      "k": "11/28(土)",
+      "t": "特別展「円山応挙 リアルの先へ 空間革命」が開幕(江戸東京博物館)",
+      "d": "2027年1月24日まで",
+      "s": "文化"
+    },
+    {
+      "k": "11/28(土)",
+      "t": "台湾の統一地方選の投開票",
+      "d": "次の総統選の前哨戦。台北市長選が接戦",
+      "s": "国際"
+    },
+    {
+      "k": "11/29(日)",
+      "t": "チャットモンチーのライブ映画「WASH THE LIVEHOUSE '09@Zepp Tokyo」を全国の映画館で上映",
+      "d": "12月12日にも上映",
+      "s": "文化"
+    },
+    {
+      "k": "11/29(日)",
+      "t": "第27回東京フィルメックスが閉幕",
+      "d": "クロージングはアンソニー・チェン監督『みんな他人じゃない』",
+      "s": "映画"
+    },
+    {
+      "k": "11/29(日)",
+      "t": "スペイン総選挙の投票",
+      "d": "サンチェス左派政権が続くかが焦点",
+      "s": "国際"
+    },
+    {
+      "k": "11/30(月)",
+      "t": "M-1グランプリ2026、視聴者投票「ワイルドカード」の結果発表(19時)",
+      "d": "準々決勝敗退の102組から1組が準決勝へ",
+      "s": "お笑い"
+    },
+    {
+      "k": "11/30(月)",
+      "t": "10月の鉱工業生産と商業動態統計(速報、経済産業省)",
+      "s": "経済"
+    },
+    {
+      "k": "11/30(月)〜12/4(金)",
+      "t": "AWSの年次イベント「re:Invent 2026」(米ラスベガス)",
+      "d": "クラウドとAIの発表が集まる",
+      "s": "AI"
+    },
+    {
+      "k": "12/1(火)",
+      "t": "109シネマズ二子玉川が新装開業",
+      "d": "3日まで記念上映。2日は『アット・ザ・ベンチ』に奥山由之監督と仲野太賀",
+      "s": "映画"
+    },
+    {
+      "k": "12/1(火)",
+      "t": "NVIDIAのフアンCEOが、米下院の3委員会の非公開の聴取に応じる予定",
+      "d": "2日は法務責任者。先端半導体が中国側に渡った可能性を問う",
+      "s": "AI"
+    },
+    {
+      "k": "12/1(火)",
+      "t": "コム デ ギャルソン×マリメッコのバッグ発売",
+      "d": "国内のコム デ ギャルソン各店(路面直営店などを除く)",
+      "s": "文化"
+    },
+    {
+      "k": "12/3(木)",
+      "t": "M-1グランプリ2026 準決勝(東京・NEW PIER HALL)",
+      "d": "16時から。全国のイオンシネマでも生中継",
+      "s": "お笑い"
+    },
+    {
+      "k": "12/4(金)",
+      "t": "代々木公園で野外アート「MEET YOUR ART FESTIVAL Annex」が始まる",
+      "d": "磯村暖、山内祥太、米澤柊。12月27日まで",
+      "s": "文化"
+    },
+    {
+      "k": "12/5(土)・6(日)",
+      "t": "目[mé]の《まさゆめ》、代々木公園の空に",
+      "d": "早朝から午前中。天候で中止もある",
+      "s": "文化"
+    },
+    {
+      "k": "12/5(土)",
+      "t": "MTDDC Meetup TOKYO 2026",
+      "d": "Movable Typeの勉強会。LINEヤフー(紀尾井町)とオンライン、一般5000円",
+      "s": "Web"
+    },
+    {
+      "k": "12/17(木)・18(金)",
+      "t": "日銀の金融政策決定会合",
+      "d": "政策金利を1.25%程度から1.5%程度に上げるとの見方がある",
+      "s": "経済"
+    },
+    {
+      "k": "12/17(木)・18(金)",
+      "t": "粗品らのライブ「チンチロ」(東京・TOYOTA ARENA TOKYO)",
+      "d": "チケットは完売。コラボグッズは11/27発売",
+      "s": "お笑い"
+    },
+    {
+      "k": "12/18(金)",
+      "t": "『アベンジャーズ/ドゥームズデイ』が日米同時公開",
+      "s": "映画"
+    },
+    {
+      "k": "2027/1/22(金)",
+      "t": "Claude Opus 4.5のAPI提供が終わる",
+      "d": "移行先はOpus 5.5",
+      "s": "AI"
+    }
+  ],
+  "calendarSrc": [
+    {
+      "t": "インターネットミュージアム(ティム・バートンのラビリンス)",
+      "u": "https://www.museum.or.jp/news/127860"
+    },
+    {
+      "t": "e-Stat 統計の公表予定",
+      "u": "https://www.e-stat.go.jp/release-calendar"
+    },
+    {
+      "t": "美術展ナビ(11月の美術展)",
+      "u": "https://artexhibition.jp/topics/news/20261111-AEJ3039080/"
+    },
+    {
+      "t": "音楽ナタリー(チャットモンチー)",
+      "u": "https://natalie.mu/music/news/699198"
+    },
+    {
+      "t": "お笑いナタリー(Yahoo!ニュース、M-1準決勝進出者)",
+      "u": "https://news.yahoo.co.jp/articles/d51f302f6f935bc53ef8948d21a59030af07d297"
+    },
+    {
+      "t": "AWS re:Invent(英語)",
+      "u": "https://aws.amazon.com/events/reinvent/"
+    },
+    {
+      "t": "お笑いナタリー(M-1準決勝ライブビューイング)",
+      "u": "https://natalie.mu/owarai/news/699134"
+    },
+    {
+      "t": "東京都(MEET YOUR ART FESTIVAL Annex)",
+      "u": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091518"
+    },
+    {
+      "t": "美術手帖(まさゆめ)",
+      "u": "https://bijutsutecho.com/magazine/news/exhibition/33237"
+    },
+    {
+      "t": "MOVIE WALKER PRESS",
+      "u": "https://press.moviewalker.jp/news/article/1459875/"
+    },
+    {
+      "t": "Real Sound",
+      "u": "https://realsound.jp/movie/2026/10/post-2559084.html"
+    },
+    {
+      "t": "映画.com",
+      "u": "https://eiga.com/news/20261122/12/"
+    },
+    {
+      "t": "窓の杜(GitLabに緊急パッチ)",
+      "u": "https://forest.watch.impress.co.jp/docs/news/2158477.html"
+    },
+    {
+      "t": "gihyo.jp(MTDDC Meetup TOKYO 2026、12/5に開催)",
+      "u": "https://gihyo.jp/article/2026/11/mtddc2026"
+    },
+    {
+      "t": "時事通信(台湾統一地方選)",
+      "u": "https://www.jiji.com/jc/article?k=2026112100337&g=int"
+    },
+    {
+      "t": "時事通信(スペイン総選挙まで1週間)",
+      "u": "https://www.jiji.com/jc/article?k=2026112100348&g=int"
+    },
+    {
+      "t": "日本銀行(金融政策決定会合の開催日程)",
+      "u": "https://www.boj.or.jp/mopo/mpmsche_minu/index.htm"
+    },
+    {
+      "t": "お笑いナタリー(Yahoo!ニュース)",
+      "u": "https://news.yahoo.co.jp/articles/bfb702d5da513e3ff8de1fc6df064f9fe382b9a8"
+    },
+    {
+      "t": "シネマトゥデイ",
+      "u": "https://www.cinematoday.jp/news/N0158120"
+    }
+  ],
+  "quick": [
+    {
+      "c": "国際",
+      "text": "ロシアの同盟国タジキスタンが、国際刑事裁判所(ICC)からの脱退を国連に通告した。",
+      "m": "通告は20日付で、正式な脱退は1年後。同じ20日には、ICCから逮捕状が出ているプーチン大統領がタジキスタンを訪れたが、身柄は拘束されなかった。ICCの締約国会議の議長団は「遺憾だ」との声明を出した。",
+      "src": {
+        "t": "朝日新聞(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/ca31f8633618e8c32533109cbc134a467628b2d7"
+      }
+    },
+    {
+      "c": "国際",
+      "text": "ロシアが、年内にも核弾頭を積んだ衛星を打ち上げる可能性があると、ドイツの報道機関が伝えた。",
+      "m": "南ドイツ新聞など3社が、欧米の情報機関の見方として報じた。衛星は「スプートニクS」と呼ばれ、モスクワ近郊に保管されているという。ドイツ連邦軍は12月中の打ち上げもありうると分析している。",
+      "src": {
+        "t": "共同通信(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/201404ae559bd148676ba25c5014099393e2b461"
+      }
+    },
+    {
+      "c": "国際",
+      "text": "韓国の李在明大統領が、外相や統一相、情報機関のトップなど、外交・安全保障の要職を入れ替える人事を決めた。",
+      "m": "外相の候補には、駐米公使などを務めた任雄淳・国家安保室第2次長を指名した。ぎくしゃくする米国との関係を立て直すねらいもあるとみられる。国家情報院長の候補は康錦実・元法相で、就任すれば女性で初めてとなる。",
+      "src": {
+        "t": "朝日新聞(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/301e9a1cd827a0e0e78da1f2f0cb7236566be208"
+      }
+    },
+    {
+      "c": "国際",
+      "text": "9〜10月の愛知・名古屋アジア大会の期間中に、日本と北朝鮮の情報当局者が接触していたもようだと、時事通信が報じた。",
+      "m": "韓国の消息筋によると、日本側は拉致問題での譲歩を求めたが、北朝鮮側は「過去の清算」が先だとして協議を拒み、席を立ったという。双方とも高官ではないとされる。",
+      "src": {
+        "t": "時事通信(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/24857a0a7df384f3dfbdf70c41b39d80c0dedd19"
+      }
+    },
+    {
+      "c": "政治",
+      "text": "野党各党は24日にも、関文部科学相への参院での問責決議案の提出に向けて協議する。",
+      "m": "関氏は、政治資金パーティーに官僚を呼び、企業関係者に政策を説明させたことで批判を受けている。参院は与党が少数のため、可決の可能性がある。自民党は、消費税減税の法案の参院審議への影響を警戒している。",
+      "src": {
+        "t": "共同通信(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/5dddcde8706b2e7bd74a37918d4036f1a11fb097"
+      }
+    },
+    {
+      "c": "社会",
+      "text": "原発から出る「核のごみ」の処分地選びで、文献調査が始まった茨城県常陸大宮市が、初めての住民説明会を開いた。",
+      "m": "参加者からは「分かりやすい」「どうして持ってきたいのか疑問だ」などの声が出た。鈴木定幸市長は、調査を受け入れる利点は「お金」だと言い切り、「調査は対話の始まり」と述べた。説明会は年内に5回開く。",
+      "src": {
+        "t": "時事通信(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/21995ff74df1b46886a1ddb16aa0d39de254ee41"
+      }
+    },
+    {
+      "c": "経済",
+      "text": "サントリー傘下の会社が、米国のバーボン「ジムビーム」の主力工場の生産停止を、2027年も続けると米紙が報じた。",
+      "m": "停止を延ばすのはケンタッキー州クレアモントの蒸留所で、2026年も生産を止めている。米国の関税政策や貿易摩擦でウイスキーの輸出が滞り、在庫が増えているとみられる。調査会社によると、米国産ウイスキーの在庫は年間の需要の約3倍に達している。",
+      "src": {
+        "t": "時事通信(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/4daf345b17791558617ab2fdfb06367b0c5268a8"
+      }
+    },
+    {
+      "c": "国際",
+      "text": "ウクライナのゼレンスキー大統領が、北アフリカ・リビアの沿岸で、ロシア軍の新型の艦船を水上ドローンで沈めたと発表した。",
+      "m": "ロシアの軍用ヘリや武器を運んでいた貨物船も壊したという。リビア東部の勢力は22日、ベンガジの海軍基地に停泊していたロシアの船が攻撃され、爆発が起きたと発表していた。ロイター通信によると、10人がけがをした。",
+      "src": {
+        "t": "時事通信(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/245a2ce1ca0b585ed899135dd23ab4c8814073e6"
+      }
+    },
+    {
+      "c": "国際",
+      "text": "スペインの最高裁が、カタルーニャ独立運動の指導者プチデモン元州首相(63)の恩赦を決めた。",
+      "m": "プチデモン氏は2017年に独立を問う住民投票を強行し、国外に逃げていた。罪に問われなくなれば、年内にも地元に戻るとみられる。地元メディアは、10年近く続いた事件の捜査に「終止符が打たれる」と伝えた。",
+      "src": {
+        "t": "時事通信(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/18d77102328e85017bf1796869c9f00ee4fc76cb"
+      }
+    },
+    {
+      "c": "国際",
+      "text": "米民主党が、2028年大統領選の党の候補を選ぶ討論会を、2027年6月から始めると発表した。",
+      "m": "中間選挙で上下両院の多数派をとった勢いで、政権を取り戻す準備を急ぐ。討論会は2028年3月までに12回開き、参加は最大20人。出どころを明かさない外部団体の資金の影響を抑える条件も設けた。",
+      "src": {
+        "t": "時事通信(Yahoo!ニュース)",
+        "u": "https://news.yahoo.co.jp/articles/36c000501102f4eaa888182ad03388abe371c17b"
+      }
+    }
+  ],
+  "term": {
+    "w": "経済安全保障(けいざいあんぜんほしょう)",
+    "text": "食べ物や薬、半導体、レアアースなど、暮らしや産業に欠かせない物を、よその国に止められても困らないようにする考え方。仕入れ先を何か国かに分けたり、国内で作れるようにしたりする。政府が12月に改定する安全保障3文書では、攻撃されてもすぐ立ち直る「復元力」や、AIで他国に頼りすぎない「AI主権」が、新しく盛り込まれる方向だと報じられた。",
+    "src": {
+      "t": "読売新聞オンライン(Yahoo!ニュース)",
+      "u": "https://news.yahoo.co.jp/articles/038739ccde03c6a92800956b4f905529f7405212"
+    }
+  }
+}

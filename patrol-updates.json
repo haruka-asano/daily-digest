@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T23:11:27.751Z",
+  "generated": "2026-11-23T23:12:19.002Z",
   "updates": {
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
@@ -8,10 +8,10 @@
       "fresh": false
     },
     "It's Nice That": {
-      "title": "Taxidermy, cat shows, and beauty pageants: Alice Poyzer takes us into her world and what it means to be neurodivergent",
-      "url": "https://www.itsnicethat.com/articles/alice-poyzer-other-joys-photography-discover-191126",
-      "date": "2026-11-19",
-      "fresh": false
+      "title": "Gary Grimes on the poisoned chalice of fictionalising artists on the big screen",
+      "url": "https://www.itsnicethat.com/articles/artist-biopics-gary-grimes-culture-column-231126",
+      "date": "2026-11-23",
+      "fresh": true
     },
     "HTML Review – Archive": {
       "title": "Submissions are open",
@@ -20,16 +20,10 @@
       "fresh": false
     },
     "Fonts In Use": {
-      "title": "Ta naše písnička česká movie poster",
-      "url": "https://fontsinuse.com/uses/81396/ta-nase-pisnicka-ceska-movie-poster",
+      "title": "Le couloir à remonter le temps",
+      "url": "https://fontsinuse.com/uses/81059/le-couloir-a-remonter-le-temps",
       "date": "2026-11-23",
       "fresh": true
-    },
-    "Another Graphic": {
-      "title": "Wang Daqiu",
-      "url": "https://anothergraphic.org/wang-daqiu/",
-      "date": "2026-11-21",
-      "fresh": false
     },
     "Brands in Motion": {
       "title": "Taking Up Space: Play’s Brand Identity for Midi",
@@ -37,11 +31,11 @@
       "date": "2026-11-20",
       "fresh": false
     },
-    "Hallointer": {
-      "title": "nagizin.xyz/htmlColorList",
-      "url": "https://hallointer.net/nagizin-xyz-htmlcolorlist",
-      "date": "2026-11-20",
-      "fresh": false
+    "Another Graphic": {
+      "title": "Martin Major",
+      "url": "https://anothergraphic.org/martin-major-2/",
+      "date": "2026-11-24",
+      "fresh": true
     },
     "Whitney Design": {
       "title": "Staff Gift Sticker Four-inch sticker created to adorn a gift box...",
@@ -50,20 +44,14 @@
       "fresh": false
     },
     "Visual Journal": {
-      "title": "Field Studies Flora",
-      "url": "https://visualjournal.it/home/2026/fieldstudiesflora",
-      "date": "2026-11-18",
+      "title": "Rarify",
+      "url": "https://visualjournal.it/home/2026/rarify",
+      "date": "2026-11-19",
       "fresh": false
     },
-    "Books Atelier": {
-      "title": "Heralded as the new blackRyan Ganderライアン・ガンダー",
-      "url": "https://www.books-atelier.com/?pid=194421972",
-      "date": "2026-11-11",
-      "fresh": false
-    },
-    "Page Spread": {
-      "title": "idea 268 Nike&#8217;s Global Visual Strategy",
-      "url": "https://page-spread.com/idea-268-nikes-global-visual-strategy/",
+    "Hallointer": {
+      "title": "forgottenorchards.org",
+      "url": "https://hallointer.net/forgottenorchards-org",
       "date": "2026-11-23",
       "fresh": true
     },
@@ -71,6 +59,12 @@
       "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
       "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
       "date": "2025-11-13",
+      "fresh": false
+    },
+    "Books Atelier": {
+      "title": "Heralded as the new blackRyan Ganderライアン・ガンダー",
+      "url": "https://www.books-atelier.com/?pid=194421972",
+      "date": "2026-11-11",
       "fresh": false
     },
     "Graphic Research （by 北千住デザインさん）": {
@@ -86,28 +80,34 @@
       "fresh": false
     },
     "Nostos Books": {
-      "title": "windows &#124; 奥山由之",
-      "url": "https://nostos.jp/archives/577913",
-      "date": "2026-11-20",
-      "fresh": false
+      "title": "伊勢神宮 &#124; 石元泰博",
+      "url": "https://nostos.jp/archives/317828",
+      "date": "2026-11-24",
+      "fresh": true
+    },
+    "Page Spread": {
+      "title": "idea 268 Nike&#8217;s Global Visual Strategy",
+      "url": "https://page-spread.com/idea-268-nikes-global-visual-strategy/",
+      "date": "2026-11-23",
+      "fresh": true
+    },
+    "IMA Pedia – Artist": {
+      "title": "小平雅尋が約30年撮り続けた、個人と世界の関係性を探る『Videre Videor』が刊行",
+      "url": "https://imaonline.jp/news/photobook/20261123/",
+      "date": "2026-11-23",
+      "fresh": true
+    },
+    "IMA Graphy": {
+      "title": "小平雅尋が約30年撮り続けた、個人と世界の関係性を探る『Videre Videor』が刊行",
+      "url": "https://imaonline.jp/news/photobook/20261123/",
+      "date": "2026-11-23",
+      "fresh": true
     },
     "ECAL Typefaces": {
       "title": "A Typographic Atlas",
       "url": "https://ecal-typefaces.ch/a-typographic-atlas/",
       "date": "2026-04-29",
       "fresh": false
-    },
-    "IMA Pedia – Artist": {
-      "title": "津田直「LO」シリーズ 北陸地方で初発表",
-      "url": "https://imaonline.jp/news/exhibition/20261122/",
-      "date": "2026-11-22",
-      "fresh": true
-    },
-    "IMA Graphy": {
-      "title": "津田直「LO」シリーズ 北陸地方で初発表",
-      "url": "https://imaonline.jp/news/exhibition/20261122/",
-      "date": "2026-11-22",
-      "fresh": true
     }
   }
 }
