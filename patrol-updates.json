@@ -1,16 +1,22 @@
 {
-  "generated": "2026-11-24T23:10:58.324Z",
+  "generated": "2026-11-25T23:12:46.992Z",
   "updates": {
+    "It's Nice That": {
+      "title": "Like italics, but backwards: Inside Yury Ostromentsky’s inverted typeface series, Backslanted",
+      "url": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126",
+      "date": "2026-11-25",
+      "fresh": true
+    },
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
       "url": "https://www.siteofsites.co/post/product-spotlight-with-yael-renous-brik",
       "date": "2026-08-18",
       "fresh": false
     },
-    "It's Nice That": {
-      "title": "Silvana Trevale on capturing the wounds, beauty, hardships and hope of Venezuelan youth",
-      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-october-silvana-trivale-241126",
-      "date": "2026-11-24",
+    "Another Graphic": {
+      "title": "namandmark",
+      "url": "https://anothergraphic.org/namandmark/",
+      "date": "2026-11-26",
       "fresh": true
     },
     "HTML Review – Archive": {
@@ -20,9 +26,9 @@
       "fresh": false
     },
     "Fonts In Use": {
-      "title": "Kunsthalle Osnabrück – Raumordnung program booklet",
-      "url": "https://fontsinuse.com/uses/81163/kunsthalle-osnabrueck-raumordnung-program-boo",
-      "date": "2026-11-24",
+      "title": "On Location in New York City",
+      "url": "https://fontsinuse.com/uses/80065/on-location-in-new-york-city",
+      "date": "2026-11-25",
       "fresh": true
     },
     "Brands in Motion": {
@@ -31,16 +37,10 @@
       "date": "2026-11-20",
       "fresh": false
     },
-    "Another Graphic": {
-      "title": "Bauhaus-Universität Weimar",
-      "url": "https://anothergraphic.org/bauhaus-universitat-weimar/",
-      "date": "2026-11-25",
-      "fresh": true
-    },
     "Hallointer": {
-      "title": "forgottenorchards.org",
-      "url": "https://hallointer.net/forgottenorchards-org",
-      "date": "2026-11-23",
+      "title": "meretkern.de",
+      "url": "https://hallointer.net/meretkern-de",
+      "date": "2026-11-25",
       "fresh": true
     },
     "Whitney Design": {
@@ -67,21 +67,15 @@
       "date": "2026-10-07",
       "fresh": false
     },
-    "Books Atelier": {
-      "title": "PHARMAKONTeju Cole テジュ・コール",
-      "url": "https://www.books-atelier.com/?pid=194729588",
-      "date": "2026-11-24",
+    "Page Spread": {
+      "title": "The Most Beautiful Swiss Books 2005",
+      "url": "https://page-spread.com/the-most-beautiful-swiss-books-2005/",
+      "date": "2026-11-25",
       "fresh": true
     },
-    "Page Spread": {
-      "title": "idea 268 Nike&#8217;s Global Visual Strategy",
-      "url": "https://page-spread.com/idea-268-nikes-global-visual-strategy/",
-      "date": "2026-11-23",
-      "fresh": false
-    },
-    "Nostos Books": {
-      "title": "神の宮 伊勢神宮・出雲大社 2冊揃 &#124; 増浦行仁",
-      "url": "https://nostos.jp/archives/418198",
+    "Books Atelier": {
+      "title": "Atelier of Cezanne鈴木理策 Risaku Suzuki",
+      "url": "https://www.books-atelier.com/?pid=194782333",
       "date": "2026-11-25",
       "fresh": true
     },
@@ -91,16 +85,22 @@
       "date": "2025-10-23",
       "fresh": false
     },
-    "IMA Graphy": {
-      "title": "ルイ・ヴィトン「ファッション・アイ」に新刊2冊。巨匠が捉えた1930年代のタイと、現代の上海を写す",
-      "url": "https://imaonline.jp/news/photobook/20261124/",
-      "date": "2026-11-24",
+    "Nostos Books": {
+      "title": "包 Tsutsumu &#124; 岡秀行",
+      "url": "https://nostos.jp/archives/34570",
+      "date": "2026-11-26",
       "fresh": true
     },
     "IMA Pedia – Artist": {
-      "title": "ルイ・ヴィトン「ファッション・アイ」に新刊2冊。巨匠が捉えた1930年代のタイと、現代の上海を写す",
-      "url": "https://imaonline.jp/news/photobook/20261124/",
-      "date": "2026-11-24",
+      "title": "何気ない風景に潜む記憶と時間の気配。後藤啓太写真展「(EVERYTHING BUT) THE COLOR」",
+      "url": "https://imaonline.jp/news/exhibition/20261125-2/",
+      "date": "2026-11-25",
+      "fresh": true
+    },
+    "IMA Graphy": {
+      "title": "何気ない風景に潜む記憶と時間の気配。後藤啓太写真展「(EVERYTHING BUT) THE COLOR」",
+      "url": "https://imaonline.jp/news/exhibition/20261125-2/",
+      "date": "2026-11-25",
       "fresh": true
     },
     "ECAL Typefaces": {
