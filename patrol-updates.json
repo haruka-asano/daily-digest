@@ -1,21 +1,15 @@
 {
-  "generated": "2026-11-25T23:12:46.992Z",
+  "generated": "2026-11-26T23:11:37.174Z",
   "updates": {
-    "It's Nice That": {
-      "title": "Like italics, but backwards: Inside Yury Ostromentsky’s inverted typeface series, Backslanted",
-      "url": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126",
-      "date": "2026-11-25",
-      "fresh": true
-    },
     "Site of Sites": {
       "title": "Product Spotlight with Yael Renous / Brik",
       "url": "https://www.siteofsites.co/post/product-spotlight-with-yael-renous-brik",
       "date": "2026-08-18",
       "fresh": false
     },
-    "Another Graphic": {
-      "title": "namandmark",
-      "url": "https://anothergraphic.org/namandmark/",
+    "It's Nice That": {
+      "title": "This illustrated A.G. Cook book is a multi-media manual that embodies PC Music",
+      "url": "https://www.itsnicethat.com/articles/jacob-hulmston-martin-uhrecky-the-soulbreaker-codex-graphic-design-publication-project-261126",
       "date": "2026-11-26",
       "fresh": true
     },
@@ -26,9 +20,15 @@
       "fresh": false
     },
     "Fonts In Use": {
-      "title": "On Location in New York City",
-      "url": "https://fontsinuse.com/uses/80065/on-location-in-new-york-city",
-      "date": "2026-11-25",
+      "title": "Craeghs",
+      "url": "https://fontsinuse.com/uses/81411/craeghs",
+      "date": "2026-11-26",
+      "fresh": true
+    },
+    "Another Graphic": {
+      "title": "Charlotte Rohde",
+      "url": "https://anothergraphic.org/charlotte-rohde-3/",
+      "date": "2026-11-27",
       "fresh": true
     },
     "Brands in Motion": {
@@ -50,16 +50,16 @@
       "fresh": false
     },
     "Visual Journal": {
-      "title": "Studio Carson Kelly",
-      "url": "https://visualjournal.it/home/2026/studiocarsonkelly",
-      "date": "2026-11-21",
+      "title": "Tare",
+      "url": "https://visualjournal.it/home/2026/tare",
+      "date": "2026-11-25",
       "fresh": false
     },
-    "SDA Member Archives": {
-      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
-      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
-      "date": "2025-11-13",
-      "fresh": false
+    "Books Atelier": {
+      "title": "Self-PortraitsVivian Maierヴィヴィアン・マイヤー",
+      "url": "https://www.books-atelier.com/?pid=194913786",
+      "date": "2026-11-26",
+      "fresh": true
     },
     "Graphic Research （by 北千住デザインさん）": {
       "title": "Land ahoy studio",
@@ -67,17 +67,23 @@
       "date": "2026-10-07",
       "fresh": false
     },
-    "Page Spread": {
-      "title": "The Most Beautiful Swiss Books 2005",
-      "url": "https://page-spread.com/the-most-beautiful-swiss-books-2005/",
-      "date": "2026-11-25",
+    "Nostos Books": {
+      "title": "Sony Design Making Modearn",
+      "url": "https://nostos.jp/archives/266621",
+      "date": "2026-11-27",
       "fresh": true
     },
-    "Books Atelier": {
-      "title": "Atelier of Cezanne鈴木理策 Risaku Suzuki",
-      "url": "https://www.books-atelier.com/?pid=194782333",
-      "date": "2026-11-25",
+    "Page Spread": {
+      "title": "COMME des GARÇONS 1991 Monumental B0 Poster",
+      "url": "https://page-spread.com/comme-des-garcons-1991-monumental-b0-poster/",
+      "date": "2026-11-26",
       "fresh": true
+    },
+    "SDA Member Archives": {
+      "title": "「第５８回 日本サインデザイン大賞／経済産業大臣賞 大賞セミナー」開催報告",
+      "url": "https://member.sign.or.jp/news/%e3%80%8c%e7%ac%ac%ef%bc%95%ef%bc%98%e5%9b%9e-%e6%97%a5%e6%9c%ac%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e5%a4%a7%e8%b3%9e%ef%bc%8f%e7%b5%8c%e6%b8%88%e7%94%a3%e6%a5%ad%e5%a4%a7/",
+      "date": "2025-11-13",
+      "fresh": false
     },
     "Bird Graphics": {
       "title": "しゅうまつのやわらかな、",
@@ -85,29 +91,23 @@
       "date": "2025-10-23",
       "fresh": false
     },
-    "Nostos Books": {
-      "title": "包 Tsutsumu &#124; 岡秀行",
-      "url": "https://nostos.jp/archives/34570",
+    "IMA Pedia – Artist": {
+      "title": "1990年代ニューヨークのスケートシーンを記録。渋谷ゆり写真展「Newyorkcity 1996-2010」が開催",
+      "url": "https://imaonline.jp/news/exhibition/20261126/",
       "date": "2026-11-26",
       "fresh": true
     },
-    "IMA Pedia – Artist": {
-      "title": "何気ない風景に潜む記憶と時間の気配。後藤啓太写真展「(EVERYTHING BUT) THE COLOR」",
-      "url": "https://imaonline.jp/news/exhibition/20261125-2/",
-      "date": "2026-11-25",
-      "fresh": true
-    },
     "IMA Graphy": {
-      "title": "何気ない風景に潜む記憶と時間の気配。後藤啓太写真展「(EVERYTHING BUT) THE COLOR」",
-      "url": "https://imaonline.jp/news/exhibition/20261125-2/",
-      "date": "2026-11-25",
+      "title": "1990年代ニューヨークのスケートシーンを記録。渋谷ゆり写真展「Newyorkcity 1996-2010」が開催",
+      "url": "https://imaonline.jp/news/exhibition/20261126/",
+      "date": "2026-11-26",
       "fresh": true
     },
     "ECAL Typefaces": {
       "title": "Steady Letters",
       "url": "https://ecal-typefaces.ch/steady-letters/",
       "date": "2026-11-24",
-      "fresh": true
+      "fresh": false
     }
   }
 }
